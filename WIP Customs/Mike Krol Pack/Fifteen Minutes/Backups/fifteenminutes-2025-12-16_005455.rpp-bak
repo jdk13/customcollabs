@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.15/win64" 1765865161
+<REAPER_PROJECT 0.1 "7.15/win64" 1765864495
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,8 +12,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 92.96591666666653
-  ZOOM 318.40724042585595 28080 0
+  CURSOR 2.18181818181818
+  ZOOM 64.80855336101514 0 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -195,7 +195,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -2319,7 +2319,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0.1447898359221 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {9C9617EC-369A-41B9-80F6-31F4222F13F6}
       IID 10
       NAME "PART VOCALS"
@@ -3251,17 +3251,17 @@
         >
         E 0 90 3b 64
         E 131 90 3b 00
-        <X 110 0 0 0 5 the
+        <X 90 0 0 0 5 the
           /wV0aGU=
         >
         E 0 90 3b 64
         E 60 90 3b 00
-        <X 50 0 0 0 5 +
+        <X 40 0 0 0 5 +
           /wUr
         >
         E 0 90 3c 64
         E 230 90 3c 00
-        <X 139 0 0 0 5 phone
+        <X 169 0 0 0 5 phone
           /wVwaG9uZQ==
         >
         E 0 90 3b 64
@@ -3346,7 +3346,7 @@
         SRCCOLOR 3
         VELLANE 132 128 128 0 1
         TEXTSTRINGFILE "Text Events List.txt"
-        CFGEDITVIEW 82605.777557 215.319394 2 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 82879.757564 138.6099 2 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1

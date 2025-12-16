@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.15/win64" 1765865161
+<REAPER_PROJECT 0.1 "7.15/win64" 1765865155
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,7 +12,7 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 92.96591666666653
+  CURSOR 93.0412916666665
   ZOOM 318.40724042585595 28080 0
   VZOOMEX 0 0
   USE_REC_CFG 0
@@ -3256,12 +3256,12 @@
         >
         E 0 90 3b 64
         E 60 90 3b 00
-        <X 50 0 0 0 5 +
+        <X 40 0 0 0 5 +
           /wUr
         >
         E 0 90 3c 64
         E 230 90 3c 00
-        <X 139 0 0 0 5 phone
+        <X 149 0 0 0 5 phone
           /wVwaG9uZQ==
         >
         E 0 90 3b 64
