@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.16/win32" 1767431117
+<REAPER_PROJECT 0.1 "7.16/win32" 1767431016
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,8 +12,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 34.51319727891061
-  ZOOM 237.83052082435682 6870 0
+  CURSOR 0
+  ZOOM 237.83052082435682 0 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -6325,6 +6325,188 @@
       WAK 0 0
     >
   >
+  <TRACK {4299BF31-E988-4C64-900A-97AC9ECE5EBC}
+    NAME HARM3
+    PEAKCOL 24624127
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4299BF31-E988-4C64-900A-97AC9ECE5EBC}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 0 "Range Shift" 0 0
+      0 1 "Lyric Shift" 0 1
+      0 35 ---- 0 35
+      0 36 C1 0 36
+      0 37 C# 0 37
+      0 38 D 0 38
+      0 39 Eb 0 39
+      0 40 E 0 40
+      0 41 F 0 41
+      0 42 F# 0 42
+      0 43 G 0 43
+      0 44 G# 0 44
+      0 45 A 0 45
+      0 46 Bb 0 46
+      0 47 B 0 47
+      0 48 C2 0 48
+      0 49 C# 0 49
+      0 50 D 0 50
+      0 51 Eb 0 51
+      0 52 E 0 52
+      0 53 F 0 53
+      0 54 F# 0 54
+      0 55 G 0 55
+      0 56 G# 0 56
+      0 57 A 0 57
+      0 58 Bb 0 58
+      0 59 B 0 59
+      0 60 C3 0 60
+      0 61 C# 0 61
+      0 62 D 0 62
+      0 63 Eb 0 63
+      0 64 E 0 64
+      0 65 F 0 65
+      0 66 F# 0 66
+      0 67 G 0 67
+      0 68 G# 0 68
+      0 69 A 0 69
+      0 70 Bb 0 70
+      0 71 B 0 71
+      0 72 C4 0 72
+      0 73 C# 0 73
+      0 74 D 0 74
+      0 75 Eb 0 75
+      0 76 E 0 76
+      0 77 F 0 77
+      0 78 F# 0 78
+      0 79 G 0 79
+      0 80 G# 0 80
+      0 81 A 0 81
+      0 82 Bb 0 82
+      0 83 B 0 83
+      0 84 C5 0 84
+      0 95 ---- 0 95
+      0 96 "Displayed Percussion" 0 96
+      0 97 "Not Displayed Percussion" 0 97
+      0 104 ---- 0 104
+      0 105 "Phrase Marker" 0 105
+      0 115 ---- 0 115
+      0 116 OVERDRIVE 0 116
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 0 42 716 493
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS "IX/MIDI_Tool II" ""
+        0 85 127 0 0 0 100 0 0 127 0 0 1 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3D33E2FB-5DDE-4F81-B16F-BCB1EAD8D4FA}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROgAAAAAAAAAAAAAAAJr1Dz/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {98E235B6-3365-4F58-AC74-F5BD513BFA85}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 100.3981913636368
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.1447898359221 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {14DAFADF-64E7-40FA-8E65-65BBB77CBDB7}
+      IID 13
+      NAME "HARM3 untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BA30FF02-694D-4D9D-9D54-87AECA42C3BA}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {D08156D6-A5C5-40B4-B586-12DD30FFE736}
+        <X 0 0 0 0 3 HARM3
+          /wNIQVJNMw==
+        >
+        E 94080 b0 7b 00
+        CCINTERP 32
+        GUID {F1082209-E2A8-4526-8AA6-2FE8F2DEB335}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 6
+        VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        CFGEDITVIEW -605.860027 82.395269 0 12 0 0 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.0625 48 30 1942 964 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {AB3E8FDC-23A9-4945-BA6C-055C630028D0}
+    NAME DRYVOX3
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1.08695635014794 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AB3E8FDC-23A9-4945-BA6C-055C630028D0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaGate (Cockos)" reagate.dll 0 "" 1919248244<56535472656774726561676174650000> ""
+        dGdlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
+        776t3g3wrd6c0QczppvEOwrXozwAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAACc0QczHlRzP5zRBzMAAIA/AAAAAAAAAAAAAAAALBYLPwAAAAAAAAAAAAAAAAAAAAA=
+        AFByb2dyYW0gMQAQAAAA
+      >
+      FLOATPOS 859 184 511 385
+      FXID {BF545B5B-7DD0-4B4C-AC52-F095A552DA08}
+      WAK 0 0
+    >
+  >
   <TRACK {4BCC1CF3-63A3-43C4-A155-D3593AD88A10}
     NAME EVENTS
     PEAKCOL 29393024
@@ -10775,7 +10957,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {20F1321F-9ED7-4853-AD09-40B222B05CF8}
       IID 25
       NAME "PART REAL_BASS"
@@ -11598,54 +11780,6 @@
       >
     >
   >
-  <TRACK {981AA4D6-E296-4829-A91E-79F50CEECCE5}
-    NAME fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com]
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    FIXEDLANES 9 0 0 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 26 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {981AA4D6-E296-4829-A91E-79F50CEECCE5}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 101.90893424036281
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {9149FB05-B33B-4F4D-BB57-B233E44AE97A}
-      IID 60
-      NAME fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com].flac
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D75DD53E-7B7E-46CB-A2EE-04FF25E32D56}
-      <SOURCE FLAC
-        FILE "Stems\fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com].flac"
-      >
-    >
-  >
   <TRACK {489B41E7-1612-45B9-A9B9-0AF9AB8A5525}
     NAME fifteenminutes_bs6stem_mt_0_other_[mvsep.com]
     PEAKCOL 16576
@@ -11739,6 +11873,54 @@
       GUID {C3746B95-E549-41AB-96D4-0410C9E288C5}
       <SOURCE FLAC
         FILE "Stems\fifteenminutes_bs6stem_mt_0_piano_[mvsep.com].flac"
+      >
+    >
+  >
+  <TRACK {981AA4D6-E296-4829-A91E-79F50CEECCE5}
+    NAME fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com]
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 26 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {981AA4D6-E296-4829-A91E-79F50CEECCE5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 101.90893424036281
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9149FB05-B33B-4F4D-BB57-B233E44AE97A}
+      IID 60
+      NAME fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com].flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D75DD53E-7B7E-46CB-A2EE-04FF25E32D56}
+      <SOURCE FLAC
+        FILE "Stems\fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com].flac"
       >
     >
   >
