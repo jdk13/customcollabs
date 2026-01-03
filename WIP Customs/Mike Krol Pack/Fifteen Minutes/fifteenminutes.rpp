@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.15/win64" 1767483709
+<REAPER_PROJECT 0.1 "7.15/win64" 1767484027
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,8 +12,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 99.37669536363261
-  ZOOM 117.14980729217639 9915 0
+  CURSOR 38.28164583333224
+  ZOOM 78.30703299105701 1647 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -199,7 +199,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -4571,7 +4571,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwCqAA==
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 32 32 659 497
       FXID {72D22271-4F4F-4081-90C4-66415E7AEC47}
@@ -7925,7 +7925,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
         776t3g3wrd6mm8Q7F7fROgAAAAAAAAAAAAAAAJr1Dz/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAIA/AAAAAAAAgD8=
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {A391E59B-3475-47CA-9BDB-E03F3B8FF2C4}
@@ -9016,7 +9016,7 @@
       <VST "VST: ReaGate (Cockos)" reagate.dll 0 "" 1919248244<56535472656774726561676174650000> ""
         dGdlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
         776t3g3wrd6c0QczppvEOwrXozwAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAACc0QczHlRzP5zRBzMAAIA/AAAAAAAAAAAAAAAALBYLPwAAAAAAAAAAAAAAAAAAAAA=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 859 184 511 385
       FXID {BF545B5B-7DD0-4B4C-AC52-F095A552DA08}
@@ -9035,7 +9035,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -9165,229 +9165,229 @@
         <X 115 0 0 0 5 See
           /wVTZWU=
         >
-        E 0 90 42 64
-        E 125 90 42 00
+        E 0 90 46 64
+        E 125 90 46 00
         <X 115 0 0 0 5 at
           /wVhdA==
         >
-        E 0 90 43 64
-        E 185 90 43 00
+        E 0 90 47 64
+        E 185 90 47 00
         <X 255 0 0 0 5 times
           /wV0aW1lcw==
         >
-        E 0 90 43 64
-        E 285 90 43 00
+        E 0 90 47 64
+        E 285 90 47 00
         <X 195 0 0 0 5 like
           /wVsaWtl
         >
-        E 0 90 43 64
-        E 105 90 43 00
+        E 0 90 47 64
+        E 105 90 47 00
         <X 175 0 0 0 5 these
           /wV0aGVzZQ==
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 235 0 0 0 5 with
           /wV3aXRo
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 a
           /wVh
         >
-        E 0 90 43 64
-        E 215 90 43 00
+        E 0 90 47 64
+        E 215 90 47 00
         <X 240 0 0 0 5 change
           /wVjaGFuZ2U=
         >
-        E 0 90 48 64
-        E 240 90 48 00
+        E 0 90 4c 64
+        E 240 90 4c 00
         <X 225 0 0 0 5 of
           /wVvZg==
         >
-        E 0 90 43 64
-        E 105 90 43 00
+        E 0 90 47 64
+        E 105 90 47 00
         <X 175 0 0 0 5 heart
           /wVoZWFydA==
         >
-        E 0 90 43 64
-        E 365 90 43 00
+        E 0 90 47 64
+        E 365 90 47 00
         E 30 80 69 00
         E 0 90 69 64
         <X 85 0 0 0 5 It
           /wVJdA==
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 was
           /wV3YXM=
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 315 0 0 0 5 o-
           /wVvLQ==
         >
-        E 0 90 48 64
-        E 165 90 48 00
+        E 0 90 4c 64
+        E 165 90 4c 00
         <X 115 0 0 0 5 ver
           /wV2ZXI=
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 and
           /wVhbmQ=
         >
-        E 0 90 40 64
-        E 95 90 40 00
+        E 0 90 44 64
+        E 95 90 44 00
         <X 145 0 0 0 5 done
           /wVkb25l
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 235 0 0 0 5 be-
           /wViZS0=
         >
-        E 0 90 43 64
-        E 95 90 43 00
+        E 0 90 47 64
+        E 95 90 47 00
         <X 145 0 0 0 5 fore
           /wVmb3Jl
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 195 0 0 0 5 we
           /wV3ZQ==
         >
-        E 0 90 48 64
-        E 165 90 48 00
+        E 0 90 4c 64
+        E 165 90 4c 00
         <X 115 0 0 0 5 had
           /wVoYWQ=
         >
-        E 0 90 43 64
-        E 95 90 43 00
+        E 0 90 47 64
+        E 95 90 47 00
         <X 145 0 0 0 5 a
           /wVh
         >
-        E 0 90 40 64
-        E 125 90 40 00
+        E 0 90 44 64
+        E 125 90 44 00
         <X 115 0 0 0 5 start
           /wVzdGFydA==
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         E 90 80 69 00
         E 0 90 69 64
         <X 145 0 0 0 5 It
           /wVJdA==
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 goes
           /wVnb2Vz
         >
-        E 0 90 40 64
-        E 125 90 40 00
+        E 0 90 44 64
+        E 125 90 44 00
         <X 115 0 0 0 5 on
           /wVvbg==
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 115 0 0 0 5 in
           /wVpbg==
         >
-        E 0 90 43 64
-        E 185 90 43 00
+        E 0 90 47 64
+        E 185 90 47 00
         <X 135 0 0 0 5 my
           /wVteQ==
         >
-        E 0 90 44 64
-        E 165 90 44 00
+        E 0 90 48 64
+        E 165 90 48 00
         <X 115 0 0 0 5 head
           /wVoZWFk
         >
-        E 0 90 43 64
-        E 305 90 43 00
+        E 0 90 47 64
+        E 305 90 47 00
         <X 385 0 0 0 5 and
           /wVhbmQ=
         >
-        E 0 90 40 64
-        E 95 90 40 00
+        E 0 90 44 64
+        E 95 90 44 00
         <X 145 0 0 0 5 I'll
           /wVJJ2xs
         >
-        E 0 90 43 64
-        E 275 90 43 00
+        E 0 90 47 64
+        E 275 90 47 00
         <X 115 0 0 0 5 wind
           /wV3aW5k
         >
-        E 0 90 43 64
-        E 185 90 43 00
+        E 0 90 47 64
+        E 185 90 47 00
         <X 135 0 0 0 5 up
           /wV1cA==
         >
-        E 0 90 44 64
-        E 135 90 44 00
+        E 0 90 48 64
+        E 135 90 48 00
         <X 145 0 0 0 5 dead
           /wVkZWFk
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         E 120 80 69 00
         E 0 90 69 64
         <X 115 0 0 0 5 Sing-
           /wVTaW5nLQ==
         >
-        E 0 90 41 64
-        E 95 90 41 00
+        E 0 90 45 64
+        E 95 90 45 00
         <X 145 0 0 0 5 in'
           /wVpbic=
         >
-        E 0 90 40 64
-        E 215 90 40 00
+        E 0 90 44 64
+        E 215 90 44 00
         <X 265 0 0 0 5 sha
           /wVzaGE=
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 185 90 43 00
+        E 0 90 47 64
+        E 185 90 47 00
         <X 135 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 255 90 43 00
+        E 0 90 47 64
+        E 255 90 47 00
         <X 145 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 125 90 43 00
+        E 0 90 47 64
+        E 125 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 245 90 43 00
+        E 0 90 47 64
+        E 245 90 47 00
         <X 115 0 0 0 5 la
           /wVsYQ==
         >
-        E 0 90 43 64
-        E 335 90 43 00
+        E 0 90 47 64
+        E 335 90 47 00
         <X 390 0 0 0 5 "#yeah!"
           /wUjeWVhaCE=
         >
@@ -9434,7 +9434,7 @@
         SRCCOLOR 5
         VELLANE 132 38 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 79260.307983 79.221268 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 19481.400319 52.95427 1 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
