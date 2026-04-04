@@ -9,7 +9,7 @@
       'metadata'
       (
          'song_name'
-         "Let's Go Away! (-H. Version) from Daytona USA"
+         "Let's Go Away! (-H. Version)"
       )
       (
          'artist_name'
@@ -41,15 +41,15 @@
       ('rank_guitar' 3)
       ('rank_bass' 3)
       ('rank_drum' 3)
-      ('rank_vocals' 3)
-      ('rank_keys' 3)
-      ('rank_pro_keys' 3)
-      ('rank_band' 3)
+      ('rank_vocals' 7)
+      ('rank_keys' 5)
+      ('rank_pro_keys' 7)
+      ('rank_band' 5)
       ('vocal_scroll_speed' 2300)
       ('anim_tempo' 32)
       ('vocal_gender' 'male')
       ('vocal_percussion' 'tambourine')
-      ('vocal_parts' 1)
+      ('vocal_parts' 3)
       ('guide_pitch_volume' -3.00)
    )
    (
@@ -63,7 +63,7 @@
    )
    (
       'destination_file'
-      "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\magma\\daytona.rba"
+      "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\magma\\daytona_rb3con.rba"
    )
    (
       'midi'
@@ -90,17 +90,17 @@
          'part1'
          (
             'file'
-            ""
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\dryvox\\dry.wav"
          )
-         ('enabled' 0)
+         ('enabled' 1)
       )
       (
          'part2'
          (
             'file'
-            ""
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\dryvox\\dry.wav"
          )
-         ('enabled' 0)
+         ('enabled' 1)
       )
       ('tuning_offset_cents' 0.00)
    )
@@ -113,7 +113,7 @@
    )
    (
       'tracks'
-      ('drum_layout' 'drum_layout_kit_kick_snare')
+      ('drum_layout' 'drum_layout_kit')
       (
          'drum_kit'
          ('enabled' 1)
@@ -122,29 +122,29 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\kit.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\drum.wav"
          )
       )
       (
          'drum_kick'
-         ('enabled' 1)
-         ('channels' 2)
-         ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\32-kick_[mvsep.com]-consolidated.wav"
+            ""
          )
       )
       (
          'drum_snare'
-         ('enabled' 1)
-         ('channels' 2)
-         ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\35-snare_[mvsep.com]-consolidated.wav"
+            ""
          )
       )
       (
@@ -155,7 +155,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\26-bass-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\bass.wav"
          )
       )
       (
@@ -166,7 +166,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\27-guitar-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\guitar.wav"
          )
       )
       (
@@ -177,7 +177,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\29-vox-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\vox.wav"
          )
       )
       (
@@ -188,7 +188,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\28-piano-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\piano.wav"
          )
       )
       (
@@ -196,10 +196,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -0.50 -0.50)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL STEMS\\25-backing-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Daytona USA Karaoke Version\\stems\\FINAL FINAL STEMS\\finalfinal\\fl out\\bac.wav"
          )
       )
    )

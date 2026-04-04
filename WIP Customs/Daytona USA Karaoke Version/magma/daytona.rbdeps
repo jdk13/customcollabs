@@ -1,0 +1,120 @@
+(
+   'build'
+   (
+      'mogg'
+      (
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/drum.wav"
+            52935834
+            -813955885
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/bass.wav"
+            52935834
+            -813955885
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/guitar.wav"
+            52935834
+            -813955885
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/vox.wav"
+            52935834
+            -813955885
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/piano.wav"
+            52935834
+            -813955885
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/final final stems/finalfinal/fl out/bac.wav"
+            52935834
+            -813955885
+         )
+      )
+      (
+         23530123
+         "af1f7c99763886f56cadaae987c6d44de917db64"
+      )
+      (
+         "DA0464C8C9FFAAD5F6F75930E5F7FAFBEA4F0268"
+      )
+   )
+   (
+      'lips'
+      (
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/dryvox/dry.wav"
+            8764162
+            -372337788
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/dryvox/dry.wav"
+            8764162
+            -372337788
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/stems/dryvox/dry.wav"
+            8764162
+            -372337788
+         )
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/magma/daytona.mid"
+            270549
+            952418075
+         )
+      )
+      (
+         207410
+         "68ee5e950b021d03e8d13515f0a68081818bf1ce"
+      )
+      (
+         "E5F697E7E486E1A8DF80E71DF9AE3AB33FEB4F68"
+      )
+   )
+   (
+      'midi'
+      (
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/magma/daytona.mid"
+            270549
+            952418075
+         )
+      )
+      (
+         270571
+         "18072ab0e683a281dd17024b9c0cb4c719b68bd1"
+      )
+      (
+         "EFA53B1C3F4139D48D0A2AB947DB14CB2BD9150A"
+      )
+   )
+   (
+      'dta'
+      ()
+      (
+         2220
+         "73f220c3b60b114e415aa5ba1a12c777b1036302"
+      )
+      (
+         "F5BB5B1B0BAF5C7911C8AA57C9A7B7FCC6814460"
+      )
+   )
+   (
+      'art'
+      (
+         (
+            "d:/github/customcollabs/wip customs/daytona usa karaoke version/magma/pic_x256.bmp"
+            262198
+            1468056583
+         )
+      )
+      (
+         262198
+         "48bd6cefd7793c400ea6653e71145a54e1922af6"
+      )
+      ()
+   )
+)
