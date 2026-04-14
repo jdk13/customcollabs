@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.16/win32" 1776057788
+<REAPER_PROJECT 0.1 "7.15/win64" 1776101773
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 10.75572946432492
-  ZOOM 4.02739883720084 0 0
-  VZOOMEX 1.25 1209
+  CURSOR 35.81491666666506
+  ZOOM 111.62340795388894 3560 0
+  VZOOMEX 1.25 243
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -56,7 +56,7 @@
   >
   GLOBAL_AUTO -1
   TEMPO 120 4 4
-  PLAYRATE 0.82 1 0.25 4
+  PLAYRATE 1 1 0.25 4
   SELECTION 102.60844089198416 102.60844089198416
   SELECTION2 102.60844089198416 102.60844089198416
   MASTERAUTOMODE 0
@@ -76,7 +76,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 5.178171 -167.395804 -8.772995 -100 -100 -8.920758 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -0.083489 -100 -9.735488 -100 -100 -9.530152 0.9 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -407,10 +407,10 @@
       FXID {D4EC3C58-478E-4D1F-A0FC-2252BD344989}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwGqAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 2092 208 666 511
       FXID {98F458BF-B6D0-4ADC-B05A-79960DF7B552}
@@ -2833,7 +2833,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 0 43 849 437 1 2 1 2 0 0 0 1 0 0 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0 1 0 1 64
       >
       TAKE
       NAME "PART DRUMS render 001.wav"
@@ -2911,7 +2911,7 @@
       CHANMODE 0
       GUID {695F3180-2ADF-4439-8420-0CA4E0F5DC23}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kick.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kick.wav"
       >
     >
   >
@@ -2979,7 +2979,7 @@
       CHANMODE 0
       GUID {4A2602C3-2063-4019-B85F-85E05909EE33}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Snare.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Snare.wav"
       >
     >
   >
@@ -3047,7 +3047,7 @@
       CHANMODE 0
       GUID {D274ACAF-1EB9-450F-944E-AA570F2B5FF4}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kit.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kit.wav"
       >
     >
   >
@@ -3144,7 +3144,7 @@
       FXID {F1BEF72C-FAB3-40FB-A79A-CA326F0A9A34}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
         AFByb2dyYW0gMQAQAAAA
@@ -3200,7 +3200,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -3363,7 +3363,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 1 1 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 1 0 0 0 0 0 1 64
       >
     >
   >
@@ -3431,7 +3431,7 @@
       CHANMODE 0
       GUID {E73E3E4A-E554-4E8A-8CBA-20343B755C03}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Bass.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Bass.wav"
       >
     >
   >
@@ -3528,7 +3528,7 @@
       FXID {BE2DD3C1-369E-4A84-9D1A-28C6EEDD52D6}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
         AFByb2dyYW0gMQAQAAAA
@@ -3584,7 +3584,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -3759,7 +3759,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 1 1 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 1 0 0 0 0 0 1 64
       >
     >
   >
@@ -3827,7 +3827,7 @@
       CHANMODE 0
       GUID {E87F2C24-EB09-4628-BE47-F190EB3128D9}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Guitar.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Guitar.wav"
       >
     >
   >
@@ -3837,13 +3837,13 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -3931,9 +3931,10 @@
       BYPASS 0 0 0
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
-        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
-        AFByb2dyYW0gMQAAAAAA
+        776t3g3wrd6mm8Q7F7fROgAAAAAAAAAAAAAAAM5NAD/pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
+        AHZvY2FsIHN5bnRoAAAAAAA=
       >
+      PRESETNAME "vocal synth"
       FLOATPOS 0 0 0 0
       FXID {F29B6161-5AC1-46D6-88F7-2C42F76F7222}
       WAK 0 0
@@ -3948,7 +3949,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {9C9617EC-369A-41B9-80F6-31F4222F13F6}
       IID 10
       NAME "PART VOCALS"
@@ -3964,18 +3965,293 @@
         <X 0 0 0 0 3 "PART VOCALS"
           /wNQQVJUIFZPQ0FMUw==
         >
-        E 208692 b0 7b 00
+        E 18150 90 69 60
+        <X 210 0 0 0 5 Old
+          /wVPbGQ=
+        >
+        E 0 90 40 60
+        E 240 80 40 00
+        <X 120 0 0 0 5 yel-
+          /wV5ZWwt
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 low
+          /wVsb3c=
+        >
+        E 0 90 3c 60
+        E 90 80 3c 00
+        <X 150 0 0 0 5 bricks
+          /wVicmlja3M=
+        >
+        E 0 90 40 60
+        E 420 80 40 00
+        <X 750 0 0 0 5 love's
+          /wVsb3ZlJ3M=
+        >
+        E 0 90 3e 60
+        E 330 80 3e 00
+        <X 180 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 120 0 0 0 5 risk
+          /wVyaXNr
+        >
+        E 0 90 40 60
+        E 480 80 40 00
+        E 330 80 69 00
+        E 450 90 69 60
+        <X 330 0 0 0 5 Quite
+          /wVRdWl0ZQ==
+        >
+        E 0 90 3c 60
+        E 150 80 3c 00
+        <X 180 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 lit-
+          /wVsaXQt
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 tle
+          /wV0bGU=
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 es-
+          /wVlcy0=
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 120 0 0 0 5 ca-
+          /wVjYS0=
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 180 0 0 0 5 pol-
+          /wVwb2wt
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3c 60
+        E 60 80 3c 00
+        <X 60 0 0 0 5 o-
+          /wVvLQ==
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 120 0 0 0 5 gist
+          /wVnaXN0
+        >
+        E 0 90 3e 60
+        E 180 80 3e 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        E 270 80 69 00
+        E 270 90 69 60
+        <X 240 0 0 0 5 Looked
+          /wVMb29rZWQ=
+        >
+        E 0 90 3e 60
+        E 240 80 3e 00
+        <X 240 0 0 0 5 so
+          /wVzbw==
+        >
+        E 0 90 3c 60
+        E 240 80 3c 00
+        <X 240 0 0 0 5 miffed
+          /wVtaWZmZWQ=
+        >
+        E 0 90 3e 60
+        E 150 80 3e 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 240 80 40 00
+        <X 450 0 0 0 5 when
+          /wV3aGVu
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        <X 180 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 3c 60
+        E 300 80 3c 00
+        <X 210 0 0 0 5 wished
+          /wV3aXNoZWQ=
+        >
+        E 0 90 3b 60
+        E 480 80 3b 00
+        E 270 80 69 00
+        E 210 90 69 60
+        <X 180 0 0 0 5 For
+          /wVGb3I=
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 3c 60
+        E 90 80 3c 00
+        <X 150 0 0 0 5 thou-
+          /wV0aG91LQ==
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 sand
+          /wVzYW5k
+        >
+        E 0 90 3e 60
+        E 90 80 3e 00
+        <X 150 0 0 0 5 plac-
+          /wVwbGFjLQ==
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 es
+          /wVlcw==
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 120 0 0 0 5 bet-
+          /wViZXQt
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 180 0 0 0 5 ter
+          /wV0ZXI=
+        >
+        E 0 90 3e 60
+        E 210 80 3e 00
+        <X 150 0 0 0 5 than
+          /wV0aGFu
+        >
+        E 0 90 3c 60
+        E 150 80 3c 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3b 60
+        E 90 80 3b 00
+        <X 120 0 0 0 5 this
+          /wV0aGlz
+        >
+        E 0 90 3b 60
+        E 480 80 3b 00
+        E 240 80 69 00
+        E 90 90 69 60
+        <X 150 0 0 0 5 You
+          /wVZb3U=
+        >
+        E 0 90 39 60
+        E 120 80 39 00
+        <X 120 0 0 0 5 are
+          /wVhcmU=
+        >
+        E 0 90 39 60
+        E 150 80 39 00
+        <X 90 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 39 60
+        E 90 80 39 00
+        <X 150 0 0 0 5 fu-
+          /wVmdS0=
+        >
+        E 0 90 43 60
+        E 60 80 43 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 150 0 0 0 5 gi-
+          /wVnaS0=
+        >
+        E 0 90 40 60
+        E 300 80 40 00
+        <X 180 0 0 0 5 tive
+          /wV0aXZl
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 210 0 0 0 5 but
+          /wVidXQ=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 don't
+          /wVkb24ndA==
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 know
+          /wVrbm93
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 what
+          /wV3aGF0
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 you're
+          /wV5b3UncmU=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 150 0 0 0 5 run-
+          /wVydW4t
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 ning
+          /wVuaW5n
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 from
+          /wVmcm9t
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        E 120 80 69 00
+        E 170472 b0 7b 00
         CCINTERP 32
         GUID {C9A1A4CA-4224-4672-91C0-075BEB2A8650}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW -2620.991122 80.213931 25 22 0 -1 12 0 0 0.5
+        CFGEDITVIEW 34374.080583 57.802209 0 18 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 616 331 2185 1313 0 2 1 2 0.25 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -3985,7 +4261,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -4112,7 +4388,7 @@
       CHANMODE 0
       GUID {DC68FC6B-0477-4D9E-B919-5F6043408E66}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Vocals.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Vocals.wav"
       >
     >
   >
@@ -4126,7 +4402,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
@@ -4259,7 +4535,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -4277,7 +4553,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4311,7 +4587,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
@@ -4445,7 +4721,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -4463,7 +4739,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4496,7 +4772,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
@@ -4630,7 +4906,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -4648,7 +4924,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4750,7 +5026,7 @@
       FXID {9719FFDA-348A-4369-B3CC-DFC4BA881B3B}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwOqAA==
         AFByb2dyYW0gMQAAAAAA
@@ -4806,7 +5082,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -4912,7 +5188,7 @@
       CHANMODE 0
       GUID {30072C13-5EEC-42C0-AD84-71F4AA63C01E}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Key.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Key.wav"
       >
     >
   >
@@ -5054,7 +5330,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -5182,7 +5458,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -5311,7 +5587,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -5439,7 +5715,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -5554,7 +5830,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -5668,7 +5944,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -5742,7 +6018,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -5823,7 +6099,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 0 43 849 437 1 2 1 2 0 0 0 1 0 0 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0 1 0 1 64
       >
     >
   >
@@ -5842,7 +6118,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -5956,7 +6232,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {3D595004-3FEF-4971-B463-B100224FE7BC}
       IID 37
       NAME CAMERA
@@ -5979,7 +6255,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -6115,7 +6391,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -7484,7 +7760,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 1 0 43 849 437 1 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 1 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -7648,7 +7924,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
   >
@@ -7825,7 +8101,7 @@
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 616 331 2185 1313 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
   >
@@ -7873,7 +8149,7 @@
       CHANMODE 0
       GUID {2B147917-DA5D-414B-BB4F-3F7143AB4583}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Backing.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Backing.wav"
       >
     >
   >
