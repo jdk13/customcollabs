@@ -38,18 +38,18 @@
    (
       'gamedata'
       ('preview_start_ms' 49000)
-      ('rank_guitar' 1)
-      ('rank_bass' 1)
-      ('rank_drum' 1)
+      ('rank_guitar' 2)
+      ('rank_bass' 2)
+      ('rank_drum' 4)
       ('rank_vocals' 1)
       ('rank_keys' 1)
       ('rank_pro_keys' 1)
-      ('rank_band' 1)
+      ('rank_band' 2)
       ('vocal_scroll_speed' 2300)
       ('anim_tempo' 32)
       ('vocal_gender' 'male')
       ('vocal_percussion' 'tambourine')
-      ('vocal_parts' 0)
+      ('vocal_parts' 1)
       ('guide_pitch_volume' -3.00)
    )
    (
@@ -63,13 +63,13 @@
    )
    (
       'destination_file'
-      "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Magma\\brick_rb3con.rba"
+      "d:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Magma\\oldyellowbricks_russ_rb3con.rba"
    )
    (
       'midi'
       (
          'file'
-         ""
+         "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Magma\\yela.mid"
       )
       (
          'autogen_theme'
@@ -82,7 +82,7 @@
          'part0'
          (
             'file'
-            ""
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\dry\\14-VOCALS AUDIO-consolidated-01.wav"
          )
          ('enabled' 1)
       )
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Magma\\Cover_x256.bmp"
+         "d:\\github\\customcollabs\\wip customs\\old yellow bricks\\magma\\Cover_x256.bmp"
       )
    )
    (
@@ -122,7 +122,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Kit.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\06-KIT AUDIO-consolidated.wav"
          )
       )
       (
@@ -133,7 +133,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Kick.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\04-KICK AUDIO-consolidated.wav"
          )
       )
       (
@@ -144,7 +144,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Snare.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\05-SNARE AUDIO-consolidated.wav"
          )
       )
       (
@@ -155,7 +155,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Bass.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\09-BASS AUDIO-consolidated.wav"
          )
       )
       (
@@ -166,7 +166,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Guitar.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\12-GUITAR AUDIO-consolidated.wav"
          )
       )
       (
@@ -177,7 +177,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Vocals.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\14-VOCALS AUDIO-consolidated.wav"
          )
       )
       (
@@ -188,7 +188,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Key.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\22-KEYS AUDIO-consolidated.wav"
          )
       )
       (
@@ -199,7 +199,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\Stems\\Backing.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Old Yellow Bricks\\ReaperOutStems\\36-Backing-consolidated.wav"
          )
       )
    )
