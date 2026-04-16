@@ -1,10 +1,9 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1776305347 0
-  RIPPLE 0 0
-  GROUPOVERRIDE 0 1 0 0
+<REAPER_PROJECT 0.1 "7.15/win64" 1776314021
+  RIPPLE 0
+  GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
   ENVATTACH 1
   POOLEDENVATTACH 0
-  TCPUIFLAGS 0
   MIXERUIFLAGS 11 80
   PEAKGAIN 1
   FEEDBACK 0
@@ -12,12 +11,12 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
-  TIMEMODE 1 5 -1 30 0 0 -1 0
+  TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 156.33224009124751
-  ZOOM 95.01218680341547 14254 0
-  VZOOMEX 1.25 777
+  CURSOR 97.78097946754562
+  ZOOM 374.88829739250173 35719 0
+  VZOOMEX 1.25 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -38,7 +37,6 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
-  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 0
   TEMPOENVLOCKMODE 1
   ITEMMIX 0
@@ -50,18 +48,14 @@
   LOCK 1
   <METRONOME 6 2
     VOL 0.752735 0.723913
-    BEATLEN 4
     FREQ 800 1600 1
-    SAMPLES "" "" "" ""
-    SPLIGNORE 0 0
-    SPLDEF 2 660 "" 0 ""
-    SPLDEF 3 440 "" 0 ""
+    BEATLEN 4
+    SAMPLES "" ""
     PATTERN 0 169
-    PATTERNSTR ABBB
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 135.196 4 4 0
+  TEMPO 135.196 4 4
   PLAYRATE 1 1 0.25 4
   SELECTION 105.97004505506749 105.97467625287479
   SELECTION2 105.97004505506749 105.97467625287479
@@ -69,7 +63,7 @@
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 66
   MASTER_VOLUME 1 0 -1 -1 1
@@ -82,7 +76,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -0.033083 -9.290765 -10.832105 -10.612447 -11.424973 -11.728929 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 8.944747 -160.447664 0.682016 -100 -162.945531 -0.026273 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -96,7 +90,7 @@
     WAK 0 0
     BYPASS 0 0 0
     <JS loser/masterLimiter Limiter
-      -3 200 100 0 250 -0.1 -0.414444 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -3 200 100 0 250 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 0 0 0 0
     FXID {D10D006A-BB20-4770-A41E-B3C64D7DD379}
@@ -223,9 +217,6 @@
     PT 182.953704239491 135.6196552617 1
     PT 184.723359231881 135.6196552617 1
   >
-  RULERHEIGHT 86 86
-  RULERLANE 1 4 "" 0 -1
-  RULERLANE 2 8 "" 0 -1
   <PROJBAY
   >
   <TRACK {161C1505-ACC9-4E87-870A-179699D02C54}
@@ -240,9 +231,8 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -290,9 +280,8 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
     SEL 0
     REC 0 0 1 7 0 0 0 0
     VU 2
@@ -316,8 +305,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
@@ -9199,13 +9187,13 @@
         GUID {99C52F88-C54B-4CCD-B038-A5C950AC8E6E}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 0
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Drums.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 91 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Drums.txt"
         CFGEDITVIEW 134140.203206 89.864936 6 20 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 527 15 1891 680 0 2 1 2 0 0 0 1 0 0 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0 1 0 1 64
       >
       TAKE
       NAME "PART DRUMS render 001.wav"
@@ -9230,8 +9218,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -9284,7 +9271,7 @@
       CHANMODE 0
       GUID {695F3180-2ADF-4439-8420-0CA4E0F5DC23}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kick.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kick.wav"
       >
     >
   >
@@ -9299,8 +9286,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -9353,7 +9339,7 @@
       CHANMODE 0
       GUID {4A2602C3-2063-4019-B85F-85E05909EE33}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Snare.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Snare.wav"
       >
     >
   >
@@ -9368,8 +9354,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -9422,7 +9407,7 @@
       CHANMODE 0
       GUID {D274ACAF-1EB9-450F-944E-AA570F2B5FF4}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kit.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Kit.wav"
       >
     >
   >
@@ -9437,8 +9422,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     SPACER 1
@@ -9514,7 +9498,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
         776t3g3wrd4AAAAAAAAAAAAAAAAAAAAAObRIPn3L2z61tLE5AAAAALbz/T5VpCs6AAAAAAAAAAAAAIA/AAAAAAAAgD8=
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {F1BEF72C-FAB3-40FB-A79A-CA326F0A9A34}
@@ -9523,7 +9507,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 24 52 666 511
       FXID {85422295-ACAE-4FF6-BF2A-13BB34AC702A}
@@ -12216,13 +12200,13 @@
         GUID {54A57D35-811F-42A6-AB75-F5706122F903}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 1
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
         CFGEDITVIEW 168036.37025 99.157427 24 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -12232,13 +12216,12 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -15910,13 +15893,13 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 18
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
         CFGEDITVIEW 142852.594704 99.157427 34 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -15926,13 +15909,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -15985,7 +15967,7 @@
       CHANMODE 0
       GUID {E73E3E4A-E554-4E8A-8CBA-20343B755C03}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Bass.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Bass.wav"
       >
     >
   >
@@ -16000,8 +15982,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
@@ -16086,7 +16067,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 24 52 666 511
       FXID {746DDB44-7B70-4004-BE5A-063E09CFEAE0}
@@ -18941,13 +18922,13 @@
         GUID {14D9E950-FB92-4048-8603-8FD02AE3B865}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 2
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
         CFGEDITVIEW 138165.2715 161.665366 0 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -18962,8 +18943,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -23683,13 +23663,13 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 17
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
         CFGEDITVIEW 57623.729875 26.058646 56 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -23699,13 +23679,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 0.6851311761969 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -23758,7 +23737,7 @@
       CHANMODE 0
       GUID {E87F2C24-EB09-4628-BE47-F190EB3128D9}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Guitar.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Guitar.wav"
       >
     >
   >
@@ -23773,12 +23752,11 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 78 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     TRACKIMGFN "rbvocals.png"
@@ -23881,7 +23859,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {9C9617EC-369A-41B9-80F6-31F4222F13F6}
       IID 10
       NAME "PART VOCALS"
@@ -24172,18 +24150,988 @@
         E 0 90 40 60
         E 150 80 40 00
         E 120 80 69 00
-        E 170472 b0 7b 00
+        E 90 90 69 60
+        <X 120 0 0 0 5 You
+          /wVZb3U=
+        >
+        E 0 90 43 60
+        E 90 80 43 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 can't
+          /wVjYW4ndA==
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 90 0 0 0 5 kid
+          /wVraWQ=
+        >
+        E 0 90 3e 60
+        E 330 80 3e 00
+        <X 150 0 0 0 5 us
+          /wV1cw==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 and
+          /wVhbmQ=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 3e 60
+        E 90 80 3e 00
+        <X 150 0 0 0 5 could-
+          /wVjb3VsZC0=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 n't
+          /wVuJ3Q=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 1 trick
+          /wF0cmljaw==
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 an-
+          /wVhbi0=
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 y-
+          /wV5LQ==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 one
+          /wVvbmU=
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        E 180 80 69 00
+        E 60 90 69 60
+        <X 90 0 0 0 5 Hou-
+          /wVIb3Ut
+        >
+        E 0 90 43 60
+        E 150 80 43 00
+        <X 150 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 90 0 0 0 5 di-
+          /wVkaS0=
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 ni
+          /wVuaQ==
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 165 0 0 0 1 love
+          /wFsb3Zl
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 105 0 0 0 1 you
+          /wF5b3U=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 135 0 0 0 1 don't
+          /wFkb24ndA==
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 105 0 0 0 1 know
+          /wFrbm93
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 150 0 0 0 1 what
+          /wF3aGF0
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 1 you're
+          /wF5b3UncmU=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 1 run-
+          /wFydW4t
+        >
+        E 0 90 3e 60
+        E 135 80 3e 00
+        <X 105 0 0 0 1 ning
+          /wFuaW5n
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 1 a-
+          /wFhLQ==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 1 way
+          /wF3YXk=
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        <X 120 0 0 0 1 +
+          /wEr
+        >
+        E 0 90 3e 60
+        E 90 80 3e 00
+        <X 150 0 0 0 1 from
+          /wFmcm9t
+        >
+        E 0 90 3c 60
+        E 1200 80 3c 00
+        E 150 80 69 00
+        E 1260 90 69 60
+        <X 150 0 0 0 5 Who
+          /wVXaG8=
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 wants
+          /wV3YW50cw==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 135 0 0 0 5 to
+          /wV0bw==
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 195 0 0 0 1 sleep
+          /wFzbGVlcA==
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 in
+          /wVpbg==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 cit-
+          /wVjaXQt
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 180 0 0 0 5 y
+          /wV5
+        >
+        E 0 90 34 60
+        E 240 80 34 00
+        <X 150 0 0 0 5 that
+          /wV0aGF0
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 nev-
+          /wVuZXYt
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 er
+          /wVlcg==
+        >
+        E 0 90 32 60
+        E 120 80 32 00
+        <X 120 0 0 0 5 wakes
+          /wV3YWtlcw==
+        >
+        E 0 90 32 60
+        E 165 80 32 00
+        <X 105 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 34 60
+        E 90 80 34 00
+        <X 120 0 0 0 5 up?
+          /wV1cD8=
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        E 240 80 69 00
+        E 390 90 69 60
+        <X 105 0 0 0 5 Blind-
+          /wVCbGluZC0=
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        <X 150 0 0 0 5 ed
+          /wVlZA==
+        >
+        E 0 90 32 60
+        E 105 80 32 00
+        <X 135 0 0 0 5 by
+          /wVieQ==
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        <X 165 0 0 0 5 nos-
+          /wVub3Mt
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 tal-
+          /wV0YWwt
+        >
+        E 0 90 34 60
+        E 165 80 34 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 37 60
+        E 120 80 37 00
+        <X 135 0 0 0 5 gia
+          /wVnaWE=
+        >
+        E 0 90 34 60
+        E 690 80 34 00
+        E 225 80 69 00
+        E 585 90 69 60
+        <X 75 0 0 0 5 Who
+          /wVXaG8=
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 135 0 0 0 5 wants
+          /wV3YW50cw==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 135 0 0 0 5 to
+          /wV0bw==
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 195 0 0 0 5 sleep
+          /wVzbGVlcA==
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 135 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 135 0 0 0 5 in
+          /wVpbg==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 cit-
+          /wVjaXQt
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 180 0 0 0 5 y
+          /wV5
+        >
+        E 0 90 34 60
+        E 240 80 34 00
+        <X 150 0 0 0 5 that
+          /wV0aGF0
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 nev-
+          /wVuZXYt
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 er
+          /wVlcg==
+        >
+        E 0 90 32 60
+        E 120 80 32 00
+        <X 135 0 0 0 5 wakes
+          /wV3YWtlcw==
+        >
+        E 0 90 32 60
+        E 150 80 32 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 34 60
+        E 105 80 34 00
+        <X 135 0 0 0 5 up?
+          /wV1cD8=
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        E 270 80 69 00
+        E 3300 90 69 60
+        <X 225 0 0 0 5 She
+          /wVTaGU=
+        >
+        E 0 90 40 60
+        E 135 80 40 00
+        <X 150 0 0 0 5 was
+          /wV3YXM=
+        >
+        E 0 90 3e 60
+        E 105 80 3e 00
+        <X 150 0 0 0 5 en-
+          /wVlbi0=
+        >
+        E 0 90 3c 60
+        E 90 80 3c 00
+        <X 150 0 0 0 5 raged
+          /wVyYWdlZA==
+        >
+        E 0 90 3e 60
+        E 225 80 3e 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 285 80 40 00
+        <X 615 0 0 0 5 by
+          /wVieQ==
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 180 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 3c 60
+        E 105 80 3c 00
+        <X 165 0 0 0 5 way
+          /wV3YXk=
+        >
+        E 0 90 3e 60
+        E 255 80 3e 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 480 80 40 00
+        E 225 80 69 00
+        E 180 90 69 60
+        <X 135 0 0 0 5 That
+          /wVUaGF0
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 150 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 3c 60
+        E 105 80 3c 00
+        <X 150 0 0 0 5 em-
+          /wVlbS0=
+        >
+        E 0 90 3e 60
+        E 105 80 3e 00
+        <X 135 0 0 0 5 per-
+          /wVwZXIt
+        >
+        E 0 90 3e 60
+        E 105 80 3e 00
+        <X 135 0 0 0 5 ors
+          /wVvcnM=
+        >
+        E 0 90 3e 60
+        E 135 80 3e 00
+        <X 105 0 0 0 5 were
+          /wV3ZXJl
+        >
+        E 0 90 3c 60
+        E 105 80 3c 00
+        <X 135 0 0 0 5 trapped
+          /wV0cmFwcGVk
+        >
+        E 0 90 3e 60
+        E 180 80 3e 00
+        <X 180 0 0 0 5 in
+          /wVpbg==
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 180 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 3c 60
+        E 90 80 3c 00
+        <X 120 0 0 0 5 cage
+          /wVjYWdl
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 105 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 390 80 40 00
+        E 195 80 69 00
+        E 120 90 69 60
+        <X 165 0 0 0 5 And
+          /wVBbmQ=
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 195 0 0 0 5 the
+          /wV0aGU=
+        >
+        E 0 90 3c 60
+        E 285 80 3c 00
+        <X 195 0 0 0 5 days
+          /wVkYXlz
+        >
+        E 0 90 3e 60
+        E 180 80 3e 00
+        <X 105 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 375 80 40 00
+        <X 315 0 0 0 5 she
+          /wVzaGU=
+        >
+        E 0 90 3e 60
+        E 180 80 3e 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 105 80 40 00
+        <X 135 0 0 0 5 deemed
+          /wVkZWVtZWQ=
+        >
+        E 0 90 3c 60
+        E 300 80 3c 00
+        <X 180 0 0 0 5 dull
+          /wVkdWxs
+        >
+        E 0 90 3b 60
+        E 465 80 3b 00
+        E 165 80 69 00
+        E 105 90 69 60
+        <X 195 0 0 0 5 Lead-
+          /wVMZWFkLQ==
+        >
+        E 0 90 40 60
+        E 135 80 40 00
+        <X 120 0 0 0 5 ing
+          /wVpbmc=
+        >
+        E 0 90 3e 60
+        E 75 80 3e 00
+        <X 135 0 0 0 5 to
+          /wV0bw==
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 120 0 0 0 5 nights
+          /wVuaWdodHM=
+        >
+        E 0 90 40 60
+        E 240 80 40 00
+        <X 150 0 0 0 5 read-
+          /wVyZWFkLQ==
+        >
+        E 0 90 3e 60
+        E 135 80 3e 00
+        <X 135 0 0 0 5 ing
+          /wVpbmc=
+        >
+        E 0 90 3c 60
+        E 120 80 3c 00
+        <X 180 0 0 0 5 beer
+          /wViZWVy
+        >
+        E 0 90 40 60
+        E 330 80 40 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3e 60
+        E 150 80 3e 00
+        <X 165 0 0 0 5 bot-
+          /wVib3Qt
+        >
+        E 0 90 3c 60
+        E 210 80 3c 00
+        <X 270 0 0 0 5 tles
+          /wV0bGVz
+        >
+        E 0 90 3b 60
+        E 465 80 3b 00
+        E 150 80 69 00
+        E 255 90 69 60
+        <X 45 0 0 0 5 You're
+          /wVZb3UncmU=
+        >
+        E 0 90 39 60
+        E 120 80 39 00
+        <X 120 0 0 0 5 such
+          /wVzdWNo
+        >
+        E 0 90 39 60
+        E 120 80 39 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 39 60
+        E 90 80 39 00
+        <X 150 0 0 0 5 fu-
+          /wVmdS0=
+        >
+        E 0 90 43 60
+        E 60 80 43 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 150 0 0 0 5 gi-
+          /wVnaS0=
+        >
+        E 0 90 40 60
+        E 300 80 40 00
+        <X 180 0 0 0 5 tive
+          /wV0aXZl
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 210 0 0 0 5 but
+          /wVidXQ=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 don't
+          /wVkb24ndA==
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 know
+          /wVrbm93
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 what
+          /wV3aGF0
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 you're
+          /wV5b3UncmU=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 150 0 0 0 5 run-
+          /wVydW4t
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 ning
+          /wVuaW5n
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 from
+          /wVmcm9t
+        >
+        E 0 90 40 60
+        E 165 80 40 00
+        E 150 80 69 00
+        E 75 90 69 60
+        <X 75 0 0 0 5 You
+          /wVZb3U=
+        >
+        E 0 90 43 60
+        E 90 80 43 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 can't
+          /wVjYW4ndA==
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 90 0 0 0 5 kid
+          /wVraWQ=
+        >
+        E 0 90 3e 60
+        E 300 80 3e 00
+        <X 165 0 0 0 5 us
+          /wV1cw==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 and
+          /wVhbmQ=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 3e 60
+        E 90 80 3e 00
+        <X 150 0 0 0 5 could-
+          /wVjb3VsZC0=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 n't
+          /wVuJ3Q=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 trick
+          /wV0cmljaw==
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 an-
+          /wVhbi0=
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 y-
+          /wV5LQ==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 one
+          /wVvbmU=
+        >
+        E 0 90 40 60
+        E 150 80 40 00
+        E 165 80 69 00
+        E 105 90 69 60
+        <X 75 0 0 0 5 Hou-
+          /wVIb3Ut
+        >
+        E 0 90 43 60
+        E 150 80 43 00
+        <X 150 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 90 0 0 0 5 di-
+          /wVkaS0=
+        >
+        E 0 90 40 60
+        E 180 80 40 00
+        <X 135 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 3e 60
+        E 105 80 3e 00
+        <X 120 0 0 0 5 ni
+          /wVuaQ==
+        >
+        E 0 90 3e 60
+        E 270 80 3e 00
+        <X 180 0 0 0 5 love
+          /wVsb3Zl
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 105 0 0 0 5 you
+          /wV5b3U=
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 don't
+          /wVkb24ndA==
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 105 0 0 0 5 know
+          /wVrbm93
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 135 0 0 0 5 what
+          /wV3aGF0
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 you're
+          /wV5b3UncmU=
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 run-
+          /wVydW4t
+        >
+        E 0 90 3e 60
+        E 120 80 3e 00
+        <X 120 0 0 0 5 ning
+          /wVuaW5n
+        >
+        E 0 90 40 60
+        E 120 80 40 00
+        <X 120 0 0 0 5 a-
+          /wVhLQ==
+        >
+        E 0 90 40 60
+        E 90 80 40 00
+        <X 150 0 0 0 5 way
+          /wV3YXk=
+        >
+        E 0 90 3e 60
+        E 225 80 3e 00
+        <X 270 0 0 0 5 from
+          /wVmcm9t
+        >
+        E 0 90 3c 60
+        E 1200 80 3c 00
+        E 225 80 69 00
+        E 1005 90 69 60
+        <X 345 0 0 0 5 Who
+          /wVXaG8=
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 wants
+          /wV3YW50cw==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 135 0 0 0 5 to
+          /wV0bw==
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 195 0 0 0 1 sleep
+          /wFzbGVlcA==
+        >
+        E 0 90 34 60
+        E 225 80 34 00
+        <X 285 0 0 0 5 in
+          /wVpbg==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 cit-
+          /wVjaXQt
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 180 0 0 0 5 y
+          /wV5
+        >
+        E 0 90 34 60
+        E 240 80 34 00
+        <X 150 0 0 0 5 that
+          /wV0aGF0
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 nev-
+          /wVuZXYt
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 er
+          /wVlcg==
+        >
+        E 0 90 32 60
+        E 120 80 32 00
+        <X 120 0 0 0 5 wakes
+          /wV3YWtlcw==
+        >
+        E 0 90 32 60
+        E 165 80 32 00
+        <X 105 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 34 60
+        E 90 80 34 00
+        <X 150 0 0 0 5 up?
+          /wV1cD8=
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        E 300 80 69 00
+        E 150 90 69 60
+        <X 270 0 0 0 5 Blind-
+          /wVCbGluZC0=
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        <X 150 0 0 0 5 ed
+          /wVlZA==
+        >
+        E 0 90 32 60
+        E 105 80 32 00
+        <X 135 0 0 0 5 by
+          /wVieQ==
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        <X 165 0 0 0 5 nos-
+          /wVub3Mt
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 tal-
+          /wV0YWwt
+        >
+        E 0 90 34 60
+        E 165 80 34 00
+        <X 90 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 37 60
+        E 120 80 37 00
+        <X 135 0 0 0 5 gia
+          /wVnaWE=
+        >
+        E 0 90 34 60
+        E 690 80 34 00
+        E 405 80 69 00
+        E 330 90 69 60
+        <X 165 0 0 0 5 Who
+          /wVXaG8=
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 135 0 0 0 5 wants
+          /wV3YW50cw==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 135 0 0 0 5 to
+          /wV0bw==
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 195 0 0 0 5 sleep
+          /wVzbGVlcA==
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 135 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 135 0 0 0 5 in
+          /wVpbg==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 a
+          /wVh
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 150 0 0 0 5 cit-
+          /wVjaXQt
+        >
+        E 0 90 34 60
+        E 150 80 34 00
+        <X 180 0 0 0 5 y
+          /wV5
+        >
+        E 0 90 34 60
+        E 135 80 34 00
+        <X 120 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 32 60
+        E 75 80 32 00
+        <X 60 0 0 0 5 that
+          /wV0aGF0
+        >
+        E 0 90 32 60
+        E 90 80 32 00
+        <X 120 0 0 0 5 nev-#
+          /wVuZXYtIw==
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 er#
+          /wVlciM=
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 135 0 0 0 5 wakes#
+          /wV3YWtlcyM=
+        >
+        E 0 90 34 60
+        E 285 80 34 00
+        <X 225 0 0 0 5 up?#
+          /wV1cD8j
+        >
+        E 0 90 43 60
+        E 210 80 43 00
+        E 210 80 69 00
+        E 101667 b0 7b 00
         CCINTERP 32
         GUID {C9A1A4CA-4224-4672-91C0-075BEB2A8650}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 3
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 15011.578478 33.683213 18 18 0 -1 12 0 0 0.5
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
+        CFGEDITVIEW 102921.85878 187.878248 15 18 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 527 15 1891 680 0 2 1 2 0.25 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 144 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.03125 545 333 2078 1316 0 2 1 2 0.25 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -24193,13 +25141,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -24321,7 +25268,7 @@
       CHANMODE 0
       GUID {DC68FC6B-0477-4D9E-B919-5F6043408E66}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Vocals.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Vocals.wav"
       >
     >
   >
@@ -24336,8 +25283,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -24463,13 +25409,13 @@
         GUID {D78D8959-2AD8-48C0-8F6C-4A6670952331}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 4
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
         CFGEDITVIEW -2620.991122 80.213931 25 22 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -24484,8 +25430,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -24523,8 +25468,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -24651,13 +25595,13 @@
         GUID {E53B89F8-ECC8-4A25-86E2-BC4D240C9444}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 5
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
         CFGEDITVIEW -2620.991122 80.213931 25 22 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -24672,8 +25616,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -24710,8 +25653,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -24838,13 +25780,13 @@
         GUID {F1082209-E2A8-4526-8AA6-2FE8F2DEB335}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 6
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
         CFGEDITVIEW -2620.991122 80.213931 25 22 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -24859,8 +25801,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -24898,8 +25839,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -24969,7 +25909,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwOqAA==
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 24 52 666 511
       FXID {39A31953-F22F-4181-BCCE-64F72C56F9FD}
@@ -26172,13 +27112,13 @@
         GUID {F537F270-CEBA-461E-8612-DC28913708FC}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 7
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Keys.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Keys.txt"
         CFGEDITVIEW 163598.089089 33.683213 0 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -26188,13 +27128,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -26285,7 +27224,7 @@
       CHANMODE 0
       GUID {30072C13-5EEC-42C0-AD84-71F4AA63C01E}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Key.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Key.wav"
       >
     >
   >
@@ -26295,13 +27234,12 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -26832,13 +27770,13 @@
         GUID {0E0CBFB7-4AC8-4E67-A764-85891754BB41}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 8
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW 163598.089089 33.683213 0 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -26853,8 +27791,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -27349,13 +28286,13 @@
         GUID {53F487B1-1F2F-4D54-9DAE-BC2E7B032E3B}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 9
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW 0 6.705015 13 28 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -27370,8 +28307,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -27867,13 +28803,13 @@
         GUID {806139BE-556B-4882-A297-06705078FD7A}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 10
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW 0 4.120602 2 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -27888,8 +28824,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28384,13 +29319,13 @@
         GUID {F9363449-15E8-4EF0-8BC0-ABEB4CDC1D98}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 11
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW 0 6.705015 2 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -28405,8 +29340,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28500,13 +29434,13 @@
         GUID {9527D45A-14D5-4C89-A39E-3528B0F29941}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 13
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW -2620.991122 80.213931 10 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -28521,8 +29455,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28615,13 +29548,13 @@
         GUID {268DE88D-9169-44F5-97A1-ABDA1E2CF031}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 12
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
         CFGEDITVIEW 0 6.705015 0 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -28636,9 +29569,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
-    SEL 1
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28669,7 +29601,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {86A06D27-867C-4398-9CE6-8F0526B3B594}
       IID 21
       NAME EVENTS
@@ -30813,13 +31745,13 @@
         GUID {40AD7956-A22A-434A-8513-4D3792B9DF69}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 14
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\EVENTS.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 91 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\EVENTS.txt"
         CFGEDITVIEW 162131.063958 89.864936 0 16 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -30834,8 +31766,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -30895,13 +31826,13 @@
         GUID {30097062-47C5-4B33-B665-170EF09D70D9}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 15
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\VENUE.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 91 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\VENUE.txt"
         CFGEDITVIEW 0 6.760934 0 20 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 527 15 1891 680 0 2 1 2 0 0 0 1 0 0 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0 1 0 1 64
       >
     >
   >
@@ -30918,9 +31849,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -31053,12 +31983,12 @@
         GUID {997FD46D-F659-4824-A32F-1906E6AB8820}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 52
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
         CFGEDITVIEW -2620.991122 80.213931 0 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -31075,9 +32005,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -31190,12 +32119,12 @@
         GUID {25DF423E-84F6-4F09-BAB1-B44BD66EE91B}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 20
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
         CFGEDITVIEW -2620.991122 80.213931 0 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -31210,8 +32139,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -31263,13 +32191,13 @@
         GUID {8CB930E8-B6A0-4CAD-825A-9F47FB66C1D0}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 115
-        TEXTSTRINGFILE "Text Events List.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 100 100 0 1
+        TEXTSTRINGFILE "Text Events List.txt"
         CFGEDITVIEW -2620.991122 80.213931 0 48 0 0 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 1 527 15 1891 680 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 1 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -31285,8 +32213,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -31428,13 +32355,13 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 18
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
         CFGEDITVIEW -2620.991122 80.213931 15 28 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
   >
@@ -31450,8 +32377,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -31606,13 +32532,13 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 17
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
         CFGEDITVIEW -2620.991122 80.213931 8 28 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 527 15 1891 680 0 2 1 2 0 0 0 1 0 0 0 0 1 64
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 545 333 2078 1316 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
   >
@@ -31628,9 +32554,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -31661,8 +32586,10 @@
       CHANMODE 0
       GUID {2B147917-DA5D-414B-BB4F-3F7143AB4583}
       <SOURCE WAVE
-        FILE "D:\GitHub\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Backing.wav"
+        FILE "I:\customcollabs\customcollabs\WIP Customs\Old Yellow Bricks\Stems\Backing.wav"
       >
     >
+  >
+  <EXTENSIONS
   >
 >
