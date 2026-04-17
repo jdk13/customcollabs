@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1776385841 0
+<REAPER_PROJECT 0.1 "7.66/win64" 1776385693 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 32.06486316499294
-  ZOOM 14.73364412092246 0 0
-  VZOOMEX 1.25 0
+  CURSOR 46.54441234950849
+  ZOOM 577.10508523910016 26395 0
+  VZOOMEX 1.25 33
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -82,7 +82,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 9.70541 0.356728 -2.600958 -0.498163 -1.177303 -3.453059 4.8 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 3.433484 -100 -7.301569 -164.23986 -172.020059 -8.563306 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -96,7 +96,7 @@
     WAK 0 0
     BYPASS 0 0 0
     <JS loser/masterLimiter Limiter
-      -3 200 100 0 250 -0.1 -8.999077 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -3 200 100 0 250 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 0 0 0 0
     FXID {D10D006A-BB20-4770-A41E-B3C64D7DD379}
@@ -311,14 +311,14 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -421,7 +421,7 @@
       BYPASS 0 0 0
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
-        AwKqAA==
+        AQGqAA==
         AAAQAAAA
       >
       FLOATPOS 2092 208 666 511
@@ -438,7 +438,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 16820736 R
-      SEL 1
+      SEL 0
       IGUID {9FF11F36-E94F-4396-9C0E-8449C916EC21}
       IID 7
       NAME "PART DRUMS"
@@ -9278,7 +9278,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Drums.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 0 8.798868 19 28 0 -1 12 0 0 0.5
+        CFGEDITVIEW 193863.315 93.71114 19 28 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 410 68 1799 1051 0 2 1 2 0 0 0 0 0 0 1 0 1 64
@@ -9508,7 +9508,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -16132,7 +16132,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -19359,7 +19359,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -19479,7 +19479,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 16826303 R
-      SEL 0
+      SEL 1
       IGUID {20F1321F-9ED7-4853-AD09-40B222B05CF8}
       IID 24
       NAME "PART REAL_GUITAR"
@@ -23599,7 +23599,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 49451.098405 344.644656 19 20 0 -1 12 0 0 0.5
+        CFGEDITVIEW 49346.017521 344.644656 32 20 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.03125 410 68 1799 1051 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
@@ -25776,7 +25776,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
