@@ -1,0 +1,120 @@
+(
+   'build'
+   (
+      'mogg'
+      (
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/fulldrum/fulldrum.wav"
+            37855276
+            -1455619470
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/bass.wav"
+            37855922
+            -1724309333
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/guitar.wav"
+            37855922
+            -1533974794
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/vocal.wav"
+            37855922
+            -1389586251
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/keys.wav"
+            37855922
+            -1239960396
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/backing.wav"
+            37855922
+            -1925402614
+         )
+      )
+      (
+         15489417
+         "110e26e712b2c3dfedaaf14b88fc04da3a35cf82"
+      )
+      (
+         "95E851E544D947ABD96359F0C3F8C0E51F517430"
+      )
+   )
+   (
+      'lips'
+      (
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reaperstemoutput/dry/14-vocals audio-consolidated.wav"
+            6867634
+            -720807521
+         )
+         (
+            ""
+            0
+            0
+         )
+         (
+            ""
+            0
+            0
+         )
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/sexbomb.mid"
+            156007
+            106144920
+         )
+      )
+      (
+         94294
+         "19b60c64ed46b4f7293a2675133200b2767f216c"
+      )
+      (
+         "05F5221EFD9FC00008A4FCC0851B9F8FE6CB76AD"
+      )
+   )
+   (
+      'midi'
+      (
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/sexbomb.mid"
+            156007
+            106144920
+         )
+      )
+      (
+         166941
+         "e00d850a3e698774cebe0699ed4e202c9a0a358d"
+      )
+      (
+         "98612F80F7BE5640E9CD8EE728C6C7DF6EAEA985"
+      )
+   )
+   (
+      'dta'
+      ()
+      (
+         2179
+         "281230ce01d9e8e8ddfed6a9fc4ec4fc4de98fce"
+      )
+      (
+         "BB757522360F67E461242430012B86CD84BA495E"
+      )
+   )
+   (
+      'art'
+      (
+         (
+            "d:/github/customcollabs/wip customs/sexbomb/magma/reload_x256.bmp"
+            262198
+            -349433093
+         )
+      )
+      (
+         262198
+         "550e549f422c392b89182622d2bb18932922e31f"
+      )
+      ()
+   )
+)

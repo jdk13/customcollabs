@@ -63,7 +63,7 @@
    )
    (
       'destination_file'
-      "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Magma\\five.rba"
+      "d:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Magma\\fiveteenminutes_rb3con.rba"
    )
    (
       'midi'
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Magma\\cover_x256.bmp"
+         "d:\\github\\customcollabs\\wip customs\\mike krol pack\\fifteen minutes\\magma\\cover_x256.bmp"
       )
    )
    (
@@ -119,10 +119,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -4.00 -4.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Stems\\fifteenminutes_bs6stem_mt_0_drums_[mvsep.com].wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\LoudStemsForTesting\\Drum9.wav"
          )
       )
       (
@@ -152,10 +152,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -7.00 -7.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Stems\\fifteenminutes_bs6stem_mt_0_bass_[mvsep.com].wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\LoudStemsForTesting\\Bass15.wav"
          )
       )
       (
@@ -163,10 +163,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -6.00 -6.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Stems\\fifteenminutes_bs6stem_mt_0_guitar_[mvsep.com].wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\LoudStemsForTesting\\Guitar10.wav"
          )
       )
       (
@@ -174,10 +174,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -5.00 -5.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Stems\\fifteenminutes_bs6stem_mt_0_vocals_[mvsep.com].wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\LoudStemsForTesting\\Vox10.wav"
          )
       )
       (
@@ -196,10 +196,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -2.80 -2.80)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\Stems\\fifteenminutes_bs6stem_mt_0_other_[mvsep.com].wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Mike Krol Pack\\Fifteen Minutes\\LoudStemsForTesting\\backing5.wav"
          )
       )
    )
