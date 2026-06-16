@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1781631846 0
+<REAPER_PROJECT 0.1 "7.66/win64" 1781631172 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -13,8 +13,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1 0
-  CURSOR 29.48521599999794
-  ZOOM 15.22092228092943 426 0
+  CURSOR 56.14654499999731
+  ZOOM 15.22092228092943 620 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -72,7 +72,7 @@
   MASTER_NCH 2 2
   MASTER_VOLUME 1.05925372517729 0 -1 -1 1
   MASTER_FX 1
-  MASTER_SEL 1
+  MASTER_SEL 0
   <MASTERFXLIST
     SHOW 0
     LASTSEL 0
@@ -394,7 +394,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -446,7 +446,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -550,7 +550,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -601,8 +601,8 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1.31013106676666 0 -1 -1 1
-    MUTESOLO 0 2 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -654,7 +654,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -27936,7 +27936,7 @@
         TEXTSTRINGFILE "Text Events List.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 286 60 0 1
-        CFGEDITVIEW 296022.358635 0.147921 4 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 43310.710179 0.147921 21 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 270
         CFGEDIT 1 1 0 1 2 1 1 1 1 1 1 0.125 -406 103 1008 1045 0 0 0 1 1 0 1 1 0 0.5 1 0 1 64
@@ -29507,7 +29507,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 2.45012649086439 0 -1 -1 1
+    VOLPAN 1.11000357037876 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -45356,88 +45356,11 @@
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 67 60 0 1
-        CFGEDITVIEW 39569.930143 0.196558 10 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 288363.023795 0.196558 6 16 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 239
         CFGEDIT 1 1 0 1 2 1 1 1 1 1 1 0.0625 -406 103 1008 1045 0 0 0 1 0.25 0 1 1 0 0.5 0 0 1 64
       >
-    >
-  >
-  <TRACK {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
-    NAME "PART KEYS"
-    PEAKCOL 16842496
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 28 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
-    PERF 0
-    MIDIOUT -1
-    <MIDINOTENAMES
-      0 60 "EASY Green" 0 60
-      0 61 "EASY Red" 0 61
-      0 62 "EASY Yellow" 0 62
-      0 63 "EASY Blue" 0 63
-      0 64 "EASY Orange" 0 64
-      0 71 ---- 0 71
-      0 72 "MEDIUM Green" 0 72
-      0 73 "MEDIUM Red" 0 73
-      0 74 "MEDIUM Yellow" 0 74
-      0 75 "MEDIUM Blue" 0 75
-      0 76 "MEDIUM Orange" 0 76
-      0 83 ---- 0 83
-      0 84 "HARD Green" 0 84
-      0 85 "HARD Red" 0 85
-      0 86 "HARD Yellow" 0 86
-      0 87 "HARD Blue" 0 87
-      0 88 "HARD Orange" 0 88
-      0 95 ---- 0 95
-      0 96 "EXPERT Green" 0 96
-      0 97 "EXPERT Red" 0 97
-      0 98 "EXPERT Yellow" 0 98
-      0 99 "EXPERT Blue" 0 99
-      0 100 "EXPERT Orange" 0 100
-      0 101 "Force HoPo on" 0 101
-      0 102 "Force HoPo off" 0 102
-      0 103 "Solo Marker" 0 103
-      0 115 ---- 0 115
-      0 116 OVERDRIVE 0 116
-      0 119 ---- 0 119
-      0 120 "BRE (use all 5)" 0 120
-      0 121 BRE 0 121
-      0 122 BRE 0 122
-      0 123 BRE 0 123
-      0 124 BRE 0 124
-      0 126 ---- 0 126
-      0 127 "Trill Marker" 0 127
-    >
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 0 40 878 585
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
-        dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
-        AwCqAA==
-        AFByb2dyYW0gMQAAAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {EE0C80EE-5E5F-4EA2-B367-78AAAB3793F5}
-      WAK 0 0
     >
     <ITEM
       POSITION 0
@@ -45512,20 +45435,97 @@
       >
     >
   >
+  <TRACK {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
+    NAME "PART KEYS"
+    PEAKCOL 16842496
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 28 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 60 "EASY Green" 0 60
+      0 61 "EASY Red" 0 61
+      0 62 "EASY Yellow" 0 62
+      0 63 "EASY Blue" 0 63
+      0 64 "EASY Orange" 0 64
+      0 71 ---- 0 71
+      0 72 "MEDIUM Green" 0 72
+      0 73 "MEDIUM Red" 0 73
+      0 74 "MEDIUM Yellow" 0 74
+      0 75 "MEDIUM Blue" 0 75
+      0 76 "MEDIUM Orange" 0 76
+      0 83 ---- 0 83
+      0 84 "HARD Green" 0 84
+      0 85 "HARD Red" 0 85
+      0 86 "HARD Yellow" 0 86
+      0 87 "HARD Blue" 0 87
+      0 88 "HARD Orange" 0 88
+      0 95 ---- 0 95
+      0 96 "EXPERT Green" 0 96
+      0 97 "EXPERT Red" 0 97
+      0 98 "EXPERT Yellow" 0 98
+      0 99 "EXPERT Blue" 0 99
+      0 100 "EXPERT Orange" 0 100
+      0 101 "Force HoPo on" 0 101
+      0 102 "Force HoPo off" 0 102
+      0 103 "Solo Marker" 0 103
+      0 115 ---- 0 115
+      0 116 OVERDRIVE 0 116
+      0 119 ---- 0 119
+      0 120 "BRE (use all 5)" 0 120
+      0 121 BRE 0 121
+      0 122 BRE 0 122
+      0 123 BRE 0 123
+      0 124 BRE 0 124
+      0 126 ---- 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 0 40 878 585
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+        dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
+        AwCqAA==
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {EE0C80EE-5E5F-4EA2-B367-78AAAB3793F5}
+      WAK 0 0
+    >
+  >
   <TRACK {D39F8BD7-8730-4182-94EC-51AF9F9ACC90}
     NAME "PART REAL_KEYS_X"
     PEAKCOL 25231232
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -45606,7 +45606,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {974100C2-06C4-4CB5-BD67-2F1BC71A1259}
       IID 15
       NAME "PART REAL_KEYS_X"
