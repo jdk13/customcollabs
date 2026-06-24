@@ -1,0 +1,11 @@
+(UGC_5007283
+ (upgrade_version 1)
+  (song_id 5007283)
+  (midi_file "songs_upgrades/UGC_5007283_plus.mid")
+  (rank
+    (real_guitar 200)
+    (real_bass 200)
+  )
+  (real_guitar_tuning (0 0 0 0 0 0))
+  (real_bass_tuning (0 0 0 0))
+)
