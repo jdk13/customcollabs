@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1783053096 0
+<REAPER_PROJECT 0.1 "7.66/win64" 1783053052 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -15,8 +15,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 164.34332
-  ZOOM 13.53099444141578 0 0
+  CURSOR 4.000792
+  ZOOM 13.17584074410721 0 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -82,7 +82,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 5.27969 -7.722503 -8.092149 -8.87384 -9.506815 -8.648167 2.9 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 5.27969 -7.213657 -8.037962 -7.555397 -7.583803 -8.463708 2.3 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -96,7 +96,7 @@
     WAK 0 0
     BYPASS 0 0 0
     <JS loser/masterLimiter Limiter
-      -3 200 100 0 250 -0.1 -3.806221 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -3 200 100 0 250 -0.1 -1.598892 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 0 0 0 0
     FXID {D10D006A-BB20-4770-A41E-B3C64D7DD379}
@@ -8115,7 +8115,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -8182,15 +8182,15 @@
     >
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 318 77 877 558
+      WNDRECT 318 77 548 496
       SHOW 0
-      LASTSEL 1
+      LASTSEL 0
       DOCKED 0
       BYPASS 1 0 0
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
         776t3g3wrd4AAAAAAAAAAAAAAAAAAAAAObRIPn3L2z61tLE5AAAAALbz/T5VpCs6AAAAAAAAAAAAAIA/AAAAAAAAgD8=
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {F1BEF72C-FAB3-40FB-A79A-CA326F0A9A34}
@@ -8199,7 +8199,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 24 52 666 511
       FXID {85422295-ACAE-4FF6-BF2A-13BB34AC702A}
@@ -14038,7 +14038,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -14087,7 +14087,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {4910412C-7BDB-4CD6-AEE5-F245584DB36A}
       IID 118
       NAME guitar.flac
@@ -19673,7 +19673,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {14DAFADF-64E7-40FA-8E65-65BBB77CBDB7}
       IID 13
       NAME HARM3
