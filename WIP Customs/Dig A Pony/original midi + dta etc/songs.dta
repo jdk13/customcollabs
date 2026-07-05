@@ -1,0 +1,126 @@
+(
+   'tbrb_digaponyv2'
+   (
+      'name'
+      "Dig A Pony"
+   )
+   (
+      'artist'
+      "The Beatles"
+   )
+   ('master' 1)
+   (
+      'song'
+      (
+         'name'
+         "songs/tbrb_digapony/tbrb_digapony"
+      )
+      (
+         'tracks_count'
+         (2 2 2 2 0 2)
+      )
+      (
+         'tracks'
+         (
+            (
+               'drum'
+               (0 1)
+            )
+            (
+               'bass'
+               (2 3)
+            )
+            (
+               'guitar'
+               (4 5)
+            )
+            (
+               'vocals'
+               (6 7)
+            )
+         )
+      )
+      (
+         'pans'
+         (-1.00 1.00 -1.00 1.00 -1.00 1.00 -1.00 1.00 -1.00 1.00)
+      )
+      (
+         'vols'
+         (-3.00 -3.00 -5.00 -5.00 -3.00 -3.00 -3.00 -3.00 -3.00 -3.00)
+      )
+      (
+         'cores'
+         (-1 -1 -1 -1 -1 -1 -1 -1 -1 -1)
+      )
+      ('vocal_parts' 2)
+      (
+         'drum_solo'
+         (
+            'seqs'
+            ('kick.cue' 'snare.cue' 'tom1.cue' 'tom2.cue' 'crash.cue')
+         )
+      )
+      (
+         'drum_freestyle'
+         (
+            'seqs'
+            ('kick.cue' 'snare.cue' 'hat.cue' 'ride.cue' 'crash.cue')
+         )
+      )
+      (mute_volume -96)
+      (mute_volume_vocals -12)
+      (hopo_threshold 170)
+   )
+   ('song_scroll_speed' 2300)
+   (
+      'bank'
+      "sfx/tambourine_bank.milo"
+   )
+   (drum_bank sfx/kit03_bank.milo)
+   ('anim_tempo' 32)
+   ('song_length' 230225)
+   ('preview' 7000 37000)
+   (
+      'rank'
+      ('drum' 124)
+      ('guitar' 333)
+      ('bass' 293)
+      ('vocals' 353)
+      ('keys' 0)
+      ('real_keys' 0)
+      ('band' 267)
+   )
+   ('genre' 'classicrock')
+   ('vocal_gender' 'male')
+   ('version' 30)
+   ('format' 10)
+   ('album_art' 1)
+   ('year_released' 1970)
+   ('rating' 2)
+   ('sub_genre' 'subgenre_classicrock')
+;;ORIG_ID=tbrb_digaponyv2
+   ('song_id' 1005700016)
+   ('tuning_offset_cents' 0)
+   ('guide_pitch_volume' -3.00)
+   ('game_origin' 'ugc_plus')
+   ('encoding' 'latin1')
+   (
+      'album_name'
+      "Let It Be"
+   )
+   ('album_track_number' 2)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
+;The following values will be read by the new Le Fluffie Visualizer, DO NOT EDIT MANUALLY
+;Song authored by Harmonix / TrojanNemo
+;Song=Dig A Pony
+;Language(s)=English,
+;Karaoke=0
+;Multitrack=1
+;Convert=1
+;2xBass=0
+;RhythmKeys=0
+;RhythmBass=0
+;RB3Version=0
+;ExpertOnly=0
+)
