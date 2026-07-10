@@ -49,7 +49,7 @@
       ('anim_tempo' 32)
       ('vocal_gender' 'male')
       ('vocal_percussion' 'tambourine')
-      ('vocal_parts' 1)
+      ('vocal_parts' 3)
       ('guide_pitch_volume' -3.00)
    )
    (
@@ -63,7 +63,7 @@
    )
    (
       'destination_file'
-      "D:\\GitHub\\customcollabs\\WIP Customs\\Head Like A Hole\\Magma\\head_rb3con.rba"
+      "d:\\GitHub\\customcollabs\\WIP Customs\\Head Like A Hole\\Magma\\head_rb3con.rba"
    )
    (
       'midi'
@@ -90,17 +90,17 @@
          'part1'
          (
             'file'
-            ""
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Head Like A Hole\\Magma\\Final Stems\\DryVox.wav"
          )
-         ('enabled' 0)
+         ('enabled' 1)
       )
       (
          'part2'
          (
             'file'
-            ""
+            "D:\\GitHub\\customcollabs\\WIP Customs\\Head Like A Hole\\Magma\\Final Stems\\DryVox.wav"
          )
-         ('enabled' 0)
+         ('enabled' 1)
       )
       ('tuning_offset_cents' 0.00)
    )
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "D:\\GitHub\\customcollabs\\WIP Customs\\Head Like A Hole\\Magma\\51OQfr5tJjL._UF894,1000_QL80__x256.bmp"
+         "d:\\github\\customcollabs\\wip customs\\head like a hole\\magma\\51OQfr5tJjL._UF894,1000_QL80__x256.bmp"
       )
    )
    (
