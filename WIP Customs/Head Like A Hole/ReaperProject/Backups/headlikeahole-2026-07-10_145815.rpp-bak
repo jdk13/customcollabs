@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1783713701 0
+<REAPER_PROJECT 0.1 "7.66/win64" 1783713495 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 1.043478
-  ZOOM 41.77002490954265 0 0
-  VZOOMEX 0 180
+  CURSOR 180.77607949999685
+  ZOOM 1202.8797559836548 218509 0
+  VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -82,7 +82,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 10.348692 -153.330922 -8.239978 -170.708137 -159.157414 -4.13477 9.2 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 8.226175 -100 -2.767554 -174.025374 -100 -5.771195 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -8553,7 +8553,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 238.95183999999193
+      LENGTH 327.49743999999987
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -12004,7 +12004,7 @@
         E 0 80 3c 00
         E 1 80 60 00
         E 0 80 54 00
-        E 15540 b0 7b 00
+        E 100020 b0 7b 00
         CCINTERP 32
         GUID {54A57D35-811F-42A6-AB75-F5706122F903}
         IGNTEMPO 0 120 4 4
@@ -13416,7 +13416,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 238.95183999999193
+      LENGTH 327.49743999999987
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -18501,7 +18501,7 @@
         E 0 80 49 00
         E 0 80 4b 00
         E 60 80 3d 00
-        E 15480 b0 7b 00
+        E 99960 b0 7b 00
         CCINTERP 32
         GUID {14D9E950-FB92-4048-8603-8FD02AE3B865}
         IGNTEMPO 0 120 4 4
@@ -18509,7 +18509,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 131 60 0 1
-        CFGEDITVIEW 181849.474695 26.079627 19 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 207490.770381 142.330355 19 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
         CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.03125 358 139 1772 954 0 0 1 2 0 0 1 0 0 0.5 1 0 1 64
@@ -18642,7 +18642,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 234.9270399999919
+      LENGTH 323.47263999999984
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -27926,7 +27926,7 @@
         E 0 80 31 00
         E 0 80 19 00
         E 60 80 36 00
-        E 11640 b0 7b 00
+        E 99960 b0 7b 00
         CCINTERP 32
         GUID {74CB7802-C843-4562-B4F1-C7701C79AAA4}
         IGNTEMPO 0 115.00002875 4 4
@@ -28025,7 +28025,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28129,7 +28129,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {50BC19DB-4CED-458D-BE86-25D52E108F3A}
       IID 108
       NAME "PART VOCALS"
@@ -30163,7 +30163,7 @@
         E 0 90 32 64
         E 240 80 69 00
         E 0 80 32 00
-        E 120 90 69 60
+        e 120 90 69 60
         <X 30 0 0 0 5 Well#
           /wVXZWxsIw==
         >
@@ -30189,7 +30189,7 @@
         >
         E 0 90 32 64
         E 600 80 32 00
-        E 30 80 69 00
+        e 30 80 69 00
         E 525 90 69 69
         <X 45 0 0 0 5 Bow
           /wVCb3c=
@@ -30499,7 +30499,7 @@
         SRCCOLOR 127
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 181849.474695 25.626763 0 8 0 -1 12 0 0 0.5
+        CFGEDITVIEW 171966.03685 737.991279 0 8 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
@@ -30511,7 +30511,7 @@
     PEAKCOL 31283746
     BEAT 0
     AUTOMODE 0
-    VOLPAN 1.77138872423951 0 -1 -1 1
+    VOLPAN 0.57403385915171 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -30652,8 +30652,8 @@
     PEAKCOL 31283746
     BEAT 1
     AUTOMODE 0
-    VOLPAN 1.95402239099896 0 -1 -1 1
-    MUTESOLO 0 2 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -33065,7 +33065,7 @@
     PEAKCOL 16576
     BEAT 0
     AUTOMODE 0
-    VOLPAN 1.54096138720483 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -33210,7 +33210,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 238.95183999999193
+      LENGTH 327.49743999999987
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -34207,7 +34207,7 @@
         E 0 90 38 64
         E 180 80 38 00
         E 299 80 69 00
-        E 15120 b0 7b 00
+        E 99600 b0 7b 00
         CCINTERP 32
         GUID {E53B89F8-ECC8-4A25-86E2-BC4D240C9444}
         IGNTEMPO 0 120 4 4
@@ -34396,7 +34396,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 238.95183999999193
+      LENGTH 327.49743999999987
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -35336,7 +35336,7 @@
         E 0 90 3b 64
         E 180 80 3b 00
         E 299 80 69 00
-        E 15120 b0 7b 00
+        E 99600 b0 7b 00
         CCINTERP 32
         GUID {F1082209-E2A8-4526-8AA6-2FE8F2DEB335}
         IGNTEMPO 0 120 4 4
@@ -35412,6 +35412,992 @@
       >
       <EXT
         ORIGINAL_FILENAME "D:\GitHub\customcollabs\WIP Customs\Head Like A Hole\NEW STEM WORKS\finished\vox right.flac"
+      >
+    >
+  >
+  <TRACK {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
+    NAME "PART KEYS"
+    PEAKCOL 16819711
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    SPACER 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbkeys.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_guitarbass.png"
+    FX 1
+    TRACKID {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 60 "EASY Green" 0 60
+      0 61 "EASY Red" 0 61
+      0 62 "EASY Yellow" 0 62
+      0 63 "EASY Blue" 0 63
+      0 64 "EASY Orange" 0 64
+      0 71 ---- 0 71
+      0 72 "MEDIUM Green" 0 72
+      0 73 "MEDIUM Red" 0 73
+      0 74 "MEDIUM Yellow" 0 74
+      0 75 "MEDIUM Blue" 0 75
+      0 76 "MEDIUM Orange" 0 76
+      0 83 ---- 0 83
+      0 84 "HARD Green" 0 84
+      0 85 "HARD Red" 0 85
+      0 86 "HARD Yellow" 0 86
+      0 87 "HARD Blue" 0 87
+      0 88 "HARD Orange" 0 88
+      0 95 ---- 0 95
+      0 96 "EXPERT Green" 0 96
+      0 97 "EXPERT Red" 0 97
+      0 98 "EXPERT Yellow" 0 98
+      0 99 "EXPERT Blue" 0 99
+      0 100 "EXPERT Orange" 0 100
+      0 101 "Force HoPo on" 0 101
+      0 102 "Force HoPo off" 0 102
+      0 103 "Solo Marker" 0 103
+      0 115 ---- 0 115
+      0 116 OVERDRIVE 0 116
+      0 119 ---- 0 119
+      0 120 "BRE (use all 5)" 0 120
+      0 121 BRE 0 121
+      0 122 BRE 0 122
+      0 123 BRE 0 123
+      0 124 BRE 0 124
+      0 126 ---- 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 194 137 877 558
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 1 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd4AAAAAAAAAAAAAAAAAAAAAObRIPn3L2z61tLE5AAAAALbz/T5VpCs6AAAAAAAAAAAAAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {9719FFDA-348A-4369-B3CC-DFC4BA881B3B}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+        dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
+        AwOqAA==
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 24 52 666 511
+      FXID {39A31953-F22F-4181-BCCE-64F72C56F9FD}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16819711 R
+      SEL 0
+      IGUID {52D9F6AC-16AD-4CE9-95E4-6AD6396BB4E2}
+      IID 14
+      NAME "PART KEYS"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {78E1CCBD-C30B-4DD8-81CD-2AEB0D2D38C8}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {0DF12AA1-5531-472A-A8A9-0172401E9263}
+        <X 0 0 0 0 3 "PART KEYS"
+          /wNQQVJUIEtFWVM=
+        >
+        Em 0 90 60 7f
+        Em 0 90 62 7f
+        Em 0 90 61 7f
+        Em 0 90 63 7f
+        Em 0 90 64 7f
+        Em 60 80 60 00
+        Em 0 80 62 00
+        Em 0 80 61 00
+        Em 0 80 63 00
+        Em 0 80 64 00
+        E 310980 b0 7b 00
+        CCINTERP 32
+        GUID {F537F270-CEBA-461E-8612-DC28913708FC}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 7
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Keys.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 207606.927396 152.974786 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {39CCB3CC-5EE9-440D-8B47-82EA0A052625}
+    NAME "KEYS AUDIO"
+    PEAKCOL 16819711
+    BEAT 0
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {39CCB3CC-5EE9-440D-8B47-82EA0A052625}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 60 "EASY Green" 0 60
+      0 61 "EASY Red" 0 61
+      0 62 "EASY Yellow" 0 62
+      0 63 "EASY Blue" 0 63
+      0 64 "EASY Orange" 0 64
+      0 71 ---- 0 71
+      0 72 "MEDIUM Green" 0 72
+      0 73 "MEDIUM Red" 0 73
+      0 74 "MEDIUM Yellow" 0 74
+      0 75 "MEDIUM Blue" 0 75
+      0 76 "MEDIUM Orange" 0 76
+      0 83 ---- 0 83
+      0 84 "HARD Green" 0 84
+      0 85 "HARD Red" 0 85
+      0 86 "HARD Yellow" 0 86
+      0 87 "HARD Blue" 0 87
+      0 88 "HARD Orange" 0 88
+      0 95 ---- 0 95
+      0 96 "EXPERT Green" 0 96
+      0 97 "EXPERT Red" 0 97
+      0 98 "EXPERT Yellow" 0 98
+      0 99 "EXPERT Blue" 0 99
+      0 100 "EXPERT Orange" 0 100
+      0 101 "Force HoPo on" 0 101
+      0 102 "Force HoPo off" 0 102
+      0 103 "Solo Marker" 0 103
+      0 115 ---- 0 115
+      0 116 OVERDRIVE 0 116
+      0 119 ---- 0 119
+      0 120 "BRE (use all 5)" 0 120
+      0 121 BRE 0 121
+      0 122 BRE 0 122
+      0 123 BRE 0 123
+      0 124 BRE 0 124
+      0 126 ---- 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 0 40 708 222
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 1 0
+      <VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "" 1919252579<5653547265786372656178636F6D7000> ""
+        Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAEAAAEAAAAAAAAAOAAAAAQAAAAAAAAAAIBWQBn7amjF2fQ/P6AMkzyikj8AAAAA
+        AAAAQAAAAAAAACRALAEAAIUDAAAFAAAAAAAAAAAAAAAAKIFAGftqaMXZ9D9XC5BE3yKZPwAAAAAAAABAAAAAAAAAJEC8AgAAyAAAAAUAAAAAAAAAAAAAAABpt0AZ+2po
+        xdn0P6C8vSJokaA/AAAAAAAAAEAAAAAAAAAkQGQAAAAsAQAABQAAAAAAAAAAAAAAAHDXQBn7amjF2fQ/Dg5GfTlHlj8AAAAAAAAAQAAAAAAAAAAAMgAAAE8AAAAFAAAA
+        AAAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAABAAAAAgAAAABQcm9ncmFtIDEAAAAAAA==
+      >
+      FLOATPOS 0 0 0 0
+      FXID {23F34069-244E-40D5-AE62-2EA6F90DD84D}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS LOSER/MGA_JSLimiter ""
+        -5 200 -0.5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BE310913-3F94-4522-AF62-EDBFF8515DA2}
+      WAK 0 0
+    >
+  >
+  <TRACK {D39F8BD7-8730-4182-94EC-51AF9F9ACC90}
+    NAME "PART REAL_KEYS_X"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 1 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeysx.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {D39F8BD7-8730-4182-94EC-51AF9F9ACC90}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 0 "C2-E3 Range" 0 0
+      0 2 "D2-F3 Range" 0 2
+      0 4 "E2-G3 Range" 0 4
+      0 5 "F2-A3 Range" 0 5
+      0 7 "G2-B3 Range" 0 7
+      0 9 "A2-C4 Range" 0 9
+      0 47 ---- 0 47
+      0 48 "C2 (Lowest Note)" 0 48
+      0 49 C#2 0 49
+      0 50 D2 0 50
+      0 51 Eb2 0 51
+      0 52 E2 0 52
+      0 53 F2 0 53
+      0 54 F#2 0 54
+      0 55 G2 0 55
+      0 56 G#2 0 56
+      0 57 A2 0 57
+      0 58 Bb2 0 58
+      0 59 B2 0 59
+      0 60 C3 0 60
+      0 61 C#3 0 61
+      0 62 D3 0 62
+      0 63 Eb3 0 63
+      0 64 E3 0 64
+      0 65 F3 0 65
+      0 66 F#3 0 66
+      0 67 G3 0 67
+      0 68 G#3 0 68
+      0 69 A3 0 69
+      0 70 Bb3 0 70
+      0 71 B3 0 71
+      0 72 "C4 (Highest Note)" 0 72
+      0 114 ---- 0 114
+      0 115 "Solo Marker" 0 115
+      0 116 "Overdrive Marker" 0 116
+      0 125 ---- 0 125
+      0 126 "Glissando Marker" 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 0 40 655 493
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 679 490 505 159
+      FXID {398BA7F1-EF2F-4A23-B715-B717B2DE0665}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A18141D1-3B55-42BD-8A83-EFD8AB8852DC}
+      WAK 0 0
+    >
+    <FXCHAIN_REC
+      WNDRECT 811 460 716 462
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS "IX/MIDI_Tool II" ""
+        0 48 72 0 127 0 100 0 0 127 0 0 1 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {B74ADF8C-20BB-49A8-83EB-733E55649590}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {974100C2-06C4-4CB5-BD67-2F1BC71A1259}
+      IID 15
+      NAME "PART REAL_KEYS_X"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {08703F3F-9741-46EB-9ED4-B09B2390F876}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {5170C8E9-6B61-4CE9-A600-1E9C20FAF97D}
+        <X 0 0 0 0 3 "PART REAL_KEYS_X"
+          /wNQQVJUIFJFQUxfS0VZU19Y
+        >
+        E 0 90 00 01
+        E 240 80 00 00
+        E 310800 b0 7b 00
+        CCINTERP 32
+        GUID {0E0CBFB7-4AC8-4E67-A764-85891754BB41}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 8
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {117931B6-9EA5-432A-AEED-ACF4C8876354}
+    NAME "PART REAL_KEYS_H"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeysh.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {117931B6-9EA5-432A-AEED-ACF4C8876354}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 0 "C2-E3 Range" 0 0
+      0 2 "D2-F3 Range" 0 2
+      0 4 "E2-G3 Range" 0 4
+      0 5 "F2-A3 Range" 0 5
+      0 7 "G2-B3 Range" 0 7
+      0 9 "A2-C4 Range" 0 9
+      0 47 ---- 0 47
+      0 48 "C2 (Lowest Note)" 0 48
+      0 49 C#2 0 49
+      0 50 D2 0 50
+      0 51 Eb2 0 51
+      0 52 E2 0 52
+      0 53 F2 0 53
+      0 54 F#2 0 54
+      0 55 G2 0 55
+      0 56 G#2 0 56
+      0 57 A2 0 57
+      0 58 Bb2 0 58
+      0 59 B2 0 59
+      0 60 C3 0 60
+      0 61 C#3 0 61
+      0 62 D3 0 62
+      0 63 Eb3 0 63
+      0 64 E3 0 64
+      0 65 F3 0 65
+      0 66 F#3 0 66
+      0 67 G3 0 67
+      0 68 G#3 0 68
+      0 69 A3 0 69
+      0 70 Bb3 0 70
+      0 71 B3 0 71
+      0 72 "C4 (Highest Note)" 0 72
+      0 114 ---- 0 114
+      0 115 "Solo Marker" 0 115
+      0 116 "Overdrive Marker" 0 116
+      0 125 ---- 0 125
+      0 126 "Glissando Marker" 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {06E4EB7E-4701-4F2E-8170-B8F7A25E557F}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {B2304060-072C-499B-A054-92486C2FE1C4}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {DA514BF3-AF34-46C0-BD23-58406C871A44}
+      IID 16
+      NAME "PART REAL_KEYS_H"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {8E0AC36B-D538-4BB8-A507-FFF40527D1BA}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {363AB824-119E-488B-8EBD-9930A43C8270}
+        <X 0 0 0 0 3 "PART REAL_KEYS_H"
+          /wNQQVJUIFJFQUxfS0VZU19I
+        >
+        E 0 90 00 01
+        E 240 80 00 00
+        E 310800 b0 7b 00
+        CCINTERP 32
+        GUID {53F487B1-1F2F-4D54-9DAE-BC2E7B032E3B}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 9
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {3B6F726E-1CAB-4A00-9B01-2E1CC375B13E}
+    NAME "PART REAL_KEYS_M"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeysm.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {3B6F726E-1CAB-4A00-9B01-2E1CC375B13E}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 0 "C2-E3 Range" 0 0
+      0 2 "D2-F3 Range" 0 2
+      0 4 "E2-G3 Range" 0 4
+      0 5 "F2-A3 Range" 0 5
+      0 7 "G2-B3 Range" 0 7
+      0 9 "A2-C4 Range" 0 9
+      0 47 ---- 0 47
+      0 48 "C2 (Lowest Note)" 0 48
+      0 49 C#2 0 49
+      0 50 D2 0 50
+      0 51 Eb2 0 51
+      0 52 E2 0 52
+      0 53 F2 0 53
+      0 54 F#2 0 54
+      0 55 G2 0 55
+      0 56 G#2 0 56
+      0 57 A2 0 57
+      0 58 Bb2 0 58
+      0 59 B2 0 59
+      0 60 C3 0 60
+      0 61 C#3 0 61
+      0 62 D3 0 62
+      0 63 Eb3 0 63
+      0 64 E3 0 64
+      0 65 F3 0 65
+      0 66 F#3 0 66
+      0 67 G3 0 67
+      0 68 G#3 0 68
+      0 69 A3 0 69
+      0 70 Bb3 0 70
+      0 71 B3 0 71
+      0 72 "C4 (Highest Note)" 0 72
+      0 114 ---- 0 114
+      0 115 "Solo Marker" 0 115
+      0 116 "Overdrive Marker" 0 116
+      0 125 ---- 0 125
+      0 126 "Glissando Marker" 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 556 508
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {AC2ED370-3D35-450D-B4A5-C16DBA4A0414}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {8729D231-1292-49A2-B902-457B5B822EFA}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {6F5DF5D5-958D-4566-AA6E-AFD27D997F3F}
+      IID 17
+      NAME "PART REAL_KEYS_M"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {14BC6779-E32B-455D-A61C-C2E68D8FE08C}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {0E0FE458-10D9-4B20-8B03-74318DC18BD5}
+        <X 0 0 0 0 3 "PART REAL_KEYS_M"
+          /wNQQVJUIFJFQUxfS0VZU19N
+        >
+        E 0 90 00 01
+        E 240 80 00 00
+        E 310800 b0 7b 00
+        CCINTERP 32
+        GUID {806139BE-556B-4882-A297-06705078FD7A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 10
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {49B8D0E0-0069-415C-8FC3-AC29B0E2C3CF}
+    NAME "PART REAL_KEYS_E"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeyse.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {49B8D0E0-0069-415C-8FC3-AC29B0E2C3CF}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      0 0 "C2-E3 Range" 0 0
+      0 2 "D2-F3 Range" 0 2
+      0 4 "E2-G3 Range" 0 4
+      0 5 "F2-A3 Range" 0 5
+      0 7 "G2-B3 Range" 0 7
+      0 9 "A2-C4 Range" 0 9
+      0 47 ---- 0 47
+      0 48 "C2 (Lowest Note)" 0 48
+      0 49 C#2 0 49
+      0 50 D2 0 50
+      0 51 Eb2 0 51
+      0 52 E2 0 52
+      0 53 F2 0 53
+      0 54 F#2 0 54
+      0 55 G2 0 55
+      0 56 G#2 0 56
+      0 57 A2 0 57
+      0 58 Bb2 0 58
+      0 59 B2 0 59
+      0 60 C3 0 60
+      0 61 C#3 0 61
+      0 62 D3 0 62
+      0 63 Eb3 0 63
+      0 64 E3 0 64
+      0 65 F3 0 65
+      0 66 F#3 0 66
+      0 67 G3 0 67
+      0 68 G#3 0 68
+      0 69 A3 0 69
+      0 70 Bb3 0 70
+      0 71 B3 0 71
+      0 72 "C4 (Highest Note)" 0 72
+      0 114 ---- 0 114
+      0 115 "Solo Marker" 0 115
+      0 116 "Overdrive Marker" 0 116
+      0 125 ---- 0 125
+      0 126 "Glissando Marker" 0 126
+      0 127 "Trill Marker" 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {7B534FB7-E8FE-4879-8308-327A0D91D1D1}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {EDD8CFD7-56FB-4B5B-969D-DA4D29216F1F}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {656317AD-B690-4307-9096-C4F4536C131B}
+      IID 18
+      NAME "PART REAL_KEYS_E"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {43BDFFBF-75D6-4727-BD3F-08B25C56980C}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {E21E9F6E-88FE-4CBE-847E-7153A734B5EE}
+        <X 0 0 0 0 3 "PART REAL_KEYS_E"
+          /wNQQVJUIFJFQUxfS0VZU19F
+        >
+        E 0 90 00 01
+        E 240 80 00 00
+        E 310800 b0 7b 00
+        CCINTERP 32
+        GUID {F9363449-15E8-4EF0-8BC0-ABEB4CDC1D98}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 11
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {F014911F-41F0-491C-9A25-C3D2A462D8D7}
+    NAME "PART KEYS_ANIM_LH"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeyslh.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {F014911F-41F0-491C-9A25-C3D2A462D8D7}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 47 ---- 0 47
+      -1 48 "C1 (Lowest Note)" 0 48
+      -1 49 C#1 0 49
+      -1 50 D1 0 50
+      -1 51 Eb1 0 51
+      -1 52 E1 0 52
+      -1 53 F1 0 53
+      -1 54 F#1 0 54
+      -1 55 G1 0 55
+      -1 56 G#1 0 56
+      -1 57 A1 0 57
+      -1 58 Bb1 0 58
+      -1 59 B1 0 59
+      -1 60 C2 0 60
+      -1 61 C#2 0 61
+      -1 62 D2 0 62
+      -1 63 Eb2 0 63
+      -1 64 E2 0 64
+      -1 65 F2 0 65
+      -1 66 F#2 0 66
+      -1 67 G2 0 67
+      -1 68 G#2 0 68
+      -1 69 A2 0 69
+      -1 70 Bb2 0 70
+      -1 71 B2 0 71
+      -1 72 "C3 (Highest Note)" 0 72
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {53EA1DD2-7407-479B-BF43-C2D00EF30383}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {52FF2E9A-3C9F-41AC-92E8-90E361241DB3}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {F0F97A68-91AD-4B41-8D32-822B6159FDBC}
+      IID 20
+      NAME "PART KEYS_ANIM_LH"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {214023C3-6BA4-450F-A73F-59780553B94C}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {4E4AC886-544A-4618-B26D-EBDF9E7BC0F3}
+        <X 0 0 0 0 3 "PART KEYS_ANIM_LH"
+          /wNQQVJUIEtFWVNfQU5JTV9MSA==
+        >
+        E 311040 b0 7b 00
+        CCINTERP 32
+        GUID {9527D45A-14D5-4C89-A39E-3528B0F29941}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 13
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {80604035-2BD9-43BB-A255-4E5F9E756779}
+    NAME "PART KEYS_ANIM_RH"
+    PEAKCOL 18252990
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbprokeysrh.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
+    FX 1
+    TRACKID {80604035-2BD9-43BB-A255-4E5F9E756779}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 47 ---- 0 47
+      -1 48 "C2 (Lowest Note)" 0 48
+      -1 49 C#2 0 49
+      -1 50 D2 0 50
+      -1 51 Eb2 0 51
+      -1 52 E2 0 52
+      -1 53 F2 0 53
+      -1 54 F#2 0 54
+      -1 55 G2 0 55
+      -1 56 G#2 0 56
+      -1 57 A2 0 57
+      -1 58 Bb2 0 58
+      -1 59 B2 0 59
+      -1 60 C3 0 60
+      -1 61 C#3 0 61
+      -1 62 D3 0 62
+      -1 63 Eb3 0 63
+      -1 64 E3 0 64
+      -1 65 F3 0 65
+      -1 66 F#3 0 66
+      -1 67 G3 0 67
+      -1 68 G#3 0 68
+      -1 69 A3 0 69
+      -1 70 Bb3 0 70
+      -1 71 B3 0 71
+      -1 72 "C4 (Highest Note)" 0 72
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS midi/midi_note_filter ""
+        48 72 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {31AE48FA-655C-4BB0-96DE-1850442FF2D5}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
+        776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAAAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {2AE72F9C-D0A9-438F-AE00-800091D0D9D8}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 327.49743999999987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 18252990 R
+      SEL 0
+      IGUID {6A43A4E9-6390-4FBA-9F07-B2C821A1720C}
+      IID 19
+      NAME "PART KEYS_ANIM_RH"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {FA5AE238-E1D7-41F5-A663-4C49E4376041}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {8159607F-BF52-4196-BA37-0662CCB0E674}
+        <X 0 0 0 0 3 "PART KEYS_ANIM_RH"
+          /wNQQVJUIEtFWVNfQU5JTV9SSA==
+        >
+        E 311040 b0 7b 00
+        CCINTERP 32
+        GUID {268DE88D-9169-44F5-97A1-ABDA1E2CF031}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 12
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Keys Trainers.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 60 0 1
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -35512,7 +36498,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -35550,7 +36536,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {71027329-E0AB-447D-A192-4839733334E7}
       IID 22
       NAME VENUE
@@ -35574,7 +36560,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\VENUE.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 0 25.626763 0 22 0 -1 12 0 0 0.5
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64

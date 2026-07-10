@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1783713701 0
+<REAPER_PROJECT 0.1 "7.66/win64" 1783713650 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 1.043478
-  ZOOM 41.77002490954265 0 0
-  VZOOMEX 0 180
+  CURSOR 158.25878799999688
+  ZOOM 4.49981532983364 0 0
+  VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -82,7 +82,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 10.348692 -153.330922 -8.239978 -170.708137 -159.157414 -4.13477 9.2 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 6.769104 -5.546356 -8.249128 -4.981609 -7.276128 -7.400925 4.5 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -96,7 +96,7 @@
     WAK 0 0
     BYPASS 0 0 0
     <JS loser/masterLimiter Limiter
-      -3 200 100 0 250 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -3 200 100 0 250 -0.1 -4.480652 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 0 0 0 0
     FXID {D10D006A-BB20-4770-A41E-B3C64D7DD379}
@@ -8560,7 +8560,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 18882783 R
-      SEL 0
+      SEL 1
       IGUID {A1B24BBF-93B7-476C-BC6D-33F5621C633F}
       IID 8
       NAME "PART BASS"
@@ -13423,7 +13423,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 16826303 R
-      SEL 0
+      SEL 1
       IGUID {81210F06-DA35-41E7-BA75-C6E1C5689733}
       IID 9
       NAME "PART GUITAR"
@@ -18509,7 +18509,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 131 60 0 1
-        CFGEDITVIEW 181849.474695 26.079627 19 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 207490.770381 142.330355 19 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
         CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.03125 358 139 1772 954 0 0 1 2 0 0 1 0 0 0.5 1 0 1 64
@@ -18648,7 +18648,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {4C65FA0B-99D2-4AF5-95EE-8A494860DCF4}
       IID 112
       NAME "PART REAL_GUITAR"
@@ -30163,7 +30163,7 @@
         E 0 90 32 64
         E 240 80 69 00
         E 0 80 32 00
-        E 120 90 69 60
+        e 120 90 69 60
         <X 30 0 0 0 5 Well#
           /wVXZWxsIw==
         >
@@ -30189,7 +30189,7 @@
         >
         E 0 90 32 64
         E 600 80 32 00
-        E 30 80 69 00
+        e 30 80 69 00
         E 525 90 69 69
         <X 45 0 0 0 5 Bow
           /wVCb3c=
@@ -30499,7 +30499,7 @@
         SRCCOLOR 127
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 181849.474695 25.626763 0 8 0 -1 12 0 0 0.5
+        CFGEDITVIEW 171966.03685 737.991279 0 8 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
@@ -33217,7 +33217,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {85B4D2FA-0EE6-4979-8286-EAC89A15680D}
       IID 12
       NAME HARM2
@@ -34403,7 +34403,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {14DAFADF-64E7-40FA-8E65-65BBB77CBDB7}
       IID 13
       NAME HARM3
@@ -35512,7 +35512,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -35550,7 +35550,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {71027329-E0AB-447D-A192-4839733334E7}
       IID 22
       NAME VENUE
@@ -35574,7 +35574,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\VENUE.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 0 25.626763 0 22 0 -1 12 0 0 0.5
+        CFGEDITVIEW 193546.524197 32.562204 5 22 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 358 139 1772 954 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
