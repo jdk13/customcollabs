@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1787353847
+<REAPER_PROJECT 0.1 "7.29/win64" 1765498362
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
@@ -12,9 +12,9 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 4.5
-  ZOOM 43.98691950043515 0 0
-  VZOOMEX 1.875 234
+  CURSOR 146.25
+  ZOOM 19.1763562296838 2061 0
+  VZOOMEX 1.875 156
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -58,7 +58,7 @@
   >
   GLOBAL_AUTO -1
   TEMPO 120 4 4
-  PLAYRATE 1 1 0.25 4
+  PLAYRATE 0.5 1 0.25 4
   SELECTION 0 315.00000000000068
   SELECTION2 0 315.00000000000068
   MASTERAUTOMODE 0
@@ -101,7 +101,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1.05316005474485 0 -1 -1 1
+    VOLPAN 0.20369801508874 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -142,7 +142,7 @@
       CHANMODE 0
       GUID {4FBCC62C-6F6F-4198-858E-5D5FA4C0F55B}
       <SOURCE FLAC
-        FILE "D:\customcollabs\WIP Customs\Pink + White\UVSEP\03.Pink-White.flac"
+        FILE "03.Pink-White.flac"
       >
     >
   >
@@ -152,7 +152,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.6851311761969 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -175,7 +175,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -264,7 +264,7 @@
     >
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 102 256 881 558
+      WNDRECT 413 273 881 558
       SHOW 0
       LASTSEL 1
       DOCKED 0
@@ -297,7 +297,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 19150555 R
-      SEL 1
+      SEL 0
       IGUID {9FF11F36-E94F-4396-9C0E-8449C916EC21}
       IID 1
       NAME "PART DRUMS"
@@ -1831,7 +1831,7 @@
         SRCCOLOR 0
         VELLANE 132 69 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 0 24.6431 13 16 0 -1 0 0 0 0.5
+        CFGEDITVIEW 66822.451812 142.964687 7 16 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL -269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -1845,7 +1845,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.7659505567115 0 -1 -1 1
+    VOLPAN 0.08900335832088 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1883,7 +1883,7 @@
       CHANMODE 0
       GUID {8E6BBD7D-565F-4260-988C-E7619C642A00}
       <SOURCE MP3
-        FILE "D:\customcollabs\WIP Customs\Pink + White\UVSEP\03-pink-white._bs6stem_mt_0_drums.mp3" 1
+        FILE "03-pink-white._bs6stem_mt_0_drums.mp3" 1
       >
     >
   >
@@ -1893,7 +1893,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -2022,20 +2022,18 @@
         <X 960 0 0 0 1 [idle_realtime]
           /wFbaWRsZV9yZWFsdGltZV0=
         >
-        E 1920 90 60 60
-        E 120 80 60 00
-        E 117960 b0 7b 00
+        E 120000 b0 7b 00
         CCINTERP 32
         GUID {54A57D35-811F-42A6-AB75-F5706122F903}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 1
         VELLANE 132 54 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 346.270728 188.240721 5 14 0 -1 0 0 0 0.5
+        CFGEDITVIEW -960.488055 181.90752 0 12 0 0 0 0 0 0.5
         KEYSNAP 0
-        TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 0 0 916 514 0 0 1 1 0 0 1 1 0 0.5 1 0 1 64
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 0 0 916 514 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -2045,7 +2043,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1.16340968999221 0 -1 -1 1
+    VOLPAN 0.70462939198009 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -2193,7 +2191,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwCqAA==
-        AFByb2dyYW0gMQAAAAAA
+        AAAAAAAA
       >
       FLOATPOS 32 32 659 497
       FXID {CA904F7A-DEBA-40E1-ACA1-72710DC91B44}
@@ -3098,12 +3096,10 @@
         E 120 80 60 00
         E 40 90 19 6b
         E 0 90 61 6b
-        E 0 90 62 6b
         E 0 90 31 6b
         E 120 80 19 00
         E 600 80 31 00
         E 480 80 61 00
-        E 0 80 62 00
         E 240 90 1b 72
         E 0 90 67 64
         E 0 90 6c 72
@@ -3637,11 +3633,11 @@
         SRCCOLOR 1
         VELLANE 132 54 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 51484.27881 28.025434 5 14 0 -1 0 0 0 0.5
+        CFGEDITVIEW 0 5.090322 47 14 0 -1 0 0 0 0.5
         KEYSNAP 0
-        TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 568 149 1484 663 0 0 1 1 0 0 1 1 0 0.5 1 0 1 64
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 156 70 1688 989 0 0 1 1 0 0 1 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -3651,7 +3647,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1.91622308369501 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -3787,11 +3783,11 @@
         SRCCOLOR 2
         VELLANE 132 54 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 346.270728 94.12036 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 68784.704675 21.524481 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL -269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 0 0 916 514 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 0 0 916 514 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -3802,7 +3798,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 0.58746333409396 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -3839,7 +3835,7 @@
       CHANMODE 0
       GUID {DD31B892-AA49-400A-A021-D89B9214A3A5}
       <SOURCE MP3
-        FILE "D:\customcollabs\WIP Customs\Pink + White\UVSEP\03-pink-white._bs6stem_mt_0_guitar.mp3" 1
+        FILE "03-pink-white._bs6stem_mt_0_guitar.mp3" 1
       >
     >
   >
@@ -3855,7 +3851,7 @@
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -3949,7 +3945,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwCqAA==
-        AFByb2dyYW0gMQAAAAAA
+        AAAAAAAA
       >
       FLOATPOS 32 32 659 497
       FXID {169DF04D-9555-4716-B3EC-6F576C70900B}
@@ -3965,7 +3961,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd6mm8Q76AkyPIcWWT8AAAAAAAAAAMybgD7iMAQ8AAAAAAAAAD+01hM+j8L1PQAAAD8AAIA/AAAAAAAAgD8=
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {A43C1C80-954A-4460-BD28-2CBE8FC7C85A}
@@ -3980,7 +3976,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D597B4AB-24CE-4E53-8B8C-738CE1C0B2C1}
       IID 3
       NAME "PART GUITAR"
@@ -4202,15 +4198,7 @@
         E 0 80 64 00
         E 0 80 63 00
         E 0 80 62 00
-        E 0 93 65 68
-        E 0 93 64 69
-        E 0 93 63 6a
-        E 0 93 62 6b
-        E 120 83 65 00
-        E 0 83 64 00
-        E 0 83 63 00
-        E 0 83 62 00
-        E 120 90 65 6b
+        E 240 90 65 6b
         E 0 90 64 6c
         E 0 90 63 6d
         E 0 90 62 6e
@@ -4310,15 +4298,7 @@
         E 0 80 64 00
         E 0 80 63 00
         E 0 80 62 00
-        E 120 93 65 69
-        E 0 93 64 6b
-        E 0 93 63 6b
-        E 0 93 62 6b
-        E 120 83 65 00
-        E 0 83 64 00
-        E 0 83 63 00
-        E 0 83 62 00
-        E 0 90 65 69
+        E 240 90 65 69
         E 0 90 64 6b
         E 0 90 63 6b
         E 0 90 62 6b
@@ -4326,25 +4306,17 @@
         E 0 80 64 00
         E 0 80 63 00
         E 0 80 62 00
-        E 0 93 65 69
-        E 0 93 64 6b
-        E 0 93 63 6b
-        E 0 93 62 6b
-        E 120 83 65 00
-        E 0 83 64 00
-        E 0 83 63 00
-        E 0 83 62 00
-        E 120 90 65 68
+        E 240 90 65 68
         E 0 90 64 69
         E 0 90 63 6a
         E 0 90 62 6b
         E 0 90 09 64
-        E 120 80 09 00
         E 120 80 65 00
         E 0 80 64 00
         E 0 80 63 00
         E 0 80 62 00
-        E 120 90 65 68
+        E 0 80 09 00
+        E 240 90 65 68
         E 0 90 64 69
         E 0 90 63 6a
         E 0 90 62 6b
@@ -4405,12 +4377,10 @@
         E 0 90 63 6d
         E 0 90 62 6e
         E 0 90 68 64
-        E 600 80 64 00
+        E 840 80 64 00
         E 0 80 65 00
         E 0 80 63 00
         E 0 80 62 00
-        E 120 90 65 6c
-        E 120 80 65 00
         E 120 90 65 6c
         E 120 80 65 00
         E 120 90 63 6d
@@ -4441,11 +4411,11 @@
         SRCCOLOR 2
         VELLANE 132 54 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 55171.954475 97.642877 14 14 0 -1 0 0 0 0.5
+        CFGEDITVIEW 68784.704675 18.557764 2 14 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL -269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 254 137 1889 1050 0 0 1 1 0 0 1 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 227 80 1862 986 0 0 1 1 0 0 1 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -4455,7 +4425,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -4616,7 +4586,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -4646,7 +4616,7 @@
       CHANMODE 0
       GUID {B4108E0C-A662-4B88-8B6B-9230903C9866}
       <SOURCE MP3
-        FILE "D:\customcollabs\WIP Customs\Pink + White\UVSEP\03-pink-white._bs6stem_mt_0_vocals.mp3" 1
+        FILE "03-pink-white._bs6stem_mt_0_vocals.mp3" 1
       >
     >
   >
@@ -5193,7 +5163,7 @@
         SRCCOLOR 7
         VELLANE 132 57 60 0 1
         TEXTSTRINGFILE "D:\Users\Hugo\Desktop\rb3pack\REAPER\Text Events List - Instruments.txt"
-        CFGEDITVIEW 0 49.373073 22 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW -960.488055 181.90752 22 12 0 0 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL -269
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -5207,8 +5177,8 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1.27038660407147 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 0.11714352556553 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -5245,7 +5215,7 @@
       CHANMODE 0
       GUID {6315B521-DCB3-4E8A-8FE6-C329B96AC95C}
       <SOURCE MP3
-        FILE "D:\customcollabs\WIP Customs\Pink + White\UVSEP\03-pink-white._bs6stem_mt_0_piano.mp3" 1
+        FILE "03-pink-white._bs6stem_mt_0_piano.mp3" 1
       >
     >
   >

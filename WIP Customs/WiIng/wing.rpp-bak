@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1787469181
+<REAPER_PROJECT 0.1 "7.29/win64" 1787469099
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 66.38627948545874
-  ZOOM 12.47941023553008 114 0
+  CURSOR 86.48283159911703
+  ZOOM 4.47506710922945 110 0
   VZOOMEX 1.3499999 0
   USE_REC_CFG 0
   RECMODE 1
@@ -80,7 +80,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -12.487147 -100 -21.520692 -187.36707 -191.413151 -22.500788 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -3.681731 -174.597397 -20.105282 -194.723856 -100 -17.422349 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -451,13 +451,13 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 0.62218279116455 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -577,7 +577,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 16820736 R
-      SEL 0
+      SEL 1
       IGUID {9FF11F36-E94F-4396-9C0E-8449C916EC21}
       IID 7
       NAME "PART DRUMS"
@@ -1688,7 +1688,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1865,7 +1865,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -1971,7 +1971,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 18882783 R
-      SEL 1
+      SEL 0
       IGUID {A1B24BBF-93B7-476C-BC6D-33F5621C633F}
       IID 8
       NAME "PART BASS"
@@ -1997,20 +1997,18 @@
         Em 0 80 61 00
         Em 0 80 63 00
         Em 0 80 64 00
-        e 66420 90 60 60
-        e 60 80 60 00
-        E 244500 b0 7b 00
+        E 310980 b0 7b 00
         CCINTERP 32
         GUID {54A57D35-811F-42A6-AB75-F5706122F903}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 1
         VELLANE 132 30 128 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        CFGEDITVIEW 63014.911693 0.114154 19 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 53797.978734 0.047394 19 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 246
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.25 394 178 1756 911 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.25 328 73 1690 806 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
       >
     >
   >
@@ -2026,7 +2024,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -2068,7 +2066,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {56FC2A6F-1A71-4D5A-9FFC-31A7131771BC}
       IID 164
       NAME bass.flac
@@ -2088,7 +2086,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 0.26173613096428 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
