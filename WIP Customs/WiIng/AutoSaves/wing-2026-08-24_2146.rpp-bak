@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1787633038
+<REAPER_PROJECT 0.1 "7.29/win64" 1787633178
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 156.16335432385716
-  ZOOM 17.56543453409028 2593 0
-  VZOOMEX 1.3499999 110
+  CURSOR 5.37549718426338
+  ZOOM 17.56543453409029 1315 0
+  VZOOMEX 1.3499999 462
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -80,7 +80,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -13.170868 -100 -25.962777 -100 -100 -24.749862 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -10.5188 -22.691744 -24.734418 -22.13715 -23.212547 -25.196181 3.2 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -2371,7 +2371,7 @@
     >
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 1027 113 878 558
+      WNDRECT 1043 113 878 558
       SHOW 2
       LASTSEL 1
       DOCKED 0
@@ -4609,11 +4609,11 @@
         SRCCOLOR 2
         VELLANE 132 30 128 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        CFGEDITVIEW 93606.500489 0.007596 11 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 109161.698894 0.079185 11 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 243
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.125 53 269 1415 1002 0 0 0 1 0.25 0 1 0 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.125 -9 29 1353 762 0 0 0 1 0.25 0 1 0 0 0 0 0 1 64
       >
     >
   >
@@ -4626,7 +4626,7 @@
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 2 -1
+    ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
@@ -4682,6 +4682,181 @@
       GUID {B247C686-09B9-437A-A654-C11F8908DC8D}
       <SOURCE FLAC
         FILE "guitar.flac"
+      >
+    >
+  >
+  <TRACK {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
+    NAME "PART REAL_GUITAR"
+    PEAKCOL 16826303
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "rbproguitar.png"
+    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
+    FX 1
+    TRACKID {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 3 ---- 0 3
+      -1 4 E 0 4
+      -1 5 F 0 5
+      -1 6 Gb 0 6
+      -1 7 G 0 7
+      -1 8 Ab 0 8
+      -1 9 A 0 9
+      -1 10 Bb 0 10
+      -1 11 B 0 11
+      -1 12 C 0 12
+      -1 13 Db 0 13
+      -1 14 D 0 14
+      -1 15 Eb 0 15
+      -1 16 "Slash Chord" 0 16
+      -1 17 "Hide Chord Names" 0 17
+      -1 18 "Flat/Sharp Swap" 0 18
+      -1 19 ---- 0 19
+      -1 21 "CHORD NAMES" 0 21
+      -1 22 ---- 0 22
+      -1 24 "EASY E String (LOW)" 0 24
+      -1 25 "EASY A String" 0 25
+      -1 26 "EASY D String" 0 26
+      -1 27 "EASY G String" 0 27
+      -1 28 "EASY B String" 0 28
+      -1 29 "EASY E String (HIGH)" 0 29
+      -1 31 "EASY Slide Marker" 0 31
+      -1 32 "EASY Arpeggio Marker" 0 32
+      -1 39 ---- 0 39
+      -1 48 "MEDIUM E String (LOW)" 0 48
+      -1 49 "MEDIUM A String" 0 49
+      -1 50 "MEDIUM D String" 0 50
+      -1 51 "MEDIUM G String" 0 51
+      -1 52 "MEDIUM B String" 0 52
+      -1 53 "MEDIUM E String (HIGH)" 0 53
+      -1 55 "MEDIUM Slide Marker" 0 55
+      -1 56 "MEDIUM Arpeggio Marker" 0 56
+      -1 63 ---- 0 63
+      -1 72 "HARD E String (LOW)" 0 72
+      -1 73 "HARD A String" 0 73
+      -1 74 "HARD D String" 0 74
+      -1 75 "HARD G String" 0 75
+      -1 76 "HARD B String" 0 76
+      -1 77 "HARD E String (HIGH)" 0 77
+      -1 78 "Force Ho/Po" 0 78
+      -1 79 "HARD Slide Marker" 0 79
+      -1 80 "HARD Arpeggio Marker" 0 80
+      -1 81 "HARD Strum Direction" 0 81
+      -1 88 ---- 0 88
+      -1 96 E 0 96
+      -1 97 A 0 97
+      -1 98 D 0 98
+      -1 99 G 0 99
+      -1 100 B 0 100
+      -1 101 e 0 101
+      -1 102 "EXPERT Force Ho/Po" 0 102
+      -1 103 "EXPERT Slide Marker" 0 103
+      -1 104 "EXPERT Arpeggio Marker" 0 104
+      -1 105 "EXPERT Strum Direction" 0 105
+      -1 106 ---- 0 106
+      -1 107 "Force Chord Numbering" 0 107
+      -1 108 "Left hand position" 0 108
+      -1 112 ---- 0 112
+      -1 115 "Solo Marker" 0 115
+      -1 116 OVERDRIVE 0 116
+      -1 118 ---- 0 118
+      -1 120 "BRE (use all 6)" 0 120
+      -1 121 BRE 0 121
+      -1 122 BRE 0 122
+      -1 123 BRE 0 123
+      -1 124 BRE 0 124
+      -1 125 BRE 0 125
+      -1 126 Tremelo 0 126
+      -1 127 Trill 0 127
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 716 358
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS c3/progtr ""
+        0 3 0 0 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "E Standard"
+      >
+      PRESETNAME "E Standard"
+      FLOATPOS 24 52 505 311
+      FXID {A9B113BF-2EA7-4DB7-B5B7-9FC49BE72871}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q76AkyPIcWWT8AAAAAAAAAAMybgD7iMAQ8AAAAAAAAAD+01hM+j8L1PQAAAD8AAIA/AAAAAAAAgD8=
+        AFByb2dyYW0gMQAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {365E39A8-E882-4534-B5D0-B872E1FF036B}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 312.75909456113925
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16826303 R
+      SEL 0
+      IGUID {20F1321F-9ED7-4853-AD09-40B222B05CF8}
+      IID 24
+      NAME "PART REAL_GUITAR"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3CDDC74F-292B-448F-83EC-680F8CEF1C9B}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {514D7E0F-967F-4CF3-92F8-9B38AC8DAD40}
+        <X 0 0 0 0 3 "PART REAL_GUITAR"
+          /wNQQVJUIFJFQUxfR1VJVEFS
+        >
+        Em 0 90 60 64
+        Em 0 90 61 64
+        Em 0 90 62 64
+        Em 0 90 63 64
+        Em 0 90 64 64
+        Em 0 90 65 64
+        Em 30 80 60 00
+        Em 0 80 61 00
+        Em 0 80 62 00
+        Em 0 80 63 00
+        Em 0 80 64 00
+        Em 0 80 65 00
+        E 310530 b0 7b 00
+        CCINTERP 32
+        GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 17
+        VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
+        CFGEDITVIEW -2620.991122 80.213931 15 28 0 -1 16 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 1 1 0 0 0 0 1 64
       >
     >
   >
@@ -4838,8 +5013,8 @@
     PEAKCOL 31283746
     BEAT 0
     AUTOMODE 0
-    VOLPAN 0.16956829167787 0 -1 -1 1
-    MUTESOLO 1 0 0
+    VOLPAN 0.51975514380336 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -5623,7 +5798,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 16819711 R
-      SEL 0
+      SEL 1
       IGUID {52D9F6AC-16AD-4CE9-95E4-6AD6396BB4E2}
       IID 14
       NAME "PART KEYS"
@@ -5656,7 +5831,7 @@
         SRCCOLOR 7
         VELLANE 132 128 6 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Keys.txt"
-        CFGEDITVIEW -2620.991122 80.213931 9 28 0 -1 12 0 0 0.5
+        CFGEDITVIEW 109058.888094 0.079185 9 28 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -8645,181 +8820,6 @@
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 0 1 0 0 0 0 1 64
-      >
-    >
-  >
-  <TRACK {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
-    NAME "PART REAL_GUITAR"
-    PEAKCOL 16826303
-    BEAT 1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    TRACKIMGFN "rbproguitar.png"
-    MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
-    FX 1
-    TRACKID {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
-    PERF 0
-    MIDIOUT -1
-    <MIDINOTENAMES
-      -1 3 ---- 0 3
-      -1 4 E 0 4
-      -1 5 F 0 5
-      -1 6 Gb 0 6
-      -1 7 G 0 7
-      -1 8 Ab 0 8
-      -1 9 A 0 9
-      -1 10 Bb 0 10
-      -1 11 B 0 11
-      -1 12 C 0 12
-      -1 13 Db 0 13
-      -1 14 D 0 14
-      -1 15 Eb 0 15
-      -1 16 "Slash Chord" 0 16
-      -1 17 "Hide Chord Names" 0 17
-      -1 18 "Flat/Sharp Swap" 0 18
-      -1 19 ---- 0 19
-      -1 21 "CHORD NAMES" 0 21
-      -1 22 ---- 0 22
-      -1 24 "EASY E String (LOW)" 0 24
-      -1 25 "EASY A String" 0 25
-      -1 26 "EASY D String" 0 26
-      -1 27 "EASY G String" 0 27
-      -1 28 "EASY B String" 0 28
-      -1 29 "EASY E String (HIGH)" 0 29
-      -1 31 "EASY Slide Marker" 0 31
-      -1 32 "EASY Arpeggio Marker" 0 32
-      -1 39 ---- 0 39
-      -1 48 "MEDIUM E String (LOW)" 0 48
-      -1 49 "MEDIUM A String" 0 49
-      -1 50 "MEDIUM D String" 0 50
-      -1 51 "MEDIUM G String" 0 51
-      -1 52 "MEDIUM B String" 0 52
-      -1 53 "MEDIUM E String (HIGH)" 0 53
-      -1 55 "MEDIUM Slide Marker" 0 55
-      -1 56 "MEDIUM Arpeggio Marker" 0 56
-      -1 63 ---- 0 63
-      -1 72 "HARD E String (LOW)" 0 72
-      -1 73 "HARD A String" 0 73
-      -1 74 "HARD D String" 0 74
-      -1 75 "HARD G String" 0 75
-      -1 76 "HARD B String" 0 76
-      -1 77 "HARD E String (HIGH)" 0 77
-      -1 78 "Force Ho/Po" 0 78
-      -1 79 "HARD Slide Marker" 0 79
-      -1 80 "HARD Arpeggio Marker" 0 80
-      -1 81 "HARD Strum Direction" 0 81
-      -1 88 ---- 0 88
-      -1 96 E 0 96
-      -1 97 A 0 97
-      -1 98 D 0 98
-      -1 99 G 0 99
-      -1 100 B 0 100
-      -1 101 e 0 101
-      -1 102 "EXPERT Force Ho/Po" 0 102
-      -1 103 "EXPERT Slide Marker" 0 103
-      -1 104 "EXPERT Arpeggio Marker" 0 104
-      -1 105 "EXPERT Strum Direction" 0 105
-      -1 106 ---- 0 106
-      -1 107 "Force Chord Numbering" 0 107
-      -1 108 "Left hand position" 0 108
-      -1 112 ---- 0 112
-      -1 115 "Solo Marker" 0 115
-      -1 116 OVERDRIVE 0 116
-      -1 118 ---- 0 118
-      -1 120 "BRE (use all 6)" 0 120
-      -1 121 BRE 0 121
-      -1 122 BRE 0 122
-      -1 123 BRE 0 123
-      -1 124 BRE 0 124
-      -1 125 BRE 0 125
-      -1 126 Tremelo 0 126
-      -1 127 Trill 0 127
-    >
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 24 52 716 358
-      SHOW 0
-      LASTSEL 1
-      DOCKED 0
-      BYPASS 0 0 0
-      <JS c3/progtr ""
-        0 3 0 0 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "E Standard"
-      >
-      PRESETNAME "E Standard"
-      FLOATPOS 24 52 505 311
-      FXID {A9B113BF-2EA7-4DB7-B5B7-9FC49BE72871}
-      WAK 0 0
-      BYPASS 0 0 0
-      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
-        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
-        776t3g3wrd6mm8Q76AkyPIcWWT8AAAAAAAAAAMybgD7iMAQ8AAAAAAAAAD+01hM+j8L1PQAAAD8AAIA/AAAAAAAAgD8=
-        AFByb2dyYW0gMQAQAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {365E39A8-E882-4534-B5D0-B872E1FF036B}
-      WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 312.75909456113925
-      LOOP 0
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      COLOR 16826303 R
-      SEL 0
-      IGUID {20F1321F-9ED7-4853-AD09-40B222B05CF8}
-      IID 24
-      NAME "PART REAL_GUITAR"
-      VOLPAN 1 0 1 -1
-      SOFFS 0 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3CDDC74F-292B-448F-83EC-680F8CEF1C9B}
-      <SOURCE MIDI
-        HASDATA 1 480 QN
-        CCINTERP 32
-        POOLEDEVTS {514D7E0F-967F-4CF3-92F8-9B38AC8DAD40}
-        <X 0 0 0 0 3 "PART REAL_GUITAR"
-          /wNQQVJUIFJFQUxfR1VJVEFS
-        >
-        Em 0 90 60 64
-        Em 0 90 61 64
-        Em 0 90 62 64
-        Em 0 90 63 64
-        Em 0 90 64 64
-        Em 0 90 65 64
-        Em 30 80 60 00
-        Em 0 80 61 00
-        Em 0 80 62 00
-        Em 0 80 63 00
-        Em 0 80 64 00
-        Em 0 80 65 00
-        E 310530 b0 7b 00
-        CCINTERP 32
-        GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
-        IGNTEMPO 0 120 4 4
-        SRCCOLOR 17
-        VELLANE 132 128 6 0 1
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
-        CFGEDITVIEW -2620.991122 80.213931 15 28 0 -1 16 0 0 0.5
-        KEYSNAP 0
-        TRACKSEL 286
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 0 43 849 437 1 2 1 2 0 0 1 1 0 0 0 0 1 64
       >
     >
   >
