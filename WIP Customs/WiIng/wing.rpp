@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.78/win64" 1787707263 0
+<REAPER_PROJECT 0.1 "7.78/win64" 1787708213 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 195.26239583340461
-  ZOOM 189.00824398760716 34896 0
-  VZOOMEX 1.3499999 198
+  CURSOR 75.65077083333304
+  ZOOM 89.48394589855883 6666 0
+  VZOOMEX 1.3499999 66
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -83,7 +83,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 6.274083 -100 -6.492846 -100 -24.753522 -6.560405 5.5 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 3.235195 -163.29406 -7.134642 -158.567572 -9.46183 -6.484959 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -2417,7 +2417,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 24 52 666 511
       FXID {746DDB44-7B70-4004-BE5A-063E09CFEAE0}
@@ -7989,7 +7989,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1.95402239099896 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -8085,7 +8085,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
         776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {F29B6161-5AC1-46D6-88F7-2C42F76F7222}
@@ -9019,7 +9019,7 @@
         >
         E 0 90 45 60
         E 120 80 45 00
-        <X 60 0 0 0 5 ai
+        <X 90 0 0 0 5 ai
           /wVhaQ==
         >
         E 0 90 44 60
@@ -9028,8 +9028,8 @@
           /wUr
         >
         E 0 90 45 60
-        E 165 80 45 00
-        <X 135 0 0 0 5 ai
+        E 150 80 45 00
+        <X 120 0 0 0 5 ai
           /wVhaQ==
         >
         E 0 90 3e 60
@@ -10993,7 +10993,7 @@
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 184694.59418 112.58203 0 14 0 -1 12 0 0 0.5
+        CFGEDITVIEW 70421.092302 273.479205 0 14 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.03125 681 108 2419 1346 0 2 1 2 0.25 0 0 0 0 0.5 1 0 1 64
@@ -11006,7 +11006,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 0.62218279116455 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
