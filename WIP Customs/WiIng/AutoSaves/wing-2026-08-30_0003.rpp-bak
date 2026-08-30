@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1788073719
+<REAPER_PROJECT 0.1 "7.29/win64" 1788073406
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 125.11066996252029
-  ZOOM 258.16762318792559 45324 0
+  CURSOR 6.09163065548876
+  ZOOM 3.18469734906202 0 0
   VZOOMEX 5.67351484 273
   USE_REC_CFG 0
   RECMODE 1
@@ -60,7 +60,7 @@
   >
   GLOBAL_AUTO 6
   TEMPO 124.825 4 4
-  PLAYRATE 1 1 0.25 4
+  PLAYRATE 0.25 1 0.25 4
   SELECTION 12.87406478737316 12.87406478737316
   SELECTION2 12.87406478737316 12.87406478737316
   MASTERAUTOMODE 0
@@ -80,7 +80,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 1.225339 -60.463397 -9.734959 -81.4183 -17.575657 -9.591281 10.8 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -5.332559 -27.68291 -19.259172 -30.478165 -19.515298 -19.854269 4.4 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -335,7 +335,7 @@
       PT 0 0.26173613 0
     >
     <FXCHAIN
-      WNDRECT 870 237 878 558
+      WNDRECT 691 201 878 558
       SHOW 2
       LASTSEL 1
       DOCKED 0
@@ -397,8 +397,8 @@
         E 60 80 64 00
         E 420 90 64 60
         E 60 80 64 00
-        E 420 90 64 60
-        E 60 80 64 00
+        e 420 90 64 60
+        e 60 80 64 00
         <X 317 0 0 0 1 [play]
           /wFbcGxheV0=
         >
@@ -1680,10 +1680,10 @@
         E 120 80 64 00
         E 0 90 63 60
         E 120 80 63 00
-        e 0 90 65 60
         E 0 90 62 60
-        e 120 80 65 00
-        E 0 80 62 00
+        E 0 90 66 60
+        E 120 80 62 00
+        E 0 80 66 00
         E 0 90 61 60
         E 120 80 61 00
         E 120 90 63 60
@@ -2622,7 +2622,7 @@
         SRCCOLOR 2
         VELLANE 132 128 6 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        CFGEDITVIEW 122279.350813 218.73715 0 16 0 -1 16 0 0 0.5
+        CFGEDITVIEW 192789.060134 901.552781 0 16 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -7397,7 +7397,7 @@
     >
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 11 277 878 558
+      WNDRECT -5 206 878 558
       SHOW 2
       LASTSEL 1
       DOCKED 0
