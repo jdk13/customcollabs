@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1788165960
+<REAPER_PROJECT 0.1 "7.29/win64" 1788165702
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 83.9379081899086
-  ZOOM 330.33451634802049 27123 0
+  CURSOR 105.49466927075939
+  ZOOM 202.70353930102709 20627 0
   VZOOMEX 5.67351484 0
   USE_REC_CFG 0
   RECMODE 1
@@ -60,7 +60,7 @@
   >
   GLOBAL_AUTO 6
   TEMPO 124.825 4 4
-  PLAYRATE 1 1 0.25 4
+  PLAYRATE 0.5 1 0.25 4
   SELECTION 84.48150303312767 84.48150303312767
   SELECTION2 84.48150303312767 84.48150303312767
   MASTERAUTOMODE 0
@@ -80,7 +80,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 9.597895 -100 -5.122281 -100 -100 -5.101088 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 9.597895 -100 -100 -100 -100 -100 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -94,7 +94,7 @@
     WAK 0 0
     BYPASS 0 0 0
     <JS loser/masterLimiter Limiter
-      -3 200 100 0 250 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -3 200 100 0 250 -0.1 -11.143014 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 0 0 0 0
     FXID {D10D006A-BB20-4770-A41E-B3C64D7DD379}
@@ -2804,10 +2804,10 @@
         E 0 80 58 00
         E 0 80 4b 00
         E 0 80 3f 00
-        e 0 90 64 60
-        e 0 90 63 60
-        e 120 80 64 00
-        e 0 80 63 00
+        E 0 90 64 60
+        E 0 90 63 60
+        E 120 80 64 00
+        E 0 80 63 00
         E 1080 90 64 60
         E 0 90 63 60
         E 0 90 58 60
@@ -3094,16 +3094,14 @@
         E 0 80 3d 00
         E 0 90 62 60
         E 120 80 62 00
-        E 0 90 64 60
+        E 120 90 64 60
         E 0 90 62 60
-        E 120 80 64 00
-        E 0 80 62 00
         E 0 90 58 60
         E 0 90 56 60
-        E 0 90 62 60
-        E 120 80 58 00
-        E 0 80 56 00
+        E 120 80 64 00
         E 0 80 62 00
+        E 0 80 58 00
+        E 0 80 56 00
         E 120 90 64 60
         E 0 90 62 60
         E 0 90 58 60
@@ -3116,9 +3114,7 @@
         E 0 80 56 00
         E 0 80 4b 00
         E 0 80 4a 00
-        E 120 90 62 60
-        E 120 80 62 00
-        E 0 90 64 60
+        E 240 90 64 60
         E 0 90 62 60
         E 0 90 58 60
         E 0 90 56 60
@@ -3162,15 +3158,15 @@
         E 0 90 62 60
         E 120 80 63 00
         E 0 80 62 00
-        E 180 90 57 60
+        E 180 90 63 60
+        E 0 90 62 60
+        E 0 90 57 60
         E 0 90 56 60
-        E 60 90 63 60
-        E 0 90 62 60
-        E 60 80 57 00
-        E 0 80 56 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 62 00
-        E 0 90 62 60
+        E 0 80 57 00
+        E 0 80 56 00
+        E 60 90 62 60
         E 120 80 62 00
         E 120 90 62 60
         E 120 80 62 00
@@ -3206,19 +3202,21 @@
         E 0 80 62 00
         E 0 80 57 00
         E 0 80 56 00
-        E 240 90 63 60
+        E 120 90 63 60
+        E 0 90 61 60
+        E 120 80 63 00
+        E 0 80 61 00
         E 0 90 61 60
         E 0 90 55 60
         E 0 90 48 60
         E 0 90 3c 60
-        E 120 80 63 00
-        E 0 80 61 00
+        E 120 80 61 00
         E 0 80 55 00
         E 0 80 48 00
         E 0 80 3c 00
-        E 120 90 61 60
+        E 0 90 61 60
         E 120 80 61 00
-        E 0 90 63 60
+        E 120 90 63 60
         E 0 90 61 60
         E 0 90 57 60
         E 0 90 55 60
@@ -5700,11 +5698,79 @@
         SRCCOLOR 2
         VELLANE 132 128 6 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        CFGEDITVIEW 82112.796368 322.505654 7 16 0 -1 16 0 0 0.5
+        CFGEDITVIEW 101777.363637 197.899505 7 16 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 -311 176 1623 1202 0 2 1 1 0 0 1 0 0 0 0 0 1 64
+      >
+    >
+  >
+  <TRACK {E0577C0E-9739-431E-8997-8B57ADD64484}
+    NAME "GUITAR AUDIO"
+    PEAKCOL 16826303
+    BEAT 0
+    AUTOMODE 0
+    VOLPAN 0.91201629958245 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E0577C0E-9739-431E-8997-8B57ADD64484}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 708 222
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 1 0
+      <VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "" 1919252579<5653547265786372656178636F6D7000> ""
+        Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAEAAAEAAAAAAAAAOAAAAAQAAAAAAAAAAIBWQBn7amjF2fQ/P6AMkzyikj8AAAAA
+        AAAAQAAAAAAAACRALAEAAIUDAAAFAAAAAAAAAAAAAAAAKIFAGftqaMXZ9D9XC5BE3yKZPwAAAAAAAABAAAAAAAAAJEC8AgAAyAAAAAUAAAAAAAAAAAAAAABpt0AZ+2po
+        xdn0P6C8vSJokaA/AAAAAAAAAEAAAAAAAAAkQGQAAAAsAQAABQAAAAAAAAAAAAAAAHDXQBn7amjF2fQ/Dg5GfTlHlj8AAAAAAAAAQAAAAAAAAAAAMgAAAE8AAAAFAAAA
+        AAAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAABAAAAAgAAAABQcm9ncmFtIDEAAAAAAA==
+      >
+      FLOATPOS 0 0 0 0
+      FXID {D7B349FD-2129-4C30-9A72-9960249CD0D4}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS LOSER/MGA_JSLimiter ""
+        -5 200 -0.5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {00B186F9-FB38-4634-8539-E28B1E828AEB}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 5.60642283754197
+      SNAPOFFS 0
+      LENGTH 194.60321114911432
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D1373817-586F-4C0F-B3CA-81B65FC46FDD}
+      IID 261
+      NAME guitar.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0.26345551755238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E782A32E-3D75-4440-81C2-D01DFDA3E801}
+      <SOURCE FLAC
+        FILE "guitar.flac"
       >
     >
   >
@@ -5717,12 +5783,12 @@
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 0 0
+    ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 1
     REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 87 0 0 0 0 0 0
+    TRACKHEIGHT 128 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     TRACKIMGFN "rbproguitar.png"
@@ -7382,13 +7448,13 @@
         E 0 80 62 00
         E 0 80 63 00
         E 0 80 64 00
-        e 120 93 63 67
-        e 0 93 64 67
-        e 0 93 62 66
+        E 120 93 63 67
+        E 0 93 64 67
+        E 0 93 62 66
         E 0 93 61 67
-        e 120 83 63 00
-        e 0 83 64 00
-        e 0 83 62 00
+        E 120 83 63 00
+        E 0 83 64 00
+        E 0 83 62 00
         E 0 83 61 00
         E 120 90 61 67
         E 0 90 62 66
@@ -7407,9 +7473,21 @@
         E 0 83 62 00
         E 0 83 61 00
         E 0 90 61 67
+        E 0 90 62 66
+        E 0 90 63 67
+        E 0 90 64 67
         E 120 80 61 00
+        E 0 80 62 00
+        E 0 80 63 00
+        E 0 80 64 00
         E 120 90 61 67
+        E 0 90 62 66
+        E 0 90 63 67
+        E 0 90 64 67
         E 120 80 61 00
+        E 0 80 62 00
+        E 0 80 63 00
+        E 0 80 64 00
         E 120 90 61 67
         E 0 90 62 66
         E 0 90 63 67
@@ -7646,11 +7724,11 @@
         E 0 90 64 69
         E 0 90 62 69
         E 0 90 60 69
-        E 120 80 63 00
+        E 360 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
-        E 1080 90 63 69
+        E 840 90 63 69
         E 0 90 64 69
         E 0 90 62 69
         E 0 90 60 69
@@ -7974,22 +8052,6 @@
         E 0 83 64 00
         E 0 83 62 00
         E 0 83 61 00
-        E 0 90 63 69
-        E 0 90 64 69
-        E 0 90 62 68
-        E 0 90 61 69
-        E 120 80 63 00
-        E 0 80 64 00
-        E 0 80 62 00
-        E 0 80 61 00
-        E 0 93 63 69
-        E 0 93 64 69
-        E 0 93 62 68
-        E 0 93 61 69
-        E 120 83 63 00
-        E 0 83 64 00
-        E 0 83 62 00
-        E 0 83 61 00
         E 120 90 63 69
         E 0 90 64 69
         E 0 90 62 68
@@ -7998,15 +8060,15 @@
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 61 00
-        E 120 93 63 69
-        E 0 93 64 69
-        E 0 93 62 68
-        E 0 93 61 69
-        E 120 83 63 00
-        E 0 83 64 00
-        E 0 83 62 00
-        E 0 83 61 00
-        E 0 90 63 69
+        E 120 90 63 69
+        E 0 90 64 69
+        E 0 90 62 68
+        E 0 90 61 69
+        E 120 80 63 00
+        E 0 80 64 00
+        E 0 80 62 00
+        E 0 80 61 00
+        E 240 90 63 69
         E 0 90 64 69
         E 0 90 62 68
         E 0 90 61 69
@@ -10075,79 +10137,11 @@
         SRCCOLOR 17
         VELLANE 132 128 6 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
-        CFGEDITVIEW 82111.985568 322.505654 7 16 0 -1 16 0 0 0.5
+        CFGEDITVIEW 101776.552838 197.899505 7 16 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 -311 176 1623 1202 0 2 1 1 0 0 1 0 0 0 0 0 1 64
-      >
-    >
-  >
-  <TRACK {E0577C0E-9739-431E-8997-8B57ADD64484}
-    NAME "GUITAR AUDIO"
-    PEAKCOL 16826303
-    BEAT 0
-    AUTOMODE 0
-    VOLPAN 0.91201629958245 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 0 0 0 0 0 0
-    TRACKHEIGHT 0 1 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {E0577C0E-9739-431E-8997-8B57ADD64484}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 24 52 708 222
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 1 0
-      <VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "" 1919252579<5653547265786372656178636F6D7000> ""
-        Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAEAAAEAAAAAAAAAOAAAAAQAAAAAAAAAAIBWQBn7amjF2fQ/P6AMkzyikj8AAAAA
-        AAAAQAAAAAAAACRALAEAAIUDAAAFAAAAAAAAAAAAAAAAKIFAGftqaMXZ9D9XC5BE3yKZPwAAAAAAAABAAAAAAAAAJEC8AgAAyAAAAAUAAAAAAAAAAAAAAABpt0AZ+2po
-        xdn0P6C8vSJokaA/AAAAAAAAAEAAAAAAAAAkQGQAAAAsAQAABQAAAAAAAAAAAAAAAHDXQBn7amjF2fQ/Dg5GfTlHlj8AAAAAAAAAQAAAAAAAAAAAMgAAAE8AAAAFAAAA
-        AAAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAABAAAAAgAAAABQcm9ncmFtIDEAAAAAAA==
-      >
-      FLOATPOS 0 0 0 0
-      FXID {D7B349FD-2129-4C30-9A72-9960249CD0D4}
-      WAK 0 0
-      BYPASS 0 0 0
-      <JS LOSER/MGA_JSLimiter ""
-        -5 200 -0.5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-      >
-      FLOATPOS 0 0 0 0
-      FXID {00B186F9-FB38-4634-8539-E28B1E828AEB}
-      WAK 0 0
-    >
-    <ITEM
-      POSITION 5.60642283754197
-      SNAPOFFS 0
-      LENGTH 194.60321114911432
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D1373817-586F-4C0F-B3CA-81B65FC46FDD}
-      IID 261
-      NAME guitar.flac
-      VOLPAN 1 0 1 -1
-      SOFFS 0.26345551755238
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E782A32E-3D75-4440-81C2-D01DFDA3E801}
-      <SOURCE FLAC
-        FILE "guitar.flac"
       >
     >
   >
