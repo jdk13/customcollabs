@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1788298145
+<REAPER_PROJECT 0.1 "7.29/win64" 1788289629
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 81.39692566524521
-  ZOOM 219.84439433696016 16981 0
-  VZOOMEX 0 479
+  CURSOR 118.09387178670906
+  ZOOM 1.00795405478262 0 0
+  VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -61,9 +61,9 @@
   >
   GLOBAL_AUTO 6
   TEMPO 124.825 4 4
-  PLAYRATE 0.5 1 0.25 4
-  SELECTION 128.62574686660614 164.19696071627777
-  SELECTION2 128.62574686660614 164.19696071627777
+  PLAYRATE 1 1 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -81,7 +81,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -0.5 -170.840761 -100 -100 -100 -100 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -150 -100 -100 -100 -100 -100 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -262,7 +262,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 0.18131457003611 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -322,7 +322,7 @@
       CHANMODE 0
       GUID {C3BDAFA6-A543-48F8-B8A1-FD66EC88203D}
       <SOURCE FLAC
-        FILE "혁오 - 20 - 04 - Wi Ing Wi Ing.flac"
+        FILE "D:\customcollabs\WIP Customs\WiIng\혁오 - 20 - 04 - Wi Ing Wi Ing.flac"
       >
     >
   >
@@ -333,7 +333,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -490,7 +490,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -501,7 +501,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbguitar.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbguitar.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_guitarbass.png"
     FX 1
     TRACKID {6B7F9B4B-FF4E-4CE6-9E2D-4C9BD5DAED77}
@@ -5745,7 +5745,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 0.37204449018951 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -5756,7 +5756,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbproguitar.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbproguitar.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
     FX 1
     TRACKID {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
@@ -9412,7 +9412,7 @@
         E 0 90 64 69
         E 0 90 62 69
         E 0 90 60 69
-        E 0 90 09 69
+        E 0 90 08 69
         E 0 90 48 69
         E 0 90 4a 69
         E 0 90 4b 69
@@ -9421,7 +9421,7 @@
         E 0 90 32 69
         E 0 90 18 69
         E 0 90 6c 69
-        E 60 80 09 00
+        E 60 80 08 00
         E 0 80 6c 00
         E 60 80 48 00
         E 0 80 4a 00
@@ -9510,8 +9510,7 @@
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
-        E 60 90 0e 60
-        E 0 90 63 69
+        E 60 90 63 69
         E 0 90 64 69
         E 0 90 62 68
         E 0 90 61 69
@@ -9525,8 +9524,7 @@
         E 0 90 32 68
         E 0 90 19 69
         E 0 90 6c 68
-        E 60 80 0e 00
-        E 60 80 49 00
+        E 120 80 49 00
         E 0 80 4a 00
         E 0 80 4b 00
         E 0 80 4c 00
@@ -9625,9 +9623,7 @@
         E 0 90 30 67
         E 0 90 32 67
         E 0 90 18 67
-        E 0 90 07 60
-        E 60 80 07 00
-        E 60 80 48 00
+        E 120 80 48 00
         E 0 80 4a 00
         E 0 80 4b 00
         E 0 80 4c 00
@@ -9718,9 +9714,7 @@
         E 0 90 32 66
         E 0 90 19 67
         E 0 90 6c 66
-        E 0 90 0c 60
         E 60 80 6c 00
-        E 0 80 0c 00
         E 60 80 49 00
         E 0 80 4a 00
         E 0 80 4b 00
@@ -9861,9 +9855,7 @@
         E 0 90 18 69
         E 0 90 6c 69
         E 0 90 74 60
-        E 0 90 09 60
-        E 60 80 09 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
@@ -9907,10 +9899,7 @@
         E 0 90 32 68
         E 0 90 19 69
         E 0 90 6c 68
-        E 0 90 0e 60
-        E 0 90 68 60
-        E 60 80 0e 00
-        E 60 80 49 00
+        E 120 80 49 00
         E 0 80 4a 00
         E 0 80 4b 00
         E 0 80 4c 00
@@ -10003,8 +9992,7 @@
         E 0 90 4c 69
         E 0 90 31 69
         E 0 90 32 68
-        E 120 80 68 00
-        E 0 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 61 00
@@ -10043,7 +10031,6 @@
         E 0 90 30 67
         E 0 90 32 67
         E 0 90 18 67
-        E 0 90 07 60
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
@@ -10055,7 +10042,6 @@
         E 0 80 30 00
         E 0 80 32 00
         E 0 80 18 00
-        E 0 80 07 00
         E 240 90 63 67
         E 0 90 64 67
         E 0 90 62 67
@@ -10191,9 +10177,7 @@
         E 0 90 64 67
         E 0 90 62 66
         E 0 90 61 67
-        E 0 90 0c 60
-        E 60 80 0c 00
-        E 60 80 6c 00
+        E 120 80 6c 00
         E 0 80 63 00
         E 0 80 64 00
         E 0 80 62 00
@@ -10315,9 +10299,7 @@
         E 0 90 62 69
         E 0 90 60 69
         E 0 90 6c 69
-        E 0 90 09 60
-        E 60 80 09 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
@@ -10452,16 +10434,14 @@
         E 0 80 4c 00
         E 0 80 30 00
         E 0 80 32 00
-        E 240 90 0e 60
-        E 0 90 63 69
+        E 240 90 63 69
         E 0 90 64 69
         E 0 90 62 68
         E 0 90 61 69
         E 0 90 31 69
         E 0 90 32 68
         E 0 90 6c 68
-        E 60 80 0e 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 61 00
@@ -10623,9 +10603,7 @@
         E 0 90 30 67
         E 0 90 32 67
         E 0 90 18 67
-        E 0 90 07 60
-        E 60 80 07 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
@@ -10743,7 +10721,6 @@
         E 0 90 31 67
         E 0 90 32 66
         E 0 90 6c 66
-        E 0 90 0c 60
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
@@ -10751,7 +10728,6 @@
         E 0 80 31 00
         E 0 80 32 00
         E 0 80 6c 00
-        E 0 80 0c 00
         E 120 93 63 67
         E 0 93 64 67
         E 0 93 62 66
@@ -10877,9 +10853,7 @@
         E 0 90 62 69
         E 0 90 60 69
         E 0 90 6c 69
-        E 0 90 09 60
-        E 60 80 09 00
-        E 60 80 63 00
+        E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
         E 0 80 60 00
@@ -11013,7 +10987,6 @@
         E 0 90 31 69
         E 0 90 32 68
         E 0 90 6c 68
-        E 0 90 0e 60
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 62 00
@@ -11021,7 +10994,6 @@
         E 0 80 31 00
         E 0 80 32 00
         E 0 80 6c 00
-        E 0 80 0e 00
         E 0 93 63 69
         E 0 93 64 69
         E 0 93 62 68
@@ -11264,8 +11236,8 @@
         E 0 80 33 00
         E 240 90 64 71
         E 0 90 63 6e
-        E 0 90 0e 6e
-        E 60 80 0e 00
+        E 0 90 05 6e
+        E 60 80 05 00
         E 60 80 64 00
         E 0 80 63 00
         E 120 93 63 6e
@@ -11288,9 +11260,7 @@
         E 0 93 4d 71
         E 0 93 33 6e
         E 0 93 34 6f
-        E 0 90 07 6f
-        E 60 80 07 00
-        E 60 83 64 00
+        E 120 83 64 00
         E 0 83 63 00
         E 0 83 65 00
         E 0 83 4b 00
@@ -11307,10 +11277,12 @@
         E 0 90 64 6f
         E 0 90 63 6e
         E 0 90 65 71
+        E 0 90 0a 6f
         E 0 90 4b 6e
         E 0 90 4c 6f
         E 0 90 4d 71
-        E 120 80 64 00
+        E 60 80 0a 00
+        E 60 80 64 00
         E 0 80 63 00
         E 0 80 65 00
         E 0 80 4b 00
@@ -11450,7 +11422,6 @@
         E 0 92 63 70
         E 0 92 4b 70
         E 0 92 4c 70
-        E 0 90 11 6f
         E 120 82 4b 00
         E 0 82 4c 00
         E 180 82 64 00
@@ -11525,8 +11496,7 @@
         E 0 82 63 00
         E 60 90 63 6e
         E 0 90 64 6e
-        E 60 80 11 00
-        E 0 80 63 00
+        E 60 80 63 00
         E 0 80 64 00
         E 60 90 62 70
         E 0 90 63 70
@@ -11536,7 +11506,6 @@
         E 0 90 4c 70
         E 0 90 32 70
         E 0 90 33 70
-        E 0 90 07 6f
         E 120 80 62 00
         E 0 80 63 00
         E 0 80 64 00
@@ -11545,7 +11514,6 @@
         E 0 80 4c 00
         E 0 80 32 00
         E 0 80 33 00
-        E 0 80 07 00
         E 0 90 62 70
         E 0 90 63 70
         E 0 90 64 70
@@ -11592,6 +11560,7 @@
         E 120 83 62 00
         E 0 83 63 00
         E 0 83 64 00
+        E 0 90 07 6e
         E 0 90 62 70
         E 0 90 63 6e
         E 0 90 64 6e
@@ -11602,7 +11571,8 @@
         E 0 90 33 6e
         E 0 90 1a 70
         E 0 90 74 60
-        E 120 80 62 00
+        E 60 80 07 00
+        E 60 80 62 00
         E 0 80 63 00
         E 0 80 64 00
         E 0 80 4a 00
@@ -11706,7 +11676,8 @@
         E 0 80 62 00
         E 0 80 63 00
         E 0 80 64 00
-        E 240 90 0c 6e
+        E 120 90 0c 6e
+        E 120 80 0c 00
         E 0 90 6c 6d
         E 0 90 62 6e
         E 0 90 63 6d
@@ -11717,8 +11688,7 @@
         E 0 90 32 6e
         E 0 90 33 6d
         E 0 90 1a 6e
-        E 120 80 0c 00
-        E 0 80 6c 00
+        E 120 80 6c 00
         E 0 80 62 00
         E 0 80 63 00
         E 0 80 64 00
@@ -11995,9 +11965,7 @@
         E 0 90 32 70
         E 0 90 33 6e
         E 0 90 1a 70
-        E 0 90 07 6e
-        E 60 80 07 00
-        E 60 80 62 00
+        E 120 80 62 00
         E 0 80 63 00
         E 0 80 64 00
         E 0 80 4a 00
@@ -12110,7 +12078,6 @@
         E 0 90 32 6e
         E 0 90 33 6d
         E 0 90 1a 6e
-        E 0 90 0c 6e
         E 120 80 62 00
         E 0 80 63 00
         E 0 80 64 00
@@ -12121,7 +12088,6 @@
         E 0 80 32 00
         E 0 80 33 00
         E 0 80 1a 00
-        E 0 80 0c 00
         E 240 90 64 6e
         E 0 90 62 6e
         E 0 90 63 6d
@@ -12193,9 +12159,7 @@
         E 0 90 32 72
         E 0 90 33 70
         E 0 90 1a 72
-        E 0 90 09 6e
-        E 60 80 09 00
-        E 60 80 62 00
+        E 120 80 62 00
         E 0 80 63 00
         E 0 80 64 00
         E 0 80 4a 00
@@ -12302,9 +12266,7 @@
         E 0 90 33 6f
         E 0 90 1a 70
         E 0 90 6c 6f
-        E 0 90 0e 6e
-        E 60 80 0e 00
-        E 60 80 62 00
+        E 120 80 62 00
         E 0 80 63 00
         E 0 80 64 00
         E 0 80 4a 00
@@ -12719,19 +12681,19 @@
         E 120 93 63 6f
         E 0 93 64 71
         E 0 90 6c 6f
-        E 0 90 0e 60
         E 120 83 63 00
         E 0 83 64 00
         E 0 80 6c 00
-        E 0 80 0e 00
         E 0 90 63 6f
         E 0 90 64 71
+        E 0 90 0e 60
         E 0 90 4b 6f
         E 0 90 4c 71
         E 0 90 33 6f
         E 0 90 34 71
         E 120 80 63 00
         E 0 80 64 00
+        E 0 80 0e 00
         E 0 80 4b 00
         E 0 80 4c 00
         E 0 80 33 00
@@ -12759,11 +12721,11 @@
         E 120 93 63 6e
         E 0 93 64 70
         E 0 93 65 6f
-        E 0 90 6c 6e
+        e 0 90 6c 6e
         E 120 83 63 00
         E 0 83 64 00
         E 0 83 65 00
-        E 0 80 6c 00
+        e 0 80 6c 00
         E 0 90 63 6e
         E 0 90 64 70
         E 0 90 65 6f
@@ -12978,10 +12940,12 @@
         E 0 83 4b 00
         E 0 83 4c 00
         E 0 83 4d 00
+        E 0 90 0b 60
         E 0 90 63 6d
         E 0 90 64 6f
         E 0 90 65 6e
-        E 120 80 63 00
+        E 60 80 0b 00
+        E 60 80 63 00
         E 0 80 64 00
         E 0 80 65 00
         E 120 93 63 6d
@@ -13170,7 +13134,6 @@
         E 0 90 34 71
         E 0 90 1b 6f
         E 0 90 6c 6f
-        E 0 90 0e 60
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 4b 00
@@ -13179,8 +13142,18 @@
         E 0 80 34 00
         E 0 80 1b 00
         E 0 80 6c 00
-        E 0 80 0e 00
-        E 120 90 63 6f
+        E 120 90 0e 60
+        E 0 90 63 6f
+        E 0 90 64 71
+        E 0 90 4b 6f
+        E 0 90 4c 71
+        E 120 80 0e 00
+        E 0 80 63 00
+        E 0 80 64 00
+        E 0 80 4b 00
+        E 0 80 4c 00
+        E 120 90 11 60
+        E 0 90 63 6f
         E 0 90 64 71
         E 0 90 4b 6f
         E 0 90 4c 71
@@ -13188,15 +13161,8 @@
         E 0 80 64 00
         E 0 80 4b 00
         E 0 80 4c 00
-        E 120 90 63 6f
-        E 0 90 64 71
-        E 0 90 4b 6f
-        E 0 90 4c 71
-        E 120 80 63 00
-        E 0 80 64 00
-        E 0 80 4b 00
-        E 0 80 4c 00
-        E 120 90 63 6f
+        E 120 80 11 00
+        E 0 90 63 6f
         E 0 90 65 70
         E 0 90 64 71
         E 0 90 4b 6f
@@ -13208,7 +13174,11 @@
         E 120 80 33 00
         E 0 80 34 00
         E 0 80 1b 00
-        E 780 80 63 00
+        E 120 90 0d 60
+        E 120 80 0d 00
+        E 0 90 0e 60
+        E 120 80 0e 00
+        E 420 80 63 00
         E 0 80 65 00
         E 0 80 64 00
         E 0 80 4b 00
@@ -13228,14 +13198,12 @@
         E 0 90 30 67
         E 0 90 18 67
         E 0 90 74 60
-        E 0 90 07 67
         E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
         E 0 80 30 00
         E 0 80 18 00
-        E 0 80 07 00
         E 240 80 60 00
         E 0 81 62 00
         E 0 81 63 00
@@ -13305,9 +13273,7 @@
         E 0 90 31 67
         E 0 90 19 67
         E 0 90 6c 66
-        E 0 90 0c 64
-        E 60 80 0c 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 63 00
         E 0 81 64 00
         E 0 81 62 00
@@ -13395,9 +13361,7 @@
         E 0 90 30 69
         E 0 90 18 69
         E 0 90 6c 69
-        E 0 90 09 68
-        E 60 80 09 00
-        E 60 80 48 00
+        E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
@@ -13471,9 +13435,7 @@
         E 0 90 31 69
         E 0 90 19 69
         E 0 90 6c 68
-        E 0 90 0e 68
-        E 60 80 0e 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 64 00
         E 0 81 63 00
         E 0 81 62 00
@@ -13561,14 +13523,12 @@
         E 0 90 30 67
         E 0 90 18 67
         E 0 90 6c 67
-        E 0 90 07 67
         E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
         E 0 80 30 00
         E 0 80 18 00
-        E 0 80 07 00
         E 240 80 60 00
         E 0 81 62 00
         E 0 81 63 00
@@ -13637,9 +13597,7 @@
         E 0 90 31 67
         E 0 90 19 67
         E 0 90 6c 66
-        E 0 90 0c 64
-        E 60 80 0c 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 63 00
         E 0 81 64 00
         E 0 81 62 00
@@ -13727,9 +13685,7 @@
         E 0 90 30 69
         E 0 90 18 69
         E 0 90 6c 69
-        E 0 90 09 68
-        E 60 80 09 00
-        E 60 80 48 00
+        E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
@@ -13803,9 +13759,7 @@
         E 0 90 31 69
         E 0 90 19 69
         E 0 90 6c 68
-        E 0 90 0e 68
-        E 60 80 0e 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 64 00
         E 0 81 63 00
         E 0 81 62 00
@@ -13893,14 +13847,12 @@
         E 0 90 30 67
         E 0 90 18 67
         E 0 90 6c 67
-        e 0 90 07 67
         E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
         E 0 80 30 00
         E 0 80 18 00
-        e 0 80 07 00
         E 240 80 60 00
         E 0 81 62 00
         E 0 81 63 00
@@ -13969,9 +13921,7 @@
         E 0 90 31 67
         E 0 90 19 67
         E 0 90 6c 66
-        e 0 90 0c 64
-        e 60 80 0c 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 63 00
         E 0 81 64 00
         E 0 81 62 00
@@ -14059,9 +14009,7 @@
         E 0 90 30 69
         E 0 90 18 69
         E 0 90 6c 69
-        e 0 90 09 68
-        e 60 80 09 00
-        E 60 80 48 00
+        E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
@@ -14135,9 +14083,7 @@
         E 0 90 31 69
         E 0 90 19 69
         E 0 90 6c 68
-        e 0 90 0e 68
-        e 60 80 0e 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 64 00
         E 0 81 63 00
         E 0 81 62 00
@@ -14225,14 +14171,12 @@
         E 0 90 30 67
         E 0 90 18 67
         E 0 90 6c 67
-        e 0 90 07 67
         E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
         E 0 80 30 00
         E 0 80 18 00
-        e 0 80 07 00
         E 240 80 60 00
         E 0 81 62 00
         E 0 81 63 00
@@ -14301,9 +14245,7 @@
         E 0 90 31 67
         E 0 90 19 67
         E 0 90 6c 66
-        e 0 90 0c 64
-        e 60 80 0c 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 63 00
         E 0 81 64 00
         E 0 81 62 00
@@ -14391,9 +14333,7 @@
         E 0 90 30 69
         E 0 90 18 69
         E 0 90 6c 69
-        e 0 90 09 68
-        e 60 80 09 00
-        E 60 80 48 00
+        E 120 80 48 00
         E 0 81 4a 00
         E 0 81 4b 00
         E 0 81 4c 00
@@ -14467,9 +14407,7 @@
         E 0 90 31 69
         E 0 90 19 69
         E 0 90 6c 68
-        e 0 90 0e 68
-        e 60 80 0e 00
-        E 60 80 61 00
+        E 120 80 61 00
         E 0 81 64 00
         E 0 81 63 00
         E 0 81 62 00
@@ -14530,11 +14468,11 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62967
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 188029.36663 0.148661 5 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 148330.958229 0.479975 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 13 0 2205 1026 0 0 0 1 0.125 0 1 1 0 0 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 -50 0 2142 1026 0 0 0 1 0.125 0 1 1 0 0 0 0 1 64
       >
     >
   >
@@ -14544,7 +14482,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -14602,7 +14540,7 @@
       CHANMODE 0
       GUID {E782A32E-3D75-4440-81C2-D01DFDA3E801}
       <SOURCE FLAC
-        FILE "guitar.flac"
+        FILE "D:\customcollabs\WIP Customs\WiIng\guitar.flac"
       >
     >
   >
@@ -14612,7 +14550,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 0.62218279116455 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -14624,7 +14562,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbdrums.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbdrums.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_drums.png"
     FX 1
     TRACKID {8F33A645-3DF2-48FA-99BC-10992A4F8042}
@@ -19008,7 +18946,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -19066,7 +19004,7 @@
       CHANMODE 0
       GUID {A35BA6BE-CF16-45C7-9147-BA7FF0ECCA56}
       <SOURCE FLAC
-        FILE "drums.flac"
+        FILE "D:\customcollabs\WIP Customs\WiIng\drums.flac"
       >
     >
   >
@@ -19076,7 +19014,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 0.64748966862702 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -19122,7 +19060,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -19168,7 +19106,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
@@ -19180,7 +19118,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbbass.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbbass.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_guitarbass.png"
     FX 1
     TRACKID {70C3FE4D-3BC3-4146-95C4-8AC455A2D0F5}
@@ -21030,7 +20968,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -21041,7 +20979,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbprobass.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbprobass.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
     FX 1
     TRACKID {4048E3A2-B3FC-493C-BF0E-D7B7B9F9DFF3}
@@ -22494,7 +22432,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -22552,7 +22490,7 @@
       CHANMODE 0
       GUID {6D27A01B-8029-4D68-9B09-01E9943F5421}
       <SOURCE FLAC
-        FILE "bass.flac"
+        FILE "D:\customcollabs\WIP Customs\WiIng\bass.flac"
       >
     >
   >
@@ -22562,7 +22500,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 3.14072050589919 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -22574,7 +22512,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbvocals.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbvocals.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
     FX 1
     TRACKID {C298A11E-8E06-44B8-AA31-429ECCE3F0AF}
@@ -25592,7 +25530,7 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 20812.718126 3022.819003 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -25606,18 +25544,18 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 2.86212268916982 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbvocals.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbvocals.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
     FX 1
     TRACKID {204B57BA-168D-46B1-A27E-8EABE7405158}
@@ -26515,7 +26453,7 @@
         E 0 90 32 60
         E 240 80 32 00
         E 240 80 69 00
-        E 600 90 69 60
+        e 600 90 69 60
         <X 60 0 0 0 5 Ai
           /wVBaQ==
         >
@@ -26586,8 +26524,8 @@
         >
         E 0 90 45 60
         E 270 80 45 00
-        E 180 80 69 00
-        E 420 90 69 60
+        e 180 80 69 00
+        e 420 90 69 60
         <X 60 0 0 0 5 Ai
           /wVBaQ==
         >
@@ -26653,8 +26591,8 @@
         >
         E 0 90 3e 60
         E 480 80 3e 00
-        E 180 80 69 00
-        E 480 90 69 60
+        e 180 80 69 00
+        e 480 90 69 60
         E 0 90 74 60
         <X 60 0 0 0 5 Ai
           /wVBaQ==
@@ -26726,9 +26664,9 @@
         >
         E 0 90 45 60
         E 270 80 45 00
-        E 180 80 69 00
+        e 180 80 69 00
         E 0 80 74 00
-        E 420 90 69 60
+        e 420 90 69 60
         <X 60 0 0 0 5 Ai
           /wVBaQ==
         >
@@ -26777,9 +26715,9 @@
         <X 120 0 0 0 5 ai
           /wVhaQ==
         >
-        e 0 90 3e 60
-        e 240 80 3e 00
-        E 120 80 69 00
+        E 0 90 3e 60
+        E 240 80 3e 00
+        e 120 80 69 00
         E 0 90 69 60
         <X 60 0 0 0 5 Sa-
           /wVTYS0=
@@ -28626,11 +28564,11 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 115666.975825 143.533797 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 30 0 2222 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -28640,7 +28578,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -28678,7 +28616,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -28805,7 +28743,7 @@
       CHANMODE 0
       GUID {4C856C84-60AC-4F21-B729-6CD748E01664}
       <SOURCE FLAC
-        FILE "vocals.flac"
+        FILE "D:\customcollabs\WIP Customs\WiIng\vocals.flac"
       >
     >
   >
@@ -28815,18 +28753,18 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbharm2.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbharm2.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
     FX 1
     TRACKID {983C7D04-DAF6-462A-B5E6-64213F29FBA0}
@@ -28926,7 +28864,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 1
+      SEL 0
       IGUID {85B4D2FA-0EE6-4979-8286-EAC89A15680D}
       IID 12
       NAME HARM2
@@ -29163,8 +29101,8 @@
           /wUr
         >
         E 0 90 3e 7b
-        E 120 80 3e 00
-        <X 120 0 0 0 5 ai
+        E 90 80 3e 00
+        <X 150 0 0 0 5 ai
           /wVhaQ==
         >
         E 0 90 40 7b
@@ -29207,7 +29145,7 @@
         E 0 90 3c 60
         E 420 80 3c 00
         E 1680 80 69 00
-        E 4500 90 69 60
+        e 4500 90 69 60
         <X 120 0 0 0 5 Ttuuk
           /wVUdHV1aw==
         >
@@ -29227,7 +29165,7 @@
           /wUr
         >
         E 0 90 41 60
-        E 270 80 69 00
+        e 270 80 69 00
         E 0 80 41 00
         E 6180 90 69 60
         <X 60 0 0 0 5 Ai
@@ -29762,11 +29700,11 @@
         SRCCOLOR 5
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 115666.975825 143.533797 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 30 0 2222 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -29776,7 +29714,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -29814,7 +29752,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -29850,7 +29788,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbharm3.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbharm3.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_vox-other.png"
     FX 1
     TRACKID {4299BF31-E988-4C64-900A-97AC9ECE5EBC}
@@ -30170,8 +30108,8 @@
           /wUrJA==
         >
         E 0 90 3e 7b
-        E 120 80 3e 00
-        <X 300 0 0 0 5 ai$
+        E 90 80 3e 00
+        <X 330 0 0 0 5 ai$
           /wVhaSQ=
         >
         E 0 90 41 7b
@@ -30185,8 +30123,8 @@
           /wVhaSQ=
         >
         E 0 90 3c 7b
-        E 360 80 3c 00
-        <X 90 0 0 0 5 ai$
+        E 420 80 3c 00
+        <X 30 0 0 0 5 ai$
           /wVhaSQ=
         >
         E 0 90 3c 7b
@@ -30415,8 +30353,8 @@
           /wUrJA==
         >
         E 0 90 3e 7b
-        E 120 80 3e 00
-        <X 300 0 0 0 5 ai$
+        E 90 80 3e 00
+        <x 330 0 0 0 5 ai$
           /wVhaSQ=
         >
         E 0 90 41 7b
@@ -30425,13 +30363,13 @@
           /wUrJA==
         >
         E 0 90 3e 7b
-        E 120 80 3e 00
-        <X 120 0 0 0 5 ai$
+        E 90 80 3e 00
+        <X 150 0 0 0 5 ai$
           /wVhaSQ=
         >
         E 0 90 3c 7b
-        E 360 80 3c 00
-        <X 90 0 0 0 5 ai$
+        E 420 80 3c 00
+        <X 30 0 0 0 5 ai$
           /wVhaSQ=
         >
         E 0 90 3c 7b
@@ -30699,8 +30637,8 @@
         <X 120 0 0 0 5 ai$
           /wVhaSQ=
         >
-        e 0 90 3e 7b
-        e 240 80 3e 00
+        E 0 90 3e 7b
+        E 240 80 3e 00
         E 41220 b0 7b 00
         CCINTERP 32
         GUID {F1082209-E2A8-4526-8AA6-2FE8F2DEB335}
@@ -30708,11 +30646,11 @@
         SRCCOLOR 6
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        CFGEDITVIEW 78232.57134 302.516392 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 138993.887268 420.298602 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 30 0 2222 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -30722,7 +30660,7 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 0 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -30760,7 +30698,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -30863,13 +30801,13 @@
         GUID {40AD7956-A22A-434A-8513-4D3792B9DF69}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 14
-        VELLANE 132 128 60 0 1
+        VELLANE 132 128 91 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\EVENTS.txt"
-        CFGEDITVIEW 77522.655847 447.118882 0 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 186216.48163 57.871121 0 20 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 48 0 2240 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 1 184 -15 2376 1011 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -30879,7 +30817,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -30926,7 +30864,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D98FB327-83C1-4DC1-A8EA-DD2DFBF801A5}
       IID 336
       NAME VENUE
@@ -31925,7 +31863,7 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -32835,7 +32773,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbprobass.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbprobass.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
     FX 1
     TRACKID {689700DE-4EB3-4565-A4D3-1D50AE57E69C}
@@ -32999,7 +32937,7 @@
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    TRACKIMGFN "rbproguitar22.png"
+    TRACKIMGFN "D:\customcollabs\WIP Customs\WiIng\rbproguitar22.png"
     MIDICOLORMAPFN "%APPDATA%\REAPER\Data\color_maps\rockband_proguitar.png"
     FX 1
     TRACKID {8E2D3832-7544-43FB-9DB6-3E4B5060A3C0}

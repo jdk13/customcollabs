@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1788298145
+<REAPER_PROJECT 0.1 "7.29/win64" 1788294827
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 81.39692566524521
-  ZOOM 219.84439433696016 16981 0
+  CURSOR 80.83579442527164
+  ZOOM 309.44269348707462 24254 0
   VZOOMEX 0 479
   USE_REC_CFG 0
   RECMODE 1
@@ -61,7 +61,7 @@
   >
   GLOBAL_AUTO 6
   TEMPO 124.825 4 4
-  PLAYRATE 0.5 1 0.25 4
+  PLAYRATE 1 1 0.25 4
   SELECTION 128.62574686660614 164.19696071627777
   SELECTION2 128.62574686660614 164.19696071627777
   MASTERAUTOMODE 0
@@ -81,7 +81,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -0.5 -170.840761 -100 -100 -100 -100 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 2.950121 -100 -7.072377 -100 -100 -6.280596 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -25592,7 +25592,7 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 20812.718126 3022.819003 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -25606,13 +25606,13 @@
     BEAT 1
     AUTOMODE 0
     VOLPAN 2.86212268916982 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -25716,7 +25716,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 0
+      SEL 1
       IGUID {8B503BB6-EA11-4D50-AE3C-E2AE700861F3}
       IID 10
       NAME HARM1
@@ -26762,8 +26762,8 @@
         <X 120 0 0 0 5 +
           /wUr
         >
-        E 0 90 41 60
-        E 120 80 41 00
+        e 0 90 41 60
+        e 120 80 41 00
         <X 120 0 0 0 5 ai
           /wVhaQ==
         >
@@ -26777,8 +26777,8 @@
         <X 120 0 0 0 5 ai
           /wVhaQ==
         >
-        e 0 90 3e 60
-        e 240 80 3e 00
+        E 0 90 3e 60
+        E 240 80 3e 00
         E 120 80 69 00
         E 0 90 69 60
         <X 60 0 0 0 5 Sa-
@@ -28626,11 +28626,11 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 78394.778165 302.516392 4 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 48 0 2240 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -28821,7 +28821,7 @@
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -28926,7 +28926,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       COLOR 31283746 R
-      SEL 1
+      SEL 0
       IGUID {85B4D2FA-0EE6-4979-8286-EAC89A15680D}
       IID 12
       NAME HARM2
@@ -29762,11 +29762,11 @@
         SRCCOLOR 5
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        CFGEDITVIEW 77228.417982 214.923585 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 78394.778165 302.516392 4 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 48 0 2240 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >
@@ -30708,11 +30708,11 @@
         SRCCOLOR 6
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        CFGEDITVIEW 78232.57134 302.516392 8 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 153538.480158 185.633473 4 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 43 0 2235 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 48 0 2240 1026 0 2 1 2 0 0 0 1 0 0.5 1 0 1 64
       >
     >
   >

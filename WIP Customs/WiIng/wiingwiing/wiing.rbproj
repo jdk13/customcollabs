@@ -37,7 +37,7 @@
    )
    (
       'gamedata'
-      ('preview_start_ms' 30000)
+      ('preview_start_ms' 48000)
       ('rank_guitar' 5)
       ('rank_bass' 2)
       ('rank_drum' 3)
