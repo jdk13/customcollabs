@@ -1,0 +1,206 @@
+(
+   'project'
+   (
+      'tool_version'
+      "110411_A"
+   )
+   ('project_version' 24)
+   (
+      'metadata'
+      (
+         'song_name'
+         "Perfect System"
+      )
+      (
+         'artist_name'
+         "Oingo Boingo"
+      )
+      ('genre' 'new_wave')
+      ('sub_genre' 'subgenre_new_wave')
+      ('year_released' 1981)
+      (
+         'album_name'
+         "Only A Lad"
+      )
+      (
+         'author'
+         "Russ T Sprinkler"
+      )
+      (
+         'release_label'
+         ""
+      )
+      ('country' 'ugc_country_us')
+      ('price' 80)
+      ('track_number' 2)
+      ('has_album' 1)
+   )
+   (
+      'gamedata'
+      ('preview_start_ms' 151000)
+      ('rank_guitar' 3)
+      ('rank_bass' 3)
+      ('rank_drum' 2)
+      ('rank_vocals' 6)
+      ('rank_keys' 3)
+      ('rank_pro_keys' 4)
+      ('rank_band' 5)
+      ('vocal_scroll_speed' 2300)
+      ('anim_tempo' 32)
+      ('vocal_gender' 'male')
+      ('vocal_percussion' 'tambourine')
+      ('vocal_parts' 1)
+      ('guide_pitch_volume' -3.00)
+   )
+   (
+      'languages'
+      ('english' 1)
+      ('french' 0)
+      ('italian' 0)
+      ('spanish' 0)
+      ('german' 0)
+      ('japanese' 0)
+   )
+   (
+      'destination_file'
+      "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\magma\\perfectsystemruss_rb3con.rba"
+   )
+   (
+      'midi'
+      (
+         'file'
+         "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\magma\\perfectsystem.mid"
+      )
+      (
+         'autogen_theme'
+         "ArenaRock.rbtheme"
+      )
+   )
+   (
+      'dry_vox'
+      (
+         'part0'
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\dry\\12-VOCALS AUDIO-consolidated.wav"
+         )
+         ('enabled' 1)
+      )
+      (
+         'part1'
+         (
+            'file'
+            ""
+         )
+         ('enabled' 0)
+      )
+      (
+         'part2'
+         (
+            'file'
+            ""
+         )
+         ('enabled' 0)
+      )
+      ('tuning_offset_cents' 0.00)
+   )
+   (
+      'album_art'
+      (
+         'file'
+         "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\magma\\album_x256.bmp"
+      )
+   )
+   (
+      'tracks'
+      ('drum_layout' 'drum_layout_kit_kick_snare')
+      (
+         'drum_kit'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\06-KIT AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'drum_kick'
+         ('enabled' 1)
+         ('channels' 1)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\04-KICK AUDIO-consolidated-01.wav"
+         )
+      )
+      (
+         'drum_snare'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\05-SNARE AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'bass'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\08-BASS AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'guitar'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\10-GUITAR AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'vocals'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\12-VOCALS AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'keys'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\20-KEYS AUDIO-consolidated.wav"
+         )
+      )
+      (
+         'backing'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\Back.wav"
+         )
+      )
+   )
+)

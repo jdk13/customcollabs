@@ -1,0 +1,7 @@
+bass -7
+
+vox -4
+
+guitar -5
+
+drum -3
