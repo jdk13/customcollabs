@@ -37,7 +37,7 @@
    )
    (
       'gamedata'
-      ('preview_start_ms' 48000)
+      ('preview_start_ms' 125000)
       ('rank_guitar' 5)
       ('rank_bass' 2)
       ('rank_drum' 3)
@@ -63,13 +63,13 @@
    )
    (
       'destination_file'
-      "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiing.rba"
+      "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiing_rb3con.rba"
    )
    (
       'midi'
       (
          'file'
-         "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiingwiing.mid"
+         "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiingwiing.mid"
       )
       (
          'autogen_theme'
@@ -82,7 +82,7 @@
          'part0'
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvox.wav"
+            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvox.wav"
          )
          ('enabled' 1)
       )
@@ -90,7 +90,7 @@
          'part1'
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvoxSILENT.wav"
          )
          ('enabled' 1)
       )
@@ -98,7 +98,7 @@
          'part2'
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvoxSILENT.wav"
          )
          ('enabled' 1)
       )
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "C:\\Users\\Jacob\\Downloads\\20_x256.bmp"
+         "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\album_x256.bmp"
       )
    )
    (
@@ -119,10 +119,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -1.00 -1.00)
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Drum.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Drum.wav"
          )
       )
       (
@@ -152,10 +152,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -6.50 -6.50)
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Bass.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Bass.wav"
          )
       )
       (
@@ -163,10 +163,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -6.20 -6.20)
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Guitar.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Guitar.wav"
          )
       )
       (
@@ -174,10 +174,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -5.00 -5.00)
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Vox.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Vox.wav"
          )
       )
       (
@@ -199,7 +199,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Backing.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Backing.wav"
          )
       )
    )
