@@ -8,27 +8,64 @@
    )
    (
       'lips'
+      (
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvox.wav"
+            6403684
+            746166953
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvoxsilent.wav"
+            6403684
+            70253970
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvoxsilent.wav"
+            6403684
+            70253970
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wiingwiing.mid"
+            116035
+            -419766619
+         )
+      )
       ()
-      ()
-      ()
+      (
+         "B23EFF5535B224DD8B34E99AAB0668C85C1A4785"
+      )
    )
    (
       'midi'
+      (
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wiingwiing.mid"
+            116035
+            -419766619
+         )
+      )
       ()
-      ()
-      ()
+      (
+         "70D1197E2813C6D42C1FF8CBEDC25E1B621BAD37"
+      )
    )
    (
       'dta'
       ()
       ()
       (
-         "A7601E2B84D9BD7C05F699B6D291123CD4CFFA96"
+         "A7518448BCCD84C86BB2311AA6B9300DFE3E0592"
       )
    )
    (
       'art'
-      ()
+      (
+         (
+            "c:/users/jacob/downloads/20_x256.bmp"
+            262198
+            1230625889
+         )
+      )
       ()
       ()
    )
