@@ -3,7 +3,7 @@
 Song=Wi ing Wi ing
 Artist=HYUKOH
 Album=20
-CustomID=
+CustomID=wiing
 Version=6
 IsMaster=True
 EncodingQuality=7
