@@ -1,0 +1,115 @@
+(
+   'build'
+   (
+      'mogg'
+      (
+         (
+            "d:/customcollabs/wip customs/wiing/russstemwork/final/stems/drum.wav"
+            35317464
+            58801845
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/russstemwork/final/stems/bass.wav"
+            35317464
+            56346628
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/russstemwork/final/stems/guitar.wav"
+            35317468
+            61557516
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/russstemwork/final/stems/vox.wav"
+            35317460
+            64319228
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/russstemwork/final/stems/backing.wav"
+            35317468
+            54039474
+         )
+      )
+      (
+         13077937
+         "93945bca07e76570ef83201e07dbbca557db76b8"
+      )
+      (
+         "3FAC361FC9065B4013DC1B9F1FB819BDA9DF49D5"
+      )
+   )
+   (
+      'lips'
+      (
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvox.wav"
+            6403684
+            746166953
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvoxsilent.wav"
+            6403684
+            70253970
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wingrb2dryvoxsilent.wav"
+            6403684
+            70253970
+         )
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wiingwiing.mid"
+            116035
+            -419766619
+         )
+      )
+      (
+         211318
+         "c64e66640c94c901a737a20feb85e30040dbd7d4"
+      )
+      (
+         "B23EFF5535B224DD8B34E99AAB0668C85C1A4785"
+      )
+   )
+   (
+      'midi'
+      (
+         (
+            "d:/customcollabs/wip customs/wiing/wiingwiing/wiingwiing.mid"
+            116035
+            -419766619
+         )
+      )
+      (
+         116054
+         "470bb97e9a748bf94ccb94b700182548353f72be"
+      )
+      (
+         "70D1197E2813C6D42C1FF8CBEDC25E1B621BAD37"
+      )
+   )
+   (
+      'dta'
+      ()
+      (
+         2069
+         "fe47c2d04abc2b9c2312e4ec84e5b0bdf62ed970"
+      )
+      (
+         "A7518448BCCD84C86BB2311AA6B9300DFE3E0592"
+      )
+   )
+   (
+      'art'
+      (
+         (
+            "c:/users/jacob/downloads/20_x256.bmp"
+            262198
+            1230625889
+         )
+      )
+      (
+         262198
+         "756033dc50993e300f6be2eefb8baac260bae420"
+      )
+      ()
+   )
+)
