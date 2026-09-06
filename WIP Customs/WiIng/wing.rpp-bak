@@ -1,10 +1,9 @@
-<REAPER_PROJECT 0.1 "7.66/win64" 1788551907 0
-  RIPPLE 0 0
-  GROUPOVERRIDE 0 1 0 0
+<REAPER_PROJECT 0.1 "7.29/win64" 1788558253
+  RIPPLE 0
+  GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
   ENVATTACH 1
   POOLEDENVATTACH 0
-  TCPUIFLAGS 0
   MIXERUIFLAGS 11 80
   PEAKGAIN 1
   FEEDBACK 0
@@ -12,12 +11,12 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
-  TIMEMODE 1 5 -1 30 0 0 -1 0
+  TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 154.09208616780083
-  ZOOM 59.41358871784542 8699 0
-  VZOOMEX 0 0
+  CURSOR 135.37245501991629
+  ZOOM 183.87670844260626 24133 0
+  VZOOMEX 0 587
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -38,7 +37,6 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
-  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 0
   TEMPOENVLOCKMODE 1
   ITEMMIX 0
@@ -62,7 +60,7 @@
     MULT 1
   >
   GLOBAL_AUTO 6
-  TEMPO 124.825 4 4 0
+  TEMPO 124.825 4 4
   PLAYRATE 1 1 0.25 4
   SELECTION 0 0
   SELECTION2 0 0
@@ -70,7 +68,7 @@
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 66
   MASTER_VOLUME 1.23169460501479 0 -1 -1 1
@@ -83,7 +81,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 7.379701 -100 -2.942548 -160.420311 -100 -1.478596 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 1.283336 -100 -7.209801 -166.051943 -161.561793 -7.007863 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -244,20 +242,17 @@
     PT 193.007095796368 133.9067854561 1
     PT 193.455168683755 117.1428571429 1
   >
-  RULERHEIGHT 86 86
-  RULERLANE 1 4 "" 0 -1
-  RULERLANE 2 8 "" 0 -1
-  MARKER 1 5.7680753054276 intro 0 0 1 R {DBEE0488-BC83-4C48-B899-827C7FEE52BB} 0 2
-  MARKER 2 21.14608457071186 verse_1 0 0 1 R {4A5A037D-67E2-4E0E-ABF9-8F78131576C2} 0 2
-  MARKER 3 36.48863160025107 prechrous_1 0 0 1 R {0A840112-3615-469F-B56D-DFD8DB36B29B} 0 2
-  MARKER 4 51.88491407575771 chorus_1 0 0 1 R {258EFD66-81F6-481F-B1A7-1A4401509D99} 0 2
-  MARKER 5 67.19229386279376 postchorus 0 0 1 R {DA5C1A03-B8AE-4A83-9608-C647AD1288CE} 0 2
-  MARKER 6 82.54872136834885 verse_2 0 0 1 R {B98B0097-0623-446F-AA5C-EFB7A8A8139D} 0 2
-  MARKER 7 97.9177168890749 prechorus_2 0 0 1 R {9D36B44C-65E2-46B3-AD96-00A1C8E74A7B} 0 2
-  MARKER 8 113.26250592703401 prechorus_2a 0 0 1 R {61C1BFA1-1E9F-4DB9-A610-2D0AD9D7BFEE} 0 2
-  MARKER 9 128.62574686660614 chorus_2 0 0 1 R {D98A3233-9D16-42F7-820B-EC506377D2EC} 0 2
-  MARKER 10 164.19696071627777 bridge 0 0 1 R {EC4E90B5-A06B-491B-9963-67F6C4110FC5} 0 2
-  MARKER 11 179.56859386552372 outro 8 0 1 R {44AC17CF-FC28-4BB1-A609-CED5A3C634B8} 0 2
+  MARKER 1 5.7680753054276 intro 0 0 1 R {DBEE0488-BC83-4C48-B899-827C7FEE52BB} 0
+  MARKER 2 21.14608457071186 verse_1 0 0 1 R {4A5A037D-67E2-4E0E-ABF9-8F78131576C2} 0
+  MARKER 3 36.48863160025107 prechrous_1 0 0 1 R {0A840112-3615-469F-B56D-DFD8DB36B29B} 0
+  MARKER 4 51.88491407575771 chorus_1 0 0 1 R {258EFD66-81F6-481F-B1A7-1A4401509D99} 0
+  MARKER 5 67.19229386279376 postchorus 0 0 1 R {DA5C1A03-B8AE-4A83-9608-C647AD1288CE} 0
+  MARKER 6 82.54872136834885 verse_2 0 0 1 R {B98B0097-0623-446F-AA5C-EFB7A8A8139D} 0
+  MARKER 7 97.9177168890749 prechorus_2 0 0 1 R {9D36B44C-65E2-46B3-AD96-00A1C8E74A7B} 0
+  MARKER 8 113.26250592703401 prechorus_2a 0 0 1 R {61C1BFA1-1E9F-4DB9-A610-2D0AD9D7BFEE} 0
+  MARKER 9 128.62574686660614 chorus_2 0 0 1 R {D98A3233-9D16-42F7-820B-EC506377D2EC} 0
+  MARKER 10 164.19696071627777 bridge 0 0 1 R {EC4E90B5-A06B-491B-9963-67F6C4110FC5} 0
+  MARKER 11 179.56859386552372 outro 8 0 1 R {44AC17CF-FC28-4BB1-A609-CED5A3C634B8} 0
   <PROJBAY
   >
   <TRACK {161C1505-ACC9-4E87-870A-179699D02C54}
@@ -272,9 +267,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -344,9 +338,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 7 0 0 0 0
     VU 2
@@ -502,8 +495,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -584,7 +576,7 @@
       FXID {BE2DD3C1-369E-4A84-9D1A-28C6EEDD52D6}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
         AFByb2dyYW0gMQAQAAAA
@@ -5811,12 +5803,12 @@
         GUID {14D9E950-FB92-4048-8603-8FD02AE3B865}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 2
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 124816.025067 0.946301 14 12 0 -1 0 0 0 0.5
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
+        CFGEDITVIEW 135739.763677 0.020975 14 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
       >
     >
@@ -5832,9 +5824,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -5953,7 +5944,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8CF02D5C-A3F6-4396-B6F3-C2F97908080F}
       IID 1
       NAME "PART REAL_GUITAR - wing_REDUCED (2).mid"
@@ -11266,9 +11257,7 @@
         E 0 80 1a 00
         E 0 90 62 70
         E 120 80 62 00
-        E 0 93 62 6e
-        E 120 83 62 00
-        E 0 90 63 6e
+        E 120 90 63 6e
         E 120 80 63 00
         E 120 93 62 6e
         E 120 83 62 00
@@ -11301,9 +11290,7 @@
         E 0 80 1a 00
         E 0 90 62 70
         E 120 80 62 00
-        E 0 93 62 6e
-        E 120 83 62 00
-        E 0 90 63 6e
+        E 120 90 63 6e
         E 120 80 63 00
         E 240 92 63 70
         E 0 92 4b 70
@@ -11341,9 +11328,7 @@
         E 0 80 1a 00
         E 0 90 62 70
         E 120 80 62 00
-        E 0 93 62 6e
-        E 90 83 62 00
-        E 30 90 63 6e
+        E 120 90 63 6e
         E 120 80 63 00
         E 240 90 62 6e
         E 0 90 32 6e
@@ -11366,11 +11351,9 @@
         E 240 90 64 71
         E 0 90 63 6e
         E 0 90 0e 6e
-        E 0 90 62 70
         E 60 80 0e 00
         E 60 80 64 00
         E 0 80 63 00
-        E 0 80 62 00
         E 120 93 63 6e
         E 0 93 64 6f
         E 120 83 63 00
@@ -11379,7 +11362,9 @@
         E 0 90 64 6f
         E 0 90 4b 6e
         E 0 90 4c 6f
-        E 120 80 63 00
+        e 0 90 07 6f
+        e 60 80 07 00
+        E 60 80 63 00
         E 0 80 64 00
         E 0 80 4b 00
         E 0 80 4c 00
@@ -11391,9 +11376,7 @@
         E 0 93 4d 71
         E 0 93 33 6e
         E 0 93 34 6f
-        E 0 90 07 6f
-        E 60 80 07 00
-        E 60 83 64 00
+        E 120 83 64 00
         E 0 83 63 00
         E 0 83 65 00
         E 0 83 4b 00
@@ -12948,18 +12931,14 @@
         E 30 90 6c 6e
         E 0 93 63 6f
         E 0 93 64 71
-        E 0 93 62 70
         E 90 83 63 00
         E 0 83 64 00
-        E 0 83 62 00
         E 30 80 6c 00
         E 0 93 63 6f
         E 0 93 64 71
         E 0 90 0e 60
-        E 0 93 62 70
         E 90 83 63 00
         E 0 83 64 00
-        E 0 83 62 00
         E 30 80 0e 00
         E 0 90 63 6f
         E 0 90 64 71
@@ -12967,14 +12946,12 @@
         E 0 90 4c 71
         E 0 90 33 6f
         E 0 90 34 71
-        E 0 90 62 70
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 4b 00
         E 0 80 4c 00
         E 0 80 33 00
         E 0 80 34 00
-        E 0 80 62 00
         E 120 93 63 6f
         E 0 93 64 71
         E 0 93 65 70
@@ -13387,17 +13364,17 @@
         E 0 83 65 00
         E 60 90 64 71
         E 0 90 63 70
-        E 0 90 65 70
         E 0 90 4b 70
         E 0 90 4c 71
         E 0 90 4d 70
+        E 0 90 11 60
         E 60 80 64 00
         E 0 80 63 00
-        E 0 80 65 00
         E 60 80 4b 00
         E 0 80 4c 00
         E 0 80 4d 00
-        E 120 90 64 71
+        E 30 80 11 00
+        E 90 90 64 71
         E 0 90 63 70
         E 0 90 65 70
         E 0 90 4b 70
@@ -13438,11 +13415,10 @@
         E 0 90 1b 6f
         E 0 90 6c 6f
         E 0 90 0e 60
-        E 0 90 62 70
         E 0 90 63 6f
         E 0 90 64 71
-        E 60 80 62 00
-        E 0 80 63 00
+        E 0 90 11 60
+        E 60 80 63 00
         E 0 80 64 00
         E 60 80 4b 00
         E 0 80 4c 00
@@ -13455,20 +13431,17 @@
         E 0 90 64 71
         E 0 90 4b 6f
         E 0 90 4c 71
-        E 0 90 62 70
         E 120 80 63 00
         E 0 80 64 00
         E 0 80 4b 00
         E 0 80 4c 00
-        E 0 80 62 00
         E 120 90 4b 6f
         E 0 90 4c 71
-        E 0 90 62 70
         E 0 90 63 6f
         E 0 90 64 71
-        E 120 80 4b 00
+        E 120 80 11 00
+        E 0 80 4b 00
         E 0 80 4c 00
-        E 0 80 62 00
         E 0 80 63 00
         E 0 80 64 00
         E 120 90 63 6f
@@ -14804,11 +14777,11 @@
         GUID {1B30D8A7-DF71-4EB7-B3F3-EBFB6DD7A86F}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62967
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 148748.858606 0.044773 2 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 118212.471588 0.369195 96 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0.5 0 0 1 64
       >
     >
@@ -14819,13 +14792,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 0.29516224459529 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 84 0 0 0 0 0 0
@@ -14896,8 +14868,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
@@ -14999,7 +14970,7 @@
       FXID {D4EC3C58-478E-4D1F-A0FC-2252BD344989}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwGqAA==
         AFByb2dyYW0gMQAQAAAA
@@ -19272,12 +19243,12 @@
         GUID {99C52F88-C54B-4CCD-B038-A5C950AC8E6E}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 0
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Drums.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Drums.txt"
         CFGEDITVIEW 112428.137134 0.148661 16 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
       >
     >
@@ -19293,8 +19264,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 103 0 0 0 0 0 0
@@ -19362,8 +19332,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -19409,8 +19378,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -19456,8 +19424,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     SPACER 1
@@ -19539,7 +19506,7 @@
       FXID {F1BEF72C-FAB3-40FB-A79A-CA326F0A9A34}
       WAK 0 0
       BYPASS 0 0 0
-      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
+      <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwCqAA==
         AFByb2dyYW0gMQAQAAAA
@@ -21294,12 +21261,12 @@
         GUID {54A57D35-811F-42A6-AB75-F5706122F903}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 1
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
         CFGEDITVIEW 112428.137134 0.148661 14 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
       >
     >
@@ -21315,8 +21282,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -22760,11 +22726,11 @@
         GUID {66751426-527D-4BD8-A9B2-D7986EC30513}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62968
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
         CFGEDITVIEW 112428.137134 0.148661 2 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
       >
     >
@@ -22775,13 +22741,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 92 0 0 0 0 0 0
@@ -22849,8 +22814,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     SPACER 1
@@ -25873,12 +25837,12 @@
         GUID {C9A1A4CA-4224-4672-91C0-075BEB2A8650}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 3
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
         CFGEDITVIEW 146327.846154 139.901119 13 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -25894,8 +25858,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28908,12 +28871,12 @@
         GUID {C9A1A4CA-4224-4672-91C0-075BEB2A8650}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 3
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
         CFGEDITVIEW 163402.765148 182.937285 13 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -28929,8 +28892,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -28963,13 +28925,12 @@
     BEAT 0
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 113 0 0 0 0 0 0
@@ -29106,8 +29067,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -30047,12 +30007,12 @@
         GUID {E53B89F8-ECC8-4A25-86E2-BC4D240C9444}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 5
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
         CFGEDITVIEW 143499.661912 58.083726 1 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -30068,8 +30028,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -30107,9 +30066,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -30133,8 +30091,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -30996,12 +30953,12 @@
         GUID {F1082209-E2A8-4526-8AA6-2FE8F2DEB335}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 6
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Instruments.txt"
         CFGEDITVIEW 143499.661912 58.083726 1 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -31017,8 +30974,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -31056,8 +31012,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -31155,12 +31110,12 @@
         GUID {40AD7956-A22A-434A-8513-4D3792B9DF69}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 14
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\EVENTS.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\EVENTS.txt"
         CFGEDITVIEW 112428.137134 0.148661 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 0 1 1 1 0.0625 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -31176,9 +31131,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -31219,7 +31173,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D98FB327-83C1-4DC1-A8EA-DD2DFBF801A5}
       IID 336
       NAME VENUE
@@ -31392,16 +31346,13 @@
         <X 960 0 0 0 1 "[lighting (harmony)]"
           /wFbbGlnaHRpbmcgKGhhcm1vbnkpXQ==
         >
-        <X 0 0 0 0 1 [coop_d_near]
-          /wFbY29vcF9kX25lYXJd
+        <X 0 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
         >
         <X 120 0 0 0 1 "[lighting (harmony)]"
           /wFbbGlnaHRpbmcgKGhhcm1vbnkpXQ==
         >
-        <X 1800 0 0 0 1 [coop_all_behind]
-          /wFbY29vcF9hbGxfYmVoaW5kXQ==
-        >
-        <X 1920 0 0 0 1 [coop_bv_near]
+        <X 3720 0 0 0 1 [coop_bv_near]
           /wFbY29vcF9idl9uZWFyXQ==
         >
         <X 1920 0 0 0 1 [coop_g_near]
@@ -31410,20 +31361,26 @@
         <X 1920 0 0 0 1 [coop_v_closeup]
           /wFbY29vcF92X2Nsb3NldXBd
         >
-        <X 3840 0 0 0 1 [coop_d_near]
+        <X 1920 0 0 0 1 " [coop_bv_near]"
+          /wEgW2Nvb3BfYnZfbmVhcl0=
+        >
+        <X 1920 0 0 0 1 " [coop_all_far]"
+          /wEgW2Nvb3BfYWxsX2Zhcl0=
+        >
+        <X 1920 0 0 0 1 [coop_d_near]
           /wFbY29vcF9kX25lYXJd
         >
-        <X 3840 0 0 0 1 [coop_g_closeup_head]
+        <X 1920 0 0 0 1 [coop_g_closeup_head]
           /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
         >
         <X 3840 0 0 0 1 [coop_v_behind]
           /wFbY29vcF92X2JlaGluZF0=
         >
-        <X 3840 0 0 0 1 [coop_v_behind]
-          /wFbY29vcF92X2JlaGluZF0=
+        <X 3840 0 0 0 1 [coop_all_near]
+          /wFbY29vcF9hbGxfbmVhcl0=
         >
-        <X 3840 0 0 0 1 [coop_v_behind]
-          /wFbY29vcF92X2JlaGluZF0=
+        <X 3840 0 0 0 1 [coop_gv_behind]
+          /wFbY29vcF9ndl9iZWhpbmRd
         >
         <X 1920 0 0 0 1 [coop_d_closeup_hand]
           /wFbY29vcF9kX2Nsb3NldXBfaGFuZF0=
@@ -31431,37 +31388,43 @@
         <X 1920 0 0 0 1 "[lighting (chorus)]"
           /wFbbGlnaHRpbmcgKGNob3J1cyld
         >
+        <X 0 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
         <X 120 0 0 0 1 "[lighting (chorus)]"
           /wFbbGlnaHRpbmcgKGNob3J1cyld
         >
-        <X 1800 0 0 0 1 [coop_bd_near]
+        <X 2760 0 0 0 1 [coop_bd_near]
           /wFbY29vcF9iZF9uZWFyXQ==
         >
-        <X 3840 0 0 0 1 [coop_gk_near]
-          /wFbY29vcF9na19uZWFyXQ==
+        <x 2880 0 0 0 1 " [coop_bg_near]"
+          /wEgW2Nvb3BfYmdfbmVhcl0=
         >
-        <X 3840 0 0 0 1 [coop_g_behind]
-          /wFbY29vcF9nX2JlaGluZF0=
+        <X 1920 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
         >
         <X 3840 0 0 0 1 [coop_dg_near]
           /wFbY29vcF9kZ19uZWFyXQ==
         >
-        <X 3840 0 0 0 1 [coop_b_behind]
-          /wFbY29vcF9iX2JlaGluZF0=
+        <X 3840 0 0 0 1 [coop_bv_behind]
+          /wFbY29vcF9idl9iZWhpbmRd
+        >
+        <x 3840 0 0 0 1 " [coop_all_near]"
+          /wEgW2Nvb3BfYWxsX25lYXJd
         >
         <X 3840 0 0 0 1 [coop_dv_near]
           /wFbY29vcF9kdl9uZWFyXQ==
         >
-        <X 3840 0 0 0 1 [coop_all_behind]
+        <X 1920 0 0 0 1 [coop_all_behind]
           /wFbY29vcF9hbGxfYmVoaW5kXQ==
         >
-        <X 1920 0 0 0 1 [coop_b_closeup_head]
-          /wFbY29vcF9iX2Nsb3NldXBfaGVhZF0=
+        <X 1920 0 0 0 1 " [coop_dg_near]"
+          /wEgW2Nvb3BfZGdfbmVhcl0=
         >
-        <X 2880 0 0 0 1 [coop_all_far]
-          /wFbY29vcF9hbGxfZmFyXQ==
+        <X 1920 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
         >
-        <X 1920 0 0 0 1 "[lighting (blackout_slow)]"
+        <X 2880 0 0 0 1 "[lighting (blackout_slow)]"
           /wFbbGlnaHRpbmcgKGJsYWNrb3V0X3Nsb3cpXQ==
         >
         E 3780 90 27 64
@@ -31501,11 +31464,11 @@
         GUID {D22A053A-1352-4A80-A513-FFA56A2FDE1D}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62984
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 91 0 1
-        CFGEDITVIEW 83681.229441 161.975368 74 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 131221.279534 91.756777 19 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 0 1 1 1 0 1 1 1 1 397 134 1606 923 0 0 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
@@ -31523,9 +31486,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -31928,7 +31890,9 @@
         >
         E 0 90 66 60
         E 120 80 66 00
-        <X 3720 0 0 0 1 [coop_bd_near]
+        E 1800 90 5a 60
+        E 120 80 5a 00
+        <X 1800 0 0 0 1 [coop_bd_near]
           /wFbY29vcF9iZF9uZWFyXQ==
         >
         E 0 90 66 60
@@ -31968,12 +31932,12 @@
         >
         E 0 90 66 60
         E 120 80 66 00
-        <X 2760 0 0 0 1 [coop_all_far]
+        e 1800 90 58 60
+        e 120 80 58 00
+        <X 840 0 0 0 1 [coop_all_far]
           /wFbY29vcF9hbGxfZmFyXQ==
         >
-        E 0 90 63 60
-        E 120 80 63 00
-        <X 5640 0 0 0 1 [coop_gv_near]
+        <X 5760 0 0 0 1 [coop_gv_near]
           /wFbY29vcF9ndl9uZWFyXQ==
         >
         E 0 90 42 60
@@ -32018,11 +31982,11 @@
         GUID {997FD46D-F659-4824-A32F-1906E6AB8820}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 52
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 71043.587113 33.457288 0 14 0 -1 43 0 0 0.5
+        CFGEDITVIEW 153205.064509 91.756777 0 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
@@ -32040,9 +32004,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -32205,11 +32168,11 @@
         GUID {25DF423E-84F6-4F09-BAB1-B44BD66EE91B}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 20
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
         CFGEDITVIEW 112428.137134 0.148661 16 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
@@ -32225,8 +32188,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -33102,12 +33064,12 @@
         GUID {8CB930E8-B6A0-4CAD-825A-9F47FB66C1D0}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 115
-        TEXTSTRINGFILE "Text Events List.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 100 100 0 1
+        TEXTSTRINGFILE "Text Events List.txt"
         CFGEDITVIEW 112428.137134 0.148661 0 48 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 1 397 134 1606 923 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
@@ -33124,8 +33086,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
@@ -33268,12 +33229,12 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 18
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Bass Trainers.txt"
         CFGEDITVIEW -2620.991122 80.213931 15 28 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 397 134 1606 923 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
@@ -33290,8 +33251,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 0 0.6667 0.5 0 0.5 0 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -33445,12 +33405,12 @@
         GUID {95EB2031-BC44-4B36-809B-F7595C07BF30}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 17
-        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 6 0 1
+        TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\Pro Guitar Trainers.txt"
         CFGEDITVIEW -2620.991122 80.213931 8 28 0 -1 16 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.125 397 134 1606 923 0 2 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
