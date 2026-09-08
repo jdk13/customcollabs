@@ -1,0 +1,206 @@
+(
+   'project'
+   (
+      'tool_version'
+      "110411_A"
+   )
+   ('project_version' 24)
+   (
+      'metadata'
+      (
+         'song_name'
+         "Wi ing Wi ing"
+      )
+      (
+         'artist_name'
+         "HYUKOH"
+      )
+      ('genre' 'indierock')
+      ('sub_genre' 'subgenre_indierock')
+      ('year_released' 2014)
+      (
+         'album_name'
+         "20"
+      )
+      (
+         'author'
+         "JDK, brandunce, Russ T Sprinkler"
+      )
+      (
+         'release_label'
+         ""
+      )
+      ('country' 'ugc_country_us')
+      ('price' 80)
+      ('track_number' 4)
+      ('has_album' 1)
+   )
+   (
+      'gamedata'
+      ('preview_start_ms' 125000)
+      ('rank_guitar' 5)
+      ('rank_bass' 2)
+      ('rank_drum' 3)
+      ('rank_vocals' 5)
+      ('rank_keys' 1)
+      ('rank_pro_keys' 1)
+      ('rank_band' 3)
+      ('vocal_scroll_speed' 2300)
+      ('anim_tempo' 32)
+      ('vocal_gender' 'male')
+      ('vocal_percussion' 'tambourine')
+      ('vocal_parts' 3)
+      ('guide_pitch_volume' -3.00)
+   )
+   (
+      'languages'
+      ('english' 1)
+      ('french' 0)
+      ('italian' 0)
+      ('spanish' 0)
+      ('german' 0)
+      ('japanese' 0)
+   )
+   (
+      'destination_file'
+      "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiingwiing_rb3con.rba"
+   )
+   (
+      'midi'
+      (
+         'file'
+         "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiingwiing.mid"
+      )
+      (
+         'autogen_theme'
+         "ArenaRock.rbtheme"
+      )
+   )
+   (
+      'dry_vox'
+      (
+         'part0'
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvox.wav"
+         )
+         ('enabled' 1)
+      )
+      (
+         'part1'
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+         )
+         ('enabled' 1)
+      )
+      (
+         'part2'
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+         )
+         ('enabled' 1)
+      )
+      ('tuning_offset_cents' 0.00)
+   )
+   (
+      'album_art'
+      (
+         'file'
+         "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\album_x256.bmp"
+      )
+   )
+   (
+      'tracks'
+      ('drum_layout' 'drum_layout_kit')
+      (
+         'drum_kit'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Ddrum.wav"
+         )
+      )
+      (
+         'drum_kick'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'drum_snare'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'bass'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Bass.wav"
+         )
+      )
+      (
+         'guitar'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' -1.00 -1.00)
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Guitar.wav"
+         )
+      )
+      (
+         'vocals'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' -0.50 -0.50)
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Vox.wav"
+         )
+      )
+      (
+         'keys'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'backing'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Back.wav"
+         )
+      )
+   )
+)
