@@ -63,7 +63,7 @@
    )
    (
       'destination_file'
-      "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiing_rb3con.rba"
+      "D:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiing_rb3con.rba"
    )
    (
       'midi'
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\album_x256.bmp"
+         "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\album_x256.bmp"
       )
    )
    (
@@ -184,8 +184,8 @@
          'keys'
          ('enabled' 0)
          ('channels' 0)
-         ('pan')
-         ('vol')
+         ('pan' 0.00)
+         ('vol' 0.00)
          (
             'file'
             ""

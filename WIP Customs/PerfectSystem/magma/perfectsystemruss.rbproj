@@ -37,7 +37,7 @@
    )
    (
       'gamedata'
-      ('preview_start_ms' 151000)
+      ('preview_start_ms' 172000)
       ('rank_guitar' 3)
       ('rank_bass' 3)
       ('rank_drum' 2)
@@ -49,7 +49,7 @@
       ('anim_tempo' 32)
       ('vocal_gender' 'male')
       ('vocal_percussion' 'tambourine')
-      ('vocal_parts' 1)
+      ('vocal_parts' 2)
       ('guide_pitch_volume' -3.00)
    )
    (
@@ -92,7 +92,7 @@
             'file'
             ""
          )
-         ('enabled' 0)
+         ('enabled' 1)
       )
       (
          'part2'
@@ -119,10 +119,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -2.60 -2.60)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\06-KIT AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Kit.wav"
          )
       )
       (
@@ -133,18 +133,18 @@
          ('vol' 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\04-KICK AUDIO-consolidated-01.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Kick.wav"
          )
       )
       (
          'drum_snare'
          ('enabled' 1)
-         ('channels' 2)
-         ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('channels' 1)
+         ('pan' 0.00)
+         ('vol' 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\05-SNARE AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Snare.wav"
          )
       )
       (
@@ -152,10 +152,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -3.50 -3.50)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\08-BASS AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Bass.wav"
          )
       )
       (
@@ -163,10 +163,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -2.20 -2.20)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\10-GUITAR AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Guitar.wav"
          )
       )
       (
@@ -174,10 +174,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -3.00 -3.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\12-VOCALS AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\vox.wav"
          )
       )
       (
@@ -185,10 +185,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -4.00 -4.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\20-KEYS AUDIO-consolidated.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\keys.wav"
          )
       )
       (
@@ -196,10 +196,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' 0.00 0.00)
+         ('vol' -2.00 -2.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\stem\\out\\Back.wav"
+            "D:\\GitHub\\customcollabs\\WIP Customs\\PerfectSystem\\MagmaStems\\Backing.wav"
          )
       )
    )

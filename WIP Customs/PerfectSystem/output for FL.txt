@@ -1,0 +1,6 @@
+kick -3.0
+snare -2.2
+kit -2.2
+guitar -1.5
+bass -1
+vox -1
