@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1788558253
+<REAPER_PROJECT 0.1 "7.29/win64" 1788850209
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 65536
   PANMODE 3
-  CURSOR 135.37245501991629
-  ZOOM 183.87670844260626 24133 0
-  VZOOMEX 0 587
+  CURSOR 151.70262792216482
+  ZOOM 43.74963239866985 6114 0
+  VZOOMEX 0 121
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -61,7 +61,7 @@
   >
   GLOBAL_AUTO 6
   TEMPO 124.825 4 4
-  PLAYRATE 1 1 0.25 4
+  PLAYRATE 0.5 1 0.25 4
   SELECTION 0 0
   SELECTION2 0 0
   MASTERAUTOMODE 0
@@ -71,7 +71,7 @@
   MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 66
-  MASTER_VOLUME 1.23169460501479 0 -1 -1 1
+  MASTER_VOLUME 0.47259462407974 0 -1 -1 1
   MASTER_FX 1
   MASTER_SEL 0
   <MASTERFXLIST
@@ -81,7 +81,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/loudness_meter Meters
-      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - 1.283336 -100 -7.209801 -166.051943 -161.561793 -7.007863 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      4 0 0 2 1 1 1 0 -12 -6 1 0 0 1.8 0 - - - - - - - - - - - - - - -305.750735 -466.084968 -305.508557 -100 -100 -100 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     >
     FLOATPOS 56 84 505 466
     FXID {23967ED9-A711-4C59-8A27-34B8B33433D8}
@@ -249,7 +249,7 @@
   MARKER 5 67.19229386279376 postchorus 0 0 1 R {DA5C1A03-B8AE-4A83-9608-C647AD1288CE} 0
   MARKER 6 82.54872136834885 verse_2 0 0 1 R {B98B0097-0623-446F-AA5C-EFB7A8A8139D} 0
   MARKER 7 97.9177168890749 prechorus_2 0 0 1 R {9D36B44C-65E2-46B3-AD96-00A1C8E74A7B} 0
-  MARKER 8 113.26250592703401 prechorus_2a 0 0 1 R {61C1BFA1-1E9F-4DB9-A610-2D0AD9D7BFEE} 0
+  MARKER 8 113.26250592703404 prechorus_2a 0 0 1 R {61C1BFA1-1E9F-4DB9-A610-2D0AD9D7BFEE} 0
   MARKER 9 128.62574686660614 chorus_2 0 0 1 R {D98A3233-9D16-42F7-820B-EC506377D2EC} 0
   MARKER 10 164.19696071627777 bridge 0 0 1 R {EC4E90B5-A06B-491B-9963-67F6C4110FC5} 0
   MARKER 11 179.56859386552372 outro 8 0 1 R {44AC17CF-FC28-4BB1-A609-CED5A3C634B8} 0
@@ -614,12 +614,12 @@
         <X 3840 0 0 0 1 [idle]
           /wFbaWRsZV0=
         >
-        <X 1920 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 0 90 28 60
+        E 1920 90 28 60
         E 60 80 28 00
-        E 43 90 61 60
+        <x 13 0 0 0 1 [mellow]
+          /wFbbWVsbG93XQ==
+        >
+        E 30 90 61 60
         E 0 90 55 60
         E 0 90 48 60
         E 0 90 3c 60
@@ -2153,7 +2153,10 @@
         E 0 80 54 00
         E 0 80 48 00
         E 0 80 3c 00
-        E 120 90 61 60
+        <X 120 0 0 0 1 [play]
+          /wFbcGxheV0=
+        >
+        E 0 90 61 60
         E 0 90 55 60
         E 360 80 61 00
         E 0 80 55 00
@@ -3721,18 +3724,18 @@
         E 30 80 58 00
         E 0 90 63 60
         E 90 80 63 00
-        e 30 90 62 60
+        E 30 90 62 60
         E 0 90 56 60
         E 0 90 49 60
         E 0 90 3d 60
-        e 90 80 62 00
+        E 90 80 62 00
         E 30 80 56 00
         E 0 80 49 00
         E 0 80 3d 00
-        e 0 90 61 60
-        e 90 80 61 00
-        e 30 90 61 60
-        e 90 80 61 00
+        E 0 90 61 60
+        E 90 80 61 00
+        E 30 90 61 60
+        E 90 80 61 00
         E 30 90 63 60
         E 0 90 62 60
         E 120 80 63 00
@@ -5045,7 +5048,10 @@
         E 0 80 58 00
         E 4637 90 2d 60
         E 60 80 2d 00
-        E 43 90 61 60
+        <X 43 0 0 0 1 [mellow]
+          /wFbbWVsbG93XQ==
+        >
+        E 0 90 61 60
         E 0 90 55 60
         E 0 90 48 60
         E 0 90 3c 60
@@ -5805,7 +5811,7 @@
         SRCCOLOR 2
         VELLANE 132 128 6 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Guitar-Bass.txt"
-        CFGEDITVIEW 135739.763677 0.020975 14 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 3788.261839 0.090779 14 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -5825,7 +5831,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -5944,7 +5950,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {8CF02D5C-A3F6-4396-B6F3-C2F97908080F}
       IID 1
       NAME "PART REAL_GUITAR - wing_REDUCED (2).mid"
@@ -5960,7 +5966,10 @@
         <X 0 0 0 0 3 "PART REAL_GUITAR"
           /wNQQVJUIFJFQUxfR1VJVEFS
         >
-        E 5760 90 60 67
+        <X 5760 0 0 0 1 "[begin_pg song_trainer_pg_1]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzFd
+        >
+        E 0 90 60 67
         E 0 90 68 60
         E 0 90 07 67
         E 0 91 62 67
@@ -6128,7 +6137,10 @@
         E 120 80 68 00
         E 0 80 50 00
         E 0 80 60 00
-        E 120 90 60 69
+        <X 120 0 0 0 1 "[pg_norm song_trainer_pg_1]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfMV0=
+        >
+        E 0 90 60 69
         E 0 90 68 60
         E 0 91 63 69
         E 0 91 64 69
@@ -6298,7 +6310,10 @@
         E 120 80 68 00
         E 0 80 50 00
         E 0 80 60 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[end_pg song_trainer_pg_1]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ18xXQ==
+        >
+        E 0 90 60 67
         E 0 90 68 60
         E 0 91 62 67
         E 0 91 63 67
@@ -9270,7 +9285,10 @@
         E 0 93 64 67
         E 0 93 62 67
         E 0 93 60 67
-        E 120 83 63 00
+        <X 120 0 0 0 1 "[begin_pg song_trainer_pg_2]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzJd
+        >
+        E 0 83 63 00
         E 0 83 64 00
         E 0 83 62 00
         E 0 83 60 00
@@ -9478,7 +9496,10 @@
         E 0 93 64 69
         E 0 93 62 69
         E 0 93 60 69
-        E 120 83 63 00
+        <X 120 0 0 0 1 "[pg_norm song_trainer_pg_2]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfMl0=
+        >
+        E 0 83 63 00
         E 0 83 64 00
         E 0 83 62 00
         E 0 83 60 00
@@ -9684,7 +9705,10 @@
         E 0 93 62 67
         E 0 93 60 67
         E 0 93 64 67
-        E 120 83 63 00
+        <X 120 0 0 0 1 "[end_pg song_trainer_pg_2]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ18yXQ==
+        >
+        E 0 83 63 00
         E 0 83 62 00
         E 0 83 60 00
         E 0 83 64 00
@@ -11240,7 +11264,10 @@
         E 0 93 63 69
         E 0 93 62 68
         E 0 93 61 69
-        E 120 83 63 00
+        <X 120 0 0 0 1 "[begin_pg song_trainer_pg_3]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzNd
+        >
+        E 0 83 63 00
         E 0 83 62 00
         E 0 83 61 00
         E 0 90 62 6e
@@ -11318,7 +11345,10 @@
         E 90 83 62 00
         E 30 93 62 6e
         E 90 83 62 00
-        E 30 90 62 6e
+        <X 30 0 0 0 1 "[pg_norm song_trainer_pg_3]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfM10=
+        >
+        E 0 90 62 6e
         E 0 90 4a 6e
         E 0 90 32 6e
         E 0 90 1a 6e
@@ -11362,8 +11392,8 @@
         E 0 90 64 6f
         E 0 90 4b 6e
         E 0 90 4c 6f
-        e 0 90 07 6f
-        e 60 80 07 00
+        E 0 90 07 6f
+        E 60 80 07 00
         E 60 80 63 00
         E 0 80 64 00
         E 0 80 4b 00
@@ -11467,7 +11497,13 @@
         E 60 83 62 00
         E 0 83 61 00
         E 0 83 63 00
-        E 60 80 6a 00
+        <X 60 0 0 0 1 "[end_pg song_trainer_pg_3]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ18zXQ==
+        >
+        <X 0 0 0 0 1 "[begin_pg song_trainer_pg_4]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzRd
+        >
+        E 0 80 6a 00
         E 0 90 62 6e
         E 0 90 4a 6e
         E 0 90 32 6e
@@ -11539,7 +11575,10 @@
         E 0 82 33 00
         E 120 82 63 00
         E 120 90 63 6e
-        E 120 80 63 00
+        <X 120 0 0 0 1 "[pg_norm song_trainer_pg_4]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfNF0=
+        >
+        E 0 80 63 00
         E 0 90 62 70
         E 0 90 4a 70
         E 0 90 32 70
@@ -11699,7 +11738,13 @@
         E 0 93 62 70
         E 0 93 63 6e
         E 0 93 64 6e
-        E 120 83 62 00
+        <X 120 0 0 0 1 "[end_pg song_trainer_pg_4]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ180XQ==
+        >
+        <X 0 0 0 0 1 "[begin_pg song_trainer_pg_5]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzVd
+        >
+        E 0 83 62 00
         E 0 83 63 00
         E 0 83 64 00
         E 0 90 62 70
@@ -11915,7 +11960,10 @@
         E 0 93 62 72
         E 0 93 63 70
         E 0 93 64 70
-        E 120 83 62 00
+        <X 120 0 0 0 1 "[pg_norm song_trainer_pg_5]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfNV0=
+        >
+        E 0 83 62 00
         E 0 83 63 00
         E 0 83 64 00
         E 0 90 62 72
@@ -12144,7 +12192,10 @@
         E 60 83 62 00
         E 0 83 63 00
         E 0 83 64 00
-        E 60 90 62 70
+        <X 60 0 0 0 1 "[end_pg song_trainer_pg_5]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ181XQ==
+        >
+        E 0 90 62 70
         E 0 90 63 6e
         E 0 90 64 6e
         E 0 90 4a 70
@@ -12580,7 +12631,10 @@
         E 60 83 63 00
         E 0 83 64 00
         E 0 83 65 00
-        E 60 90 63 6d
+        <x 60 0 0 0 1 "[begin_pg song_trainer_pg_6]"
+          /wFbYmVnaW5fcGcgc29uZ190cmFpbmVyX3BnXzZd
+        >
+        E 0 90 63 6d
         E 0 90 64 6e
         E 0 90 65 6d
         E 0 90 06 60
@@ -12816,7 +12870,10 @@
         E 60 83 63 00
         E 0 83 64 00
         E 0 83 65 00
-        E 60 90 08 60
+        <x 60 0 0 0 1 "[pg_norm song_trainer_pg_6]"
+          /wFbcGdfbm9ybSBzb25nX3RyYWluZXJfcGdfNl0=
+        >
+        E 0 90 08 60
         E 0 90 63 6f
         E 0 90 64 70
         E 0 90 65 6f
@@ -13048,7 +13105,10 @@
         E 60 83 63 00
         E 0 83 64 00
         E 0 83 65 00
-        E 60 90 63 6d
+        <x 60 0 0 0 1 "[end_pg song_trainer_pg_6]"
+          /wFbZW5kX3BnIHNvbmdfdHJhaW5lcl9wZ182XQ==
+        >
+        E 0 90 63 6d
         E 0 90 64 6e
         E 0 90 65 6d
         E 0 90 06 60
@@ -14778,7 +14838,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62967
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 118212.471588 0.369195 96 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 132450.780138 0.019711 7 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -21433,7 +21493,10 @@
         E 0 83 48 00
         E 0 80 4f 00
         E 0 80 6c 00
-        E 60 90 60 67
+        <X 60 0 0 0 1 "[begin_pb song_trainer_pb_1]"
+          /wFbYmVnaW5fcGIgc29uZ190cmFpbmVyX3BiXzFd
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -21535,7 +21598,10 @@
         E 0 80 30 00
         E 240 80 60 00
         E 0 80 6c 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[end_pb song_trainer_pb_1]"
+          /wFbZW5kX3BiIHNvbmdfdHJhaW5lcl9wYl8xXQ==
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -21837,7 +21903,10 @@
         E 0 83 61 00
         E 0 80 4f 00
         E 0 80 6c 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[begin_pb song_trainer_pb_2]"
+          /wFbYmVnaW5fcGIgc29uZ190cmFpbmVyX3BiXzJd
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -21937,7 +22006,10 @@
         E 0 80 30 00
         E 240 80 60 00
         E 0 80 6c 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[end_pb song_trainer_pb_2]"
+          /wFbZW5kX3BiIHNvbmdfdHJhaW5lcl9wYl8yXQ==
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -22261,7 +22333,10 @@
         E 0 80 49 00
         E 120 90 61 69
         E 120 80 61 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[begin_pb song_trainer_pb_3]"
+          /wFbYmVnaW5fcGIgc29uZ190cmFpbmVyX3BiXzNd
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -22385,7 +22460,10 @@
         E 120 80 49 00
         E 0 80 31 00
         E 240 80 61 00
-        E 120 90 60 67
+        <X 120 0 0 0 1 "[end_pb song_trainer_pb_3]"
+          /wFbZW5kX3BiIHNvbmdfdHJhaW5lcl9wYl8zXQ==
+        >
+        E 0 90 60 67
         E 0 90 48 67
         E 0 90 30 67
         E 0 90 18 67
@@ -22727,7 +22805,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62968
         VELLANE 132 128 6 0 1
-        CFGEDITVIEW 112428.137134 0.148661 2 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 100696.847632 0.010639 2 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -22943,8 +23021,8 @@
         <X 60 0 0 0 5 Bi-
           /wVCaS0=
         >
-        <X 0 0 0 0 1 [play]
-          /wFbcGxheV0=
+        <X 0 0 0 0 1 [mellow]
+          /wFbbWVsbG93XQ==
         >
         E 0 90 37 60
         E 90 80 37 00
@@ -23242,13 +23320,13 @@
         E 210 80 69 00
         E 840 90 69 60
         E 0 90 74 60
-        <X 60 0 0 0 5 Wing
-          /wVXaW5n
+        <X 60 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -23357,13 +23435,13 @@
         E 120 80 32 00
         E 240 80 69 00
         E 720 90 69 60
-        <X 120 0 0 0 5 Bing
-          /wVCaW5n
+        <X 120 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <X 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -23798,7 +23876,10 @@
         E 270 80 45 00
         E 180 80 69 00
         E 420 90 69 60
-        <X 60 0 0 0 5 Ai
+        <X 60 0 0 0 1 [play]
+          /wFbcGxheV0=
+        >
+        <X 0 0 0 0 5 Ai
           /wVBaQ==
         >
         E 0 90 44 60
@@ -24321,13 +24402,13 @@
         E 180 80 69 00
         E 0 80 74 00
         E 840 90 69 60
-        <X 60 0 0 0 5 Wing-
-          /wVXaW5nLQ==
+        <X 60 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -24435,13 +24516,13 @@
         E 120 80 32 00
         E 180 80 69 00
         E 840 90 69 60
-        <X 60 0 0 0 5 Bing
-          /wVCaW5n
+        <X 60 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <X 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -25306,7 +25387,10 @@
           /wEr
         >
         E 0 90 3e 60
-        E 1950 80 3e 00
+        <X 1950 0 0 0 1 [mellow]
+          /wFbbWVsbG93XQ==
+        >
+        E 0 80 3e 00
         E 240 80 69 00
         <X 3600 0 0 0 5 Bi-#
           /wVCaS0j
@@ -25607,13 +25691,13 @@
         E 90 80 30 00
         E 180 80 69 00
         E 840 90 69 60
-        <X 120 0 0 0 5 Wing
-          /wVXaW5n
+        <X 120 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -25721,13 +25805,13 @@
         E 120 80 32 00
         E 240 80 69 00
         E 720 90 69 60
-        <X 120 0 0 0 5 Bing
-          /wVCaW5n
+        <x 120 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <x 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -25839,7 +25923,7 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 146327.846154 139.901119 13 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 183479.493573 85.692968 22 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -26279,13 +26363,13 @@
         E 210 80 69 00
         E 840 90 69 60
         E 0 90 74 60
-        <X 60 0 0 0 5 Wing
-          /wVXaW5n
+        <X 60 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -26394,13 +26478,13 @@
         E 120 80 32 00
         E 240 80 69 00
         E 720 90 69 60
-        <X 120 0 0 0 5 Bing
-          /wVCaW5n
+        <X 120 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <X 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -27358,13 +27442,13 @@
         E 180 80 69 00
         E 0 80 74 00
         E 840 90 69 60
-        <X 60 0 0 0 5 Wing-
-          /wVXaW5nLQ==
+        <X 60 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -27472,13 +27556,13 @@
         E 120 80 32 00
         E 180 80 69 00
         E 840 90 69 60
-        <X 60 0 0 0 5 Bing
-          /wVCaW5n
+        <X 60 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <X 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -28644,13 +28728,13 @@
         E 90 80 30 00
         E 180 80 69 00
         E 840 90 69 60
-        <X 120 0 0 0 5 Wing
-          /wVXaW5n
+        <X 120 0 0 0 5 Wiing
+          /wVXaWluZw==
         >
         E 0 90 41 60
         E 480 80 41 00
-        <X 480 0 0 0 5 wing
-          /wV3aW5n
+        <X 480 0 0 0 5 wiing
+          /wV3aWluZw==
         >
         E 0 90 3e 60
         E 420 80 3e 00
@@ -28758,13 +28842,13 @@
         E 120 80 32 00
         E 240 80 69 00
         E 720 90 69 60
-        <X 120 0 0 0 5 Bing
-          /wVCaW5n
+        <X 120 0 0 0 5 Biing
+          /wVCaWluZw==
         >
         E 0 90 41 60
         E 540 80 41 00
-        <X 420 0 0 0 5 bing
-          /wViaW5n
+        <X 420 0 0 0 5 biing
+          /wViaWluZw==
         >
         E 0 90 3e 60
         E 480 80 3e 00
@@ -28873,7 +28957,7 @@
         SRCCOLOR 3
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "%APPDATA%\REAPER\Data\Text_Strings\PART Vocals.txt"
-        CFGEDITVIEW 163402.765148 182.937285 13 19 0 -1 12 0 0 0.5
+        CFGEDITVIEW 89863.896336 65.188849 0 19 0 -1 12 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -31120,19 +31204,505 @@
       >
     >
   >
-  <TRACK {1529008F-97D2-43EB-8634-7C5A7418AD90}
-    NAME VENUE
-    PEAKCOL 26200581
-    BEAT 1
+  <TRACK {0453C17C-A0F2-4B19-9EDE-D636CB294DD5}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
     AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0453C17C-A0F2-4B19-9EDE-D636CB294DD5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {DD86682A-1950-4C07-BE43-41C8E5FF607A}
+    NAME VENUE
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DD86682A-1950-4C07-BE43-41C8E5FF607A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 193.96736380570223
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C0A278FE-5F9C-4F70-AEE3-6F7815D778B2}
+      IID 6
+      NAME "VENUE - wingauto.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {118C4247-852D-41DD-B21D-C914A6E140B6}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {E3006055-12D3-480A-9F1A-AE1FF4A13CA9}
+        <X 0 0 0 0 3 VENUE
+          /wNWRU5VRQ==
+        >
+        <X 3840 0 0 0 1 "[lighting (manual_cool)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF9jb29sKV0=
+        >
+        <X 0 0 0 0 1 [first]
+          /wFbZmlyc3Rd
+        >
+        <X 0 0 0 0 1 [coop_all_behind]
+          /wFbY29vcF9hbGxfYmVoaW5kXQ==
+        >
+        <X 960 0 0 0 1 "[lighting (manual_cool)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF9jb29sKV0=
+        >
+        E 900 90 27 64
+        <X 60 0 0 0 1 "[lighting (silhouettes_spot)]"
+          /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzX3Nwb3QpXQ==
+        >
+        <X 3360 0 0 0 1 [coop_g_closeup_head]
+          /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 3600 0 0 0 1 [coop_all_behind]
+          /wFbY29vcF9hbGxfYmVoaW5kXQ==
+        >
+        <X 3840 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 3840 0 0 0 1 [coop_all_far]
+          /wFbY29vcF9hbGxfZmFyXQ==
+        >
+        E 660 90 28 64
+        <X 3900 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 3120 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 3360 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 3600 0 0 0 1 [coop_v_behind]
+          /wFbY29vcF92X2JlaGluZF0=
+        >
+        <X 4080 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 2880 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 3120 0 0 0 1 [coop_v_behind]
+          /wFbY29vcF92X2JlaGluZF0=
+        >
+        <X 2640 0 0 0 1 [coop_g_closeup_head]
+          /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 2880 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 3840 0 0 0 1 [coop_gv_near]
+          /wFbY29vcF9ndl9uZWFyXQ==
+        >
+        <X 0 0 0 0 1 [coop_bk_near]
+          /wFbY29vcF9ia19uZWFyXQ==
+        >
+        <X 2640 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 1680 0 0 0 1 [coop_all_near]
+          /wFbY29vcF9hbGxfbmVhcl0=
+        >
+        <X 3360 0 0 0 1 [coop_gv_behind]
+          /wFbY29vcF9ndl9iZWhpbmRd
+        >
+        <X 0 0 0 0 1 [coop_bk_behind]
+          /wFbY29vcF9ia19iZWhpbmRd
+        >
+        <X 2640 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 960 0 0 0 1 "[lighting (silhouettes_spot)]"
+          /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzX3Nwb3QpXQ==
+        >
+        <X 480 0 0 0 1 "[lighting (sweep)]"
+          /wFbbGlnaHRpbmcgKHN3ZWVwKV0=
+        >
+        E 0 80 27 00
+        E 0 80 28 00
+        <X 96 0 0 0 1 "[lighting (sweep)]"
+          /wFbbGlnaHRpbmcgKHN3ZWVwKV0=
+        >
+        <X 144 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 720 0 0 0 1 "[lighting (manual_warm)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF93YXJtKV0=
+        >
+        <X 0 0 0 0 1 [first]
+          /wFbZmlyc3Rd
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 720 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 [coop_bg_behind]
+          /wFbY29vcF9iZ19iZWhpbmRd
+        >
+        <X 0 0 0 0 1 [coop_kv_behind]
+          /wFbY29vcF9rdl9iZWhpbmRd
+        >
+        <X 720 0 0 0 1 "[lighting (flare_fast)]"
+          /wFbbGlnaHRpbmcgKGZsYXJlX2Zhc3QpXQ==
+        >
+        <X 182 0 0 0 1 "[lighting (manual_warm)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF93YXJtKV0=
+        >
+        <X 23 0 0 0 1 [first]
+          /wFbZmlyc3Rd
+        >
+        <X 275 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 720 0 0 0 1 [coop_all_far]
+          /wFbY29vcF9hbGxfZmFyXQ==
+        >
+        <X 720 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 [coop_d_closeup_head]
+          /wFbY29vcF9kX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 240 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 1200 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 0 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 720 0 0 0 1 [coop_g_closeup_head]
+          /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 0 0 0 0 1 [coop_b_closeup_head]
+          /wFbY29vcF9iX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 720 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 0 0 0 0 1 [coop_d_closeup_hand]
+          /wFbY29vcF9kX2Nsb3NldXBfaGFuZF0=
+        >
+        <X 960 0 0 0 1 "[lighting (manual_warm)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF93YXJtKV0=
+        >
+        <X 0 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 "[lighting (manual_cool)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF9jb29sKV0=
+        >
+        <X 0 0 0 0 1 [first]
+          /wFbZmlyc3Rd
+        >
+        <X 0 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 1200 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 240 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 720 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 240 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 [coop_g_behind]
+          /wFbY29vcF9nX2JlaGluZF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 1200 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 240 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 960 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 1200 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 0 0 0 0 1 [coop_b_closeup_head]
+          /wFbY29vcF9iX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 480 0 0 0 1 [coop_g_closeup_head]
+          /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 720 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 [coop_d_closeup_head]
+          /wFbY29vcF9kX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 480 0 0 0 1 "[lighting (manual_cool)]"
+          /wFbbGlnaHRpbmcgKG1hbnVhbF9jb29sKV0=
+        >
+        <X 0 0 0 0 1 [next]
+          /wFbbmV4dF0=
+        >
+        <X 480 0 0 0 1 "[lighting (loop_warm)]"
+          /wFbbGlnaHRpbmcgKGxvb3Bfd2FybSld
+        >
+        <X 0 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 2400 0 0 0 1 [coop_g_closeup_hand]
+          /wFbY29vcF9nX2Nsb3NldXBfaGFuZF0=
+        >
+        <X 2640 0 0 0 1 [coop_d_behind]
+          /wFbY29vcF9kX2JlaGluZF0=
+        >
+        <X 2160 0 0 0 1 [directed_guitar_cls]
+          /wFbZGlyZWN0ZWRfZ3VpdGFyX2Nsc10=
+        >
+        <X 480 0 0 0 1 "[lighting (flare_slow)]"
+          /wFbbGlnaHRpbmcgKGZsYXJlX3Nsb3cpXQ==
+        >
+        <X 408 0 0 0 1 "[lighting (loop_warm)]"
+          /wFbbGlnaHRpbmcgKGxvb3Bfd2FybSld
+        >
+        <X 2472 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 2880 0 0 0 1 [coop_bv_near]
+          /wFbY29vcF9idl9uZWFyXQ==
+        >
+        <X 0 0 0 0 1 [coop_gk_near]
+          /wFbY29vcF9na19uZWFyXQ==
+        >
+        <X 4560 0 0 0 1 [coop_b_behind]
+          /wFbY29vcF9iX2JlaGluZF0=
+        >
+        <X 2400 0 0 0 1 [coop_all_far]
+          /wFbY29vcF9hbGxfZmFyXQ==
+        >
+        <x 2640 0 0 0 1 [directed_vocals]
+          /wFbZGlyZWN0ZWRfdm9jYWxzXQ==
+        >
+        <X 0 0 0 0 1 "[lighting (flare_slow)]"
+          /wFbbGlnaHRpbmcgKGZsYXJlX3Nsb3cpXQ==
+        >
+        <X 408 0 0 0 1 "[lighting (loop_warm)]"
+          /wFbbGlnaHRpbmcgKGxvb3Bfd2FybSld
+        >
+        <X 3432 0 0 0 1 [coop_g_closeup_hand]
+          /wFbY29vcF9nX2Nsb3NldXBfaGFuZF0=
+        >
+        <X 2640 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 720 0 0 0 1 "[lighting (loop_warm)]"
+          /wFbbGlnaHRpbmcgKGxvb3Bfd2FybSld
+        >
+        <X 480 0 0 0 1 "[lighting (searchlights)]"
+          /wFbbGlnaHRpbmcgKHNlYXJjaGxpZ2h0cyld
+        >
+        <X 2400 0 0 0 1 [coop_v_behind]
+          /wFbY29vcF92X2JlaGluZF0=
+        >
+        <X 2400 0 0 0 1 [coop_d_closeup_hand]
+          /wFbY29vcF9kX2Nsb3NldXBfaGFuZF0=
+        >
+        <X 2880 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 2400 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 2640 0 0 0 1 [coop_g_behind]
+          /wFbY29vcF9nX2JlaGluZF0=
+        >
+        <X 2160 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 2640 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 2400 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 2640 0 0 0 1 [coop_front_behind]
+          /wFbY29vcF9mcm9udF9iZWhpbmRd
+        >
+        <X 2640 0 0 0 1 [coop_b_near]
+          /wFbY29vcF9iX25lYXJd
+        >
+        <X 2400 0 0 0 1 [coop_g_closeup_hand]
+          /wFbY29vcF9nX2Nsb3NldXBfaGFuZF0=
+        >
+        <X 2640 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 1680 0 0 0 1 [coop_b_closeup_head]
+          /wFbY29vcF9iX2Nsb3NldXBfaGVhZF0=
+        >
+        <X 470 0 0 0 1 "[lighting (searchlights)]"
+          /wFbbGlnaHRpbmcgKHNlYXJjaGxpZ2h0cyld
+        >
+        <X 480 0 0 0 1 "[lighting (silhouettes)]"
+          /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzKV0=
+        >
+        <X 1690 0 0 0 1 "[lighting (silhouettes)]"
+          /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzKV0=
+        >
+        <X 240 0 0 0 1 [coop_all_near]
+          /wFbY29vcF9hbGxfbmVhcl0=
+        >
+        E 660 90 27 64
+        E 0 90 28 64
+        <X 60 0 0 0 1 "[lighting (silhouettes_spot)]"
+          /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzX3Nwb3QpXQ==
+        >
+        <X 3360 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 3600 0 0 0 1 [coop_g_behind]
+          /wFbY29vcF9nX2JlaGluZF0=
+        >
+        <X 3120 0 0 0 1 [coop_v_near]
+          /wFbY29vcF92X25lYXJd
+        >
+        <X 3120 0 0 0 1 [coop_g_behind]
+          /wFbY29vcF9nX2JlaGluZF0=
+        >
+        <X 2160 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 3600 0 0 0 1 [coop_g_near]
+          /wFbY29vcF9nX25lYXJd
+        >
+        <X 2880 0 0 0 1 [coop_all_near]
+          /wFbY29vcF9hbGxfbmVhcl0=
+        >
+        <X 3600 0 0 0 1 [coop_v_closeup]
+          /wFbY29vcF92X2Nsb3NldXBd
+        >
+        <X 3120 0 0 0 1 [coop_g_behind]
+          /wFbY29vcF9nX2JlaGluZF0=
+        >
+        <X 960 0 0 0 1 "[lighting (blackout_slow)]"
+          /wFbbGlnaHRpbmcgKGJsYWNrb3V0X3Nsb3cpXQ==
+        >
+        E 0 80 27 00
+        E 0 80 28 00
+        E 240 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {ED5F8042-7B45-4713-B505-AAD8A1E0D9AF}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 63231
+        VELLANE 132 128 91 0 1
+        CFGEDITVIEW 80823.191748 0.009419 87 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 286
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 0 1 1 1 0.0625 397 134 1606 923 0 0 0 1 0.125 0 1 0 0 0 0 0 1 64
+      >
+    >
+  >
+  <TRACK {1529008F-97D2-43EB-8634-7C5A7418AD90}
+    NAME VENUE
+    PEAKCOL 26200581
+    BEAT 1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
     SHOWINMIX 0 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     SPACER 1
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -31173,7 +31743,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {D98FB327-83C1-4DC1-A8EA-DD2DFBF801A5}
       IID 336
       NAME VENUE
@@ -31301,8 +31871,8 @@
         <X 720 0 0 0 1 [coop_g_closeup_head]
           /wFbY29vcF9nX2Nsb3NldXBfaGVhZF0=
         >
-        <X 960 0 0 0 1 [coop_d_closeup_head]
-          /wFbY29vcF9kX2Nsb3NldXBfaGVhZF0=
+        <X 960 0 0 0 1 [coop_b_closeup_head]
+          /wFbY29vcF9iX2Nsb3NldXBfaGVhZF0=
         >
         <X 720 0 0 0 1 [coop_d_closeup_hand]
           /wFbY29vcF9kX2Nsb3NldXBfaGFuZF0=
@@ -31346,7 +31916,7 @@
         <X 960 0 0 0 1 "[lighting (harmony)]"
           /wFbbGlnaHRpbmcgKGhhcm1vbnkpXQ==
         >
-        <X 0 0 0 0 1 [coop_v_near]
+        <x 0 0 0 0 1 [coop_v_near]
           /wFbY29vcF92X25lYXJd
         >
         <X 120 0 0 0 1 "[lighting (harmony)]"
@@ -31397,7 +31967,7 @@
         <X 2760 0 0 0 1 [coop_bd_near]
           /wFbY29vcF9iZF9uZWFyXQ==
         >
-        <x 2880 0 0 0 1 " [coop_bg_near]"
+        <X 2880 0 0 0 1 " [coop_bg_near]"
           /wEgW2Nvb3BfYmdfbmVhcl0=
         >
         <X 1920 0 0 0 1 [coop_v_near]
@@ -31409,7 +31979,7 @@
         <X 3840 0 0 0 1 [coop_bv_behind]
           /wFbY29vcF9idl9iZWhpbmRd
         >
-        <x 3840 0 0 0 1 " [coop_all_near]"
+        <X 3840 0 0 0 1 " [coop_all_near]"
           /wEgW2Nvb3BfYWxsX25lYXJd
         >
         <X 3840 0 0 0 1 [coop_dv_near]
@@ -31424,10 +31994,10 @@
         <X 1920 0 0 0 1 [coop_b_near]
           /wFbY29vcF9iX25lYXJd
         >
-        <X 2880 0 0 0 1 "[lighting (blackout_slow)]"
-          /wFbbGlnaHRpbmcgKGJsYWNrb3V0X3Nsb3cpXQ==
+        <X 4800 0 0 0 1 "[lighting (blackout_fast)]"
+          /wFbbGlnaHRpbmcgKGJsYWNrb3V0X2Zhc3QpXQ==
         >
-        E 3780 90 27 64
+        E 1860 90 27 64
         E 0 90 28 64
         <X 60 0 0 0 1 "[lighting (silhouettes_spot)]"
           /wFbbGlnaHRpbmcgKHNpbGhvdWV0dGVzX3Nwb3QpXQ==
@@ -31465,11 +32035,11 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 62984
         VELLANE 132 128 91 0 1
-        CFGEDITVIEW 131221.279534 91.756777 19 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 0 13.009711 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 1 1 1 0 1 1 1 1 397 134 1606 923 0 0 1 2 0 0 0 0 0 0 0 0 1 64
+        CFGEDIT 1 1 0 0 1 1 1 0 1 1 1 1 2598 171 3807 960 0 0 1 2 0 0 0 0 0 0 0 0 1 64
       >
     >
   >
@@ -31983,7 +32553,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 52
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 153205.064509 91.756777 0 14 0 -1 43 0 0 0.5
+        CFGEDITVIEW 148326.109275 38.095303 0 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -32153,8 +32723,8 @@
           /wFbbGlnaHRpbmcgKGNob3J1cyld
         >
         E 0 80 26 00
-        <X 31560 0 0 0 1 "[lighting (blackout_slow)]"
-          /wFbbGlnaHRpbmcgKGJsYWNrb3V0X3Nsb3cpXQ==
+        <x 31560 0 0 0 1 "[lighting (blackout_fast)]"
+          /wFbbGlnaHRpbmcgKGJsYWNrb3V0X2Zhc3QpXQ==
         >
         E 0 90 12 60
         <X 3840 0 0 0 1 "[lighting (silhouettes_spot)]"
@@ -32169,7 +32739,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 20
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 112428.137134 0.148661 16 14 0 -1 43 0 0 0.5
+        CFGEDITVIEW 148326.109275 38.095303 39 14 0 -1 43 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -33066,7 +33636,7 @@
         SRCCOLOR 115
         VELLANE 132 100 100 0 1
         TEXTSTRINGFILE "Text Events List.txt"
-        CFGEDITVIEW 112428.137134 0.148661 0 48 0 -1 0 0 0 0.5
+        CFGEDITVIEW 977.155331 75.474649 0 48 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1

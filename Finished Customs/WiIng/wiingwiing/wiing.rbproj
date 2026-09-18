@@ -24,7 +24,7 @@
       )
       (
          'author'
-         "jdk, brandunce, russ t sprinkler"
+         "JDK, brandunce, Russ T Sprinkler"
       )
       (
          'release_label'
@@ -63,13 +63,13 @@
    )
    (
       'destination_file'
-      "D:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiing_rb3con.rba"
+      "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiingwiing_rb3con.rba"
    )
    (
       'midi'
       (
          'file'
-         "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wiingwiing.mid"
+         "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wiingwiing.mid"
       )
       (
          'autogen_theme'
@@ -82,7 +82,7 @@
          'part0'
          (
             'file'
-            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvox.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvox.wav"
          )
          ('enabled' 1)
       )
@@ -90,7 +90,7 @@
          'part1'
          (
             'file'
-            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
          )
          ('enabled' 1)
       )
@@ -98,7 +98,7 @@
          'part2'
          (
             'file'
-            "d:\\github\\customcollabs\\wip customs\\wiing\\wiingwiing\\wingrb2dryvoxSILENT.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\wingrb2dryvoxSILENT.wav"
          )
          ('enabled' 1)
       )
@@ -108,7 +108,7 @@
       'album_art'
       (
          'file'
-         "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\album_x256.bmp"
+         "D:\\customcollabs\\WIP Customs\\WiIng\\wiingwiing\\album_x256.bmp"
       )
    )
    (
@@ -119,10 +119,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' -1.00 -1.00)
+         ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Drum.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Ddrum.wav"
          )
       )
       (
@@ -152,10 +152,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' -6.50 -6.50)
+         ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Bass.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Bass.wav"
          )
       )
       (
@@ -163,10 +163,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' -6.20 -6.20)
+         ('vol' -1.00 -1.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Guitar.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Guitar.wav"
          )
       )
       (
@@ -174,10 +174,10 @@
          ('enabled' 1)
          ('channels' 2)
          ('pan' -1.00 1.00)
-         ('vol' -5.00 -5.00)
+         ('vol' -0.50 -0.50)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Vox.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Vox.wav"
          )
       )
       (
@@ -199,7 +199,7 @@
          ('vol' 0.00 0.00)
          (
             'file'
-            "D:\\GitHub\\customcollabs\\WIP Customs\\WiIng\\russstemwork\\FINAL\\Stems\\Backing.wav"
+            "D:\\customcollabs\\WIP Customs\\WiIng\\RedoneSTEMSFINAL\\Back.wav"
          )
       )
    )
