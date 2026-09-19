@@ -1,20 +1,21 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1789689055
-  RIPPLE 0
-  GROUPOVERRIDE 0 1 0
+<REAPER_PROJECT 0.1 "7.78/win64" 1789804666 0
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
   ENVATTACH 1
   POOLEDENVATTACH 0
-  MIXERUIFLAGS 11 48
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48 0
   PEAKGAIN 1
   FEEDBACK 0
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
-  TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 179.41860465116278
-  ZOOM 5.60514234357516 304 0
-  VZOOMEX 2.86666679 1516
+  TIMEMODE 1 0 -1 24 2 0 -1 0
+  CURSOR 94.28879166666614
+  ZOOM 525.25009889157263 47803 0
+  VZOOMEX 2.86666679 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -35,6 +36,7 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 0
   TEMPOENVLOCKMODE 1
   ITEMMIX 0
@@ -58,28 +60,33 @@
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 186.00000000000529 4 4
-  PLAYRATE 1 1 0.9 1.1
+  TEMPO 129 4 4 0
+  PLAYRATE 1 1 0.25 4
   SELECTION 70.46511627906976 70.46511627906976
   SELECTION2 70.46511627906976 70.46511627906976
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 1 0.6667 0.5 0.5 -1 -1 -1 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 -1 -1 -1 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1.05925372517729 0 -1 -1 1
   MASTER_FX 1
+  MASTER_TRACKID {7159DAD0-DC20-4782-A32A-7F941D2BC448}
   MASTER_SEL 0
   <MASTERFXLIST
     SHOW 0
     LASTSEL 0
     DOCKED 0
     BYPASS 0 0 0
-    <VST "VST: W1 Limiter (George Yohng)" "George Yohng_s W1 Limiter.dll" 0 "" 877033292<5653543446774C77316C696D69746572> ""
-      THdGNO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAADAAAgXRocmVzaAAA/tR4PwwAAIFjZWlsaW5nAP7UeD8MAACB
-      cmVsZWFzZQAwQB8/FAAAgWFkYXB0UmVsZWFzZQAAAAAAAAAAAAAAgABEZWZhdWx0ABAAAAA=
+    <VST "VST3: W1 Limiter (George Yohng)" "George Yohng's W1 Limiter.vst3" 0 "" 309573397{5653543446774C7731206C696D697465} ""
+      FbdzEu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAXQEAAAEAAAD//xAA
+      TQEAAAEAAABWc3RXAAAACAAAAAEAAAAAQ2NuSwAAATVGQkNoAAAAAjRGd0wAAwCtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnXsKICAic2No
+      ZW1hIjogMSwKICAidGhyZXNoIjogLTAuNSwKICAiY2VpbGluZyI6IC0wLjUsCiAgInJlbGVhc2UiOiAwLjIsCiAgImFkYXB0UmVsZWFzZSI6IGZhbHNlCn0AAAAAAAAA
+      AEpVQ0VQcml2YXRlRGF0YQABAUJ5cGFzcwABAQMAHQAAAAAAAABKVUNFUHJpdmF0ZURhdGEAAAAAAAAAAA==
+      AERlZmF1bHQAEAAAAA==
     >
     PRESETNAME Default
     FLOATPOS 24 24 481 152
@@ -99,11 +106,14 @@
     ACT 1 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
-    ARM 1
+    ARM 0
     DEFSHAPE 1 -1 -1
     PT 0.000000000000 129.0000000000 1
   >
-  MARKER 1 167.44186046511629 "end of bridge" 0 0 1 R {D27E71BD-43BA-44AE-B848-E86E273E9CF6} 0
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1 0
+  RULERLANE 2 8 "" 0 -1 0
+  MARKER 1 167.44186046511629 "end of bridge" 0 0 1 R {D27E71BD-43BA-44AE-B848-E86E273E9CF6} 0 2
   <PROJBAY
   >
   <TRACK {4D889F49-FE1F-4D1D-9FB8-BFD5BA06901A}
@@ -112,12 +122,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.44764226213685 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 1 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -126,16 +137,20 @@
     FX 1
     TRACKID {4D889F49-FE1F-4D1D-9FB8-BFD5BA06901A}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
-      <VST "VST: W1 Limiter (George Yohng)" "George Yohng_s W1 Limiter.dll" 0 "" 877033292<5653543446774C77316C696D69746572> ""
-        THdGNO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAADAAAgXRocmVzaAAA/tR4PwwAAIFjZWlsaW5nAP7UeD8MAACB
-        cmVsZWFzZQAwQB8/FAAAgWFkYXB0UmVsZWFzZQAAAAAAAAAAAAAAgABEZWZhdWx0ABAAAAA=
+      <VST "VST3: W1 Limiter (George Yohng)" "George Yohng's W1 Limiter.vst3" 0 "" 309573397{5653543446774C7731206C696D697465} ""
+        FbdzEu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAXQEAAAEAAAD//xAA
+        TQEAAAEAAABWc3RXAAAACAAAAAEAAAAAQ2NuSwAAATVGQkNoAAAAAjRGd0wAAwCtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnXsKICAic2No
+        ZW1hIjogMSwKICAidGhyZXNoIjogLTAuNSwKICAiY2VpbGluZyI6IC0wLjUsCiAgInJlbGVhc2UiOiAwLjIsCiAgImFkYXB0UmVsZWFzZSI6IGZhbHNlCn0AAAAAAAAA
+        AEpVQ0VQcml2YXRlRGF0YQABAUJ5cGFzcwABAQMAHQAAAAAAAABKVUNFUHJpdmF0ZURhdGEAAAAAAAAAAA==
+        AERlZmF1bHQAEAAAAA==
       >
       PRESETNAME Default
       FLOATPOS 24 24 481 152
@@ -161,7 +176,7 @@
       CHANMODE 0
       GUID {5D785E2D-52A6-4F24-9207-4221835FBAF6}
       <SOURCE FLAC
-        FILE "D:\OneDrive\Rock Band 3\REAPER Media\クランベリーとパンケーキ.flac"
+        FILE "クランベリーとパンケーキ.flac"
       >
     >
   >
@@ -176,7 +191,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -185,7 +201,7 @@
     FX 1
     TRACKID {BDCFF37A-71AC-4D17-AF26-EA560B308842}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 0
@@ -331,7 +347,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -340,7 +357,7 @@
     FX 1
     TRACKID {8F33A645-3DF2-48FA-99BC-10992A4F8042}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 24 "KICK RF" 0 24
       0 25 "HI-HAT OPEN" 0 25
@@ -433,7 +450,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64_beta.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAEAA=
         AwGqAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {2C4097A1-B46B-4685-85DB-501DB70C91C7}
@@ -2932,12 +2949,12 @@
         GUID {6FA77244-098F-4012-A7EF-FF5C0FAA2304}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 313
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 38 60 0 1
         CFGEDITVIEW 135329.064472 0.013179 16 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 268 116 1628 742 0 0 0 1 0 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -2953,8 +2970,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -2964,7 +2982,7 @@
     FX 1
     TRACKID {254127F8-1AD5-41F0-B5AA-ECC9D3549169}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
@@ -3005,7 +3023,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -3014,7 +3033,7 @@
     FX 1
     TRACKID {70C3FE4D-3BC3-4146-95C4-8AC455A2D0F5}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 40 "Left Hand Lowest" 0 40
       0 41 - 0 41
@@ -5476,12 +5495,12 @@
         GUID {E8A8BF7A-2599-43D5-BEFF-4ABB9D469338}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 314
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 63039.584256 0.076458 16 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 142 -13 1504 731 0 0 0 1 0 0 1 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -5497,8 +5516,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -5508,7 +5528,7 @@
     FX 1
     TRACKID {8C26022C-617B-493C-9D93-D1F6D825C883}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 3.2093023255814
@@ -5544,7 +5564,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -5553,7 +5574,7 @@
     FX 1
     TRACKID {4048E3A2-B3FC-493C-BF0E-D7B7B9F9DFF3}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 4 E 0 4
       0 5 F 0 5
@@ -6464,12 +6485,12 @@
         GUID {4AD34A6B-49B3-41AF-BF37-9AB9DDBC65B8}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 14
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 85269.751443 0.006302 18 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.25 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -6484,7 +6505,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -6493,7 +6515,7 @@
     FX 1
     TRACKID {6B7F9B4B-FF4E-4CE6-9E2D-4C9BD5DAED77}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 40 "Left Hand Lowest" 0 40
       0 41 - 0 41
@@ -8423,12 +8445,12 @@
         GUID {BA6FBDAC-02CE-4FFD-9161-E6B94CE3BF8C}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 315
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 0 0.000764 18 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -8443,7 +8465,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -8452,7 +8475,7 @@
     FX 1
     TRACKID {0E2FE3F2-76C0-4A51-94D0-F118951ACC28}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 4 E 0 4
       0 5 F 0 5
@@ -14349,12 +14372,12 @@
         GUID {E00B6F28-8C83-4124-9B08-43B05616C177}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 295
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 38 60 0 1
         CFGEDITVIEW 57033.85926 0.038766 7 14 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 252
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -14370,8 +14393,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -14381,7 +14405,7 @@
     FX 1
     TRACKID {63BD07BA-7D0F-4090-8519-E9A18FE5902F}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 3.2093023255814
@@ -14412,12 +14436,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.99997469241676 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 1 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -14426,7 +14451,7 @@
     FX 1
     TRACKID {C298A11E-8E06-44B8-AA31-429ECCE3F0AF}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "Range Shift" 0 0
       0 1 "Lyric Shift" 0 1
@@ -14513,2077 +14538,705 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 178.20204567972695
+      LENGTH 213.95348837209303
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {945C183C-8B34-48CF-AE89-EDD5E8ADA860}
-      IID 29
-      NAME "PART VOCALS - notes.mid"
+      IGUID {9BE2D841-8066-4359-8A0A-03121E53AC43}
+      IID 446
+      NAME "PART VOCALS"
       VOLPAN 1 0 1 -1
       SOFFS 0 0
-      PLAYRATE 1 1 0 -1 0 0.0025
+      PLAYRATE 1 1 0 -65536 0 0.0025
       CHANMODE 0
-      GUID {CAD4A9FF-ABB8-4247-A2B5-8D55B8E3C887}
+      GUID {98C5679B-203B-4818-BE2C-5011F7C58F26}
       <SOURCE MIDI
         HASDATA 1 480 QN
         CCINTERP 32
-        POOLEDEVTS {C0A00C8A-7633-4109-9D1C-EEA2D9DBA230}
+        POOLEDEVTS {5675A3E8-3A7C-4CF6-9E91-9608F75DC3C4}
         <X 0 0 0 0 3 "PART VOCALS"
           /wNQQVJUIFZPQ0FMUw==
         >
-        <X 11597 0 0 0 1 [idle]
-          /wFbaWRsZV0=
-        >
-        <X 5657 0 0 0 1 [mellow]
-          /wFbbWVsbG93XQ==
-        >
-        E 1466 90 69 64
-        <X 360 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 3e 64
-        E 420 80 3e 40
-        <X 60 0 0 0 5 rings
-          /wVyaW5ncw==
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 180 80 40 40
-        <X 60 0 0 0 1 +
-          /wEr
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 60 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 39 64
-        E 60 80 39 40
-        <X 180 0 0 0 5 bell
-          /wViZWxs
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 120 0 0 0 5 through
-          /wV0aHJvdWdo
-        >
-        E 0 90 3b 64
-        E 90 80 3b 40
-        <X 90 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 210 80 39 40
-        <X 60 0 0 0 5 night
-          /wVuaWdodA==
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 210 80 37 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 360 80 37 40
-        <X 60 0 0 0 5 would-
-          /wV3b3VsZC0=
-        >
-        E 0 90 39 64
-        E 90 80 39 40
-        <X 30 0 0 0 5 n't
-          /wVuJ3Q=
-        >
-        E 0 90 39 64
-        E 90 80 39 40
-        <X 180 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 60 0 0 0 5 love
-          /wVsb3Zl
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 1 +
-          /wEr
-        >
-        E 0 90 3c 64
-        E 300 80 3c 40
-        <X 240 0 0 0 5 to
-          /wV0bw==
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 love
-          /wVsb3Zl
-        >
-        E 0 90 3b 64
-        E 300 80 3b 40
-        <X 210 0 0 0 5 her?
-          /wVoZXI/
-        >
-        E 0 90 39 64
-        E 540 80 39 40
-        E 570 80 69 40
-        E 480 90 69 64
-        <X 240 0 0 0 5 Takes
-          /wVUYWtlcw==
-        >
-        E 0 90 3c 64
-        E 90 80 3c 40
-        <X 180 0 0 0 5 to
-          /wV0bw==
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 210 0 0 0 5 sky
-          /wVza3k=
-        >
-        E 0 90 40 64
-        E 120 80 40 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 90 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 120 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 180 0 0 0 5 bird
-          /wViaXJk
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 in
-          /wVpbg==
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 90 0 0 0 5 flight
-          /wVmbGlnaHQ=
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 180 80 37 40
-        E 30 80 69 40
-        E 0 90 69 64
-        E 0 90 74 64
-        <X 30 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 390 80 37 40
-        <X 360 0 0 0 5 who
-          /wV3aG8=
-        >
-        E 0 90 39 64
-        E 180 80 39 40
-        <X 60 0 0 0 5 will
-          /wV3aWxs
-        >
-        E 0 90 3b 64
-        E 300 80 3b 40
-        <X 150 0 0 0 5 be
-          /wViZQ==
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 390 80 3c 40
-        <X 90 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 3b 64
-        E 210 80 3b 40
-        <X 60 0 0 0 5 lov-
-          /wVsb3Yt
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 150 0 0 0 5 er?
-          /wVlcj8=
-        >
-        E 0 90 39 64
-        E 450 80 39 40
-        E 240 80 69 40
-        E 0 80 74 40
-        <X 338 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 622 90 69 64
-        <X 270 0 0 0 5 All
-          /wVBbGw=
-        >
-        E 0 90 43 64
-        E 150 80 43 40
-        <X 60 0 0 0 5 your
-          /wV5b3Vy
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 180 0 0 0 5 life
-          /wVsaWZl
-        >
-        E 0 90 48 64
-        E 600 80 48 40
-        <X 120 0 0 0 5 you've
-          /wV5b3UndmU=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 180 0 0 0 5 nev-
-          /wVuZXYt
-        >
-        E 0 90 43 64
-        E 390 80 43 40
-        <X 60 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 3f 64
-        E 150 80 3f 40
-        <X 300 0 0 0 5 seen
-          /wVzZWVu
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 A
-          /wVB
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 wom-
-          /wV3b20t
-        >
-        E 0 90 3f 64
-        E 210 80 3f 40
-        <X 90 0 0 0 5 an
-          /wVhbg==
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 390 80 3c 40
-        <X 360 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 41 64
-        E 120 80 41 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 150 80 43 40
-        <X 150 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 120 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 690 80 3c 40
-        E 270 80 69 40
-        E 480 90 69 64
-        E 0 90 74 64
-        <X 240 0 0 0 5 Would
-          /wVXb3VsZA==
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 180 0 0 0 5 stay
-          /wVzdGF5
-        >
-        E 0 90 48 64
-        E 390 80 48 40
-        E 25 90 01 64
-        E 15 80 01 40
-        <X 20 0 0 0 5 if
-          /wVpZg==
-        >
-        E 0 90 48 64
-        E 120 80 48 40
-        <X 150 0 0 0 5 she
-          /wVzaGU=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 120 0 0 0 5 prom-
-          /wVwcm9tLQ==
-        >
-        E 0 90 43 64
-        E 420 80 43 40
-        <X 60 0 0 0 5 ised
-          /wVpc2Vk
-        >
-        E 0 90 43 64
-        E 90 80 43 40
-        <X 180 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3f 64
-        E 150 80 3f 40
-        <X 90 0 0 0 5 heav-
-          /wVoZWF2LQ==
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 90 0 0 0 5 en?
-          /wVlbj8=
-        >
-        E 0 90 3c 64
-        E 510 80 3c 40
-        E 120 80 69 40
-        E 0 80 74 40
-        E 0 90 69 64
-        <X 240 0 0 0 5 Will
-          /wVXaWxs
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 ev-
-          /wVldi0=
-        >
-        E 0 90 41 64
-        E 180 80 41 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 390 80 43 40
-        <X 90 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 43 64
-        E 330 80 43 40
-        <X 150 0 0 0 5 win?
-          /wV3aW4/
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 30 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 30 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 30 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 600 80 3c 40
-        E 480 80 69 40
-        <X 349 0 0 0 1 [mellow]
-          /wFbbWVsbG93XQ==
-        >
-        E 611 90 69 64
-        <X 30 0 0 0 5 She
-          /wVTaGU=
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 60 0 0 0 5 is
-          /wVpcw==
-        >
-        E 0 90 40 64
-        E 420 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 120 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 180 0 0 0 5 cat
-          /wVjYXQ=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 in
-          /wVpbg==
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 60 80 39 40
-        <X 210 0 0 0 5 dark
-          /wVkYXJr
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 210 80 37 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 60 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 120 80 37 40
-        <X 60 0 0 0 5 then
-          /wV0aGVu
-        >
-        E 0 90 39 64
-        E 300 80 39 40
-        <X 480 0 0 0 5 she
-          /wVzaGU=
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 is
-          /wVpcw==
-        >
-        E 0 90 3c 64
-        E 420 80 3c 40
-        <X 300 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 150 0 0 0 5 dark-
-          /wVkYXJrLQ==
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 150 0 0 0 5 ness
-          /wVuZXNz
-        >
-        E 0 90 39 64
-        E 510 80 39 40
-        E 210 80 69 40
-        E 960 90 69 64
-        E 0 90 74 64
-        <X 300 0 0 0 5 She
-          /wVTaGU=
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 rules
-          /wVydWxlcw==
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 60 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 40 64
-        E 180 80 40 40
-        <X 60 0 0 0 5 life
-          /wVsaWZl
-        >
-        E 0 90 40 64
-        E 390 80 40 40
-        <X 90 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 180 0 0 0 5 fine
-          /wVmaW5l
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 150 0 0 0 5 sky-
-          /wVza3kt
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 120 0 0 0 5 lark
-          /wVsYXJr
-        >
-        E 0 90 39 64
-        E 150 80 39 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 210 80 37 40
-        E 30 80 69 40
-        E 0 80 74 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 150 80 37 40
-        <X 60 0 0 0 5 when
-          /wV3aGVu
-        >
-        E 0 90 39 64
-        E 390 80 39 40
-        <X 330 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 180 0 0 0 5 sky
-          /wVza3k=
-        >
-        E 0 90 3c 64
-        E 630 80 3c 40
-        <X 60 0 0 0 5 is
-          /wVpcw==
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 270 0 0 0 5 star-
-          /wVzdGFyLQ==
-        >
-        E 0 90 3b 64
-        E 390 80 3b 40
-        <X 60 0 0 0 5 less
-          /wVsZXNz
-        >
-        E 0 90 39 64
-        E 480 80 39 40
-        E 210 80 69 40
-        <X 304 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 656 90 69 64
-        <X 240 0 0 0 5 All
-          /wVBbGw=
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 your
-          /wV5b3Vy
-        >
-        E 0 90 45 64
-        E 180 80 45 40
-        <X 60 0 0 0 5 life
-          /wVsaWZl
-        >
-        E 0 90 48 64
-        E 660 80 48 40
-        <X 90 0 0 0 5 you've
-          /wV5b3UndmU=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 150 0 0 0 5 nev-
-          /wVuZXYt
-        >
-        E 0 90 43 64
-        E 450 80 43 40
-        <X 60 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 3f 64
-        E 150 80 3f 40
-        <X 270 0 0 0 5 seen
-          /wVzZWVu
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 A
-          /wVB
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 wom-
-          /wV3b20t
-        >
-        E 0 90 3f 64
-        E 240 80 3f 40
-        <X 60 0 0 0 5 an
-          /wVhbg==
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 390 80 3c 40
-        <X 360 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 41 64
-        E 150 80 41 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 120 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 150 80 39 40
-        <X 60 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 690 80 3c 40
-        E 270 80 69 40
-        E 480 90 69 64
-        <X 240 0 0 0 5 Would
-          /wVXb3VsZA==
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 45 64
-        E 120 80 45 40
-        <X 180 0 0 0 5 stay
-          /wVzdGF5
-        >
-        E 0 90 48 64
-        E 360 80 48 40
-        E 24 90 01 64
-        E 15 80 01 40
-        <X 21 0 0 0 5 if
-          /wVpZg==
-        >
-        E 0 90 48 64
-        E 120 80 48 40
-        <X 150 0 0 0 5 she
-          /wVzaGU=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 150 0 0 0 5 prom-
-          /wVwcm9tLQ==
-        >
-        E 0 90 43 64
-        E 420 80 43 40
-        <X 60 0 0 0 5 ised
-          /wVpc2Vk
-        >
-        E 0 90 43 64
-        E 60 80 43 40
-        <X 210 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3f 64
-        E 150 80 3f 40
-        <X 120 0 0 0 5 heav-
-          /wVoZWF2LQ==
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 90 0 0 0 5 en?
-          /wVlbj8=
-        >
-        E 0 90 3c 64
-        E 270 80 3c 40
-        E 360 80 69 40
-        E 0 90 69 64
-        E 0 90 74 64
-        <X 240 0 0 0 5 Will
-          /wVXaWxs
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 ev-
-          /wVldi0=
-        >
-        E 0 90 41 64
-        E 120 80 41 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 480 80 43 40
-        <X 60 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 43 64
-        E 330 80 43 40
-        <X 180 0 0 0 5 win?
-          /wV3aW4/
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 60 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 600 80 3c 40
-        E 330 90 01 64
-        E 15 80 01 40
-        <X 465 0 0 0 5 A=
-          /wVBPQ==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 will
-          /wV3aWxs
-        >
-        E 0 90 43 64
-        E 120 80 43 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 45 64
-        E 300 80 45 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 43 64
-        E 360 80 43 40
-        <X 60 0 0 0 5 ev-
-          /wVldi0=
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 43 64
-        E 570 80 43 40
-        <X 150 0 0 0 5 win?
-          /wV3aW4/
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 60 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 840 80 3c 40
-        E 360 80 69 40
-        E 0 80 74 40
-        E 3840 90 69 64
-        <X 270 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3720 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 60 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 360 80 40 40
-        E 360 80 69 40
-        E 2400 90 69 64
-        <X 240 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3720 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 300 80 40 40
-        E 390 80 69 40
-        E 2400 90 69 64
-        E 0 90 74 64
-        <X 240 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3720 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 300 80 40 40
-        E 390 80 69 40
-        E 0 80 74 40
-        E 2400 90 69 64
-        <X 270 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 45 64
-        E 3750 80 45 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 41 64
-        E 90 80 41 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 41 64
-        E 960 80 41 40
-        E 180 80 69 40
-        <X 1133 0 0 0 1 [mellow]
-          /wFbbWVsbG93XQ==
-        >
-        E 1267 90 69 64
-        <X 510 0 0 0 5 She
-          /wVTaGU=
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 90 0 0 0 5 rings
-          /wVyaW5ncw==
-        >
-        E 0 90 40 64
-        E 240 80 40 40
-        <X 180 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 120 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 37 64
-        E 60 80 37 40
-        <X 180 0 0 0 5 bell
-          /wViZWxs
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 120 0 0 0 5 through
-          /wV0aHJvdWdo
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 210 80 39 40
-        <X 60 0 0 0 5 night
-          /wVuaWdodA==
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 150 80 37 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 390 80 37 40
-        <X 60 0 0 0 5 would-
-          /wV3b3VsZC0=
-        >
-        E 0 90 39 64
-        E 60 80 39 40
-        <X 30 0 0 0 5 n't
-          /wVuJ3Q=
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 150 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 210 0 0 0 5 love
-          /wVsb3Zl
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 330 80 3c 40
-        <X 270 0 0 0 5 to
-          /wV0bw==
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 60 0 0 0 5 love
-          /wVsb3Zl
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 180 0 0 0 5 her?
-          /wVoZXI/
-        >
-        E 0 90 39 64
-        E 510 80 39 40
-        E 600 80 69 40
-        E 480 90 69 64
-        E 0 90 74 64
-        <X 330 0 0 0 5 She
-          /wVTaGU=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 rules
-          /wVydWxlcw==
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 60 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 40 64
-        E 180 80 40 40
-        <X 60 0 0 0 5 life
-          /wVsaWZl
-        >
-        E 0 90 40 64
-        E 120 80 40 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 120 80 3e 40
-        <X 90 0 0 0 5 like
-          /wVsaWtl
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 120 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3b 64
-        E 60 80 3b 40
-        <X 150 0 0 0 5 bird
-          /wViaXJk
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 1 +
-          /wEr
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 in
-          /wVpbg==
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 150 0 0 0 5 flight
-          /wVmbGlnaHQ=
-        >
-        E 0 90 39 64
-        E 120 80 39 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 37 64
-        E 240 80 37 40
-        E 30 80 69 40
-        E 0 80 74 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 And
-          /wVBbmQ=
-        >
-        E 0 90 37 64
-        E 510 80 37 40
-        <X 210 0 0 0 5 who
-          /wV3aG8=
-        >
-        E 0 90 39 64
-        E 150 80 39 40
-        <X 60 0 0 0 5 will
-          /wV3aWxs
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 150 0 0 0 5 be
-          /wViZQ==
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 420 80 3c 40
-        <X 90 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 lov-
-          /wVsb3Yt
-        >
-        E 0 90 3b 64
-        E 360 80 3b 40
-        <X 120 0 0 0 5 er?
-          /wVlcj8=
-        >
-        E 0 90 39 64
-        E 420 80 39 40
-        E 270 80 69 40
-        <X 225 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 735 90 69 64
-        <X 240 0 0 0 5 All
-          /wVBbGw=
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 your
-          /wV5b3Vy
-        >
-        E 0 90 45 64
-        E 180 80 45 40
-        <X 60 0 0 0 5 life
-          /wVsaWZl
-        >
-        E 0 90 48 64
-        E 630 80 48 40
-        <X 90 0 0 0 5 you've
-          /wV5b3UndmU=
-        >
-        E 0 90 45 64
-        E 90 80 45 40
-        <X 180 0 0 0 5 nev-
-          /wVuZXYt
-        >
-        E 0 90 43 64
-        E 360 80 43 40
-        <X 120 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 3f 64
-        E 60 80 3f 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 300 0 0 0 5 seen
-          /wVzZWVu
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        E 30 80 69 40
-        E 0 90 69 64
-        <X 30 0 0 0 5 A
-          /wVB
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 wom-
-          /wV3b20t
-        >
-        E 0 90 3f 64
-        E 210 80 3f 40
-        <X 60 0 0 0 5 an
-          /wVhbg==
-        >
-        E 0 90 3e 64
-        E 150 80 3e 40
-        <X 60 0 0 0 1 +
-          /wEr
-        >
-        E 0 90 3c 64
-        E 300 80 3c 40
-        <X 450 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 41 64
-        E 90 80 41 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 120 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 39 64
-        E 150 80 39 40
-        <X 60 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 720 80 3c 40
-        E 210 80 69 40
-        E 480 90 69 64
-        E 0 90 74 64
-        <X 240 0 0 0 5 Would
-          /wVXb3VsZA==
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 45 64
-        E 150 80 45 40
-        <X 150 0 0 0 5 stay
-          /wVzdGF5
-        >
-        E 0 90 48 64
-        E 390 80 48 40
-        E 16 90 01 64
-        E 15 80 01 40
-        <X 29 0 0 0 5 if
-          /wVpZg==
-        >
-        E 0 90 48 64
-        E 90 80 48 40
-        <X 180 0 0 0 5 she
-          /wVzaGU=
-        >
-        E 0 90 45 64
-        E 60 80 45 40
-        <X 180 0 0 0 5 prom-
-          /wVwcm9tLQ==
-        >
-        E 0 90 43 64
-        E 390 80 43 40
-        <X 60 0 0 0 5 ised
-          /wVpc2Vk
-        >
-        E 0 90 43 64
-        E 60 80 43 40
-        <X 210 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3f 64
-        E 240 80 3f 40
-        <X 210 0 0 0 5 heav-
-          /wVoZWF2LQ==
-        >
-        E 0 90 3e 64
-        E 180 80 3e 40
-        <X 90 0 0 0 5 en?
-          /wVlbj8=
-        >
-        E 0 90 3c 64
-        E 330 80 3c 40
-        E 330 80 69 40
-        E 0 80 74 40
-        E 0 90 69 64
-        <X 240 0 0 0 5 Will
-          /wVXaWxs
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 90 0 0 0 5 ev-
-          /wVldi0=
-        >
-        E 0 90 41 64
-        E 120 80 41 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 480 80 43 40
-        <X 90 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 43 64
-        E 300 80 43 40
-        <X 150 0 0 0 5 win?
-          /wV3aW4/
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 60 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 330 80 3c 40
-        E 562 90 01 64
-        E 15 80 01 40
-        <X 503 0 0 0 5 Will
-          /wVXaWxs
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 45 64
-        E 180 80 45 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 180 80 43 40
-        <X 60 0 0 0 5 you
-          /wV5b3U=
-        >
-        E 0 90 43 64
-        E 390 80 43 40
-        <X 60 0 0 0 5 ev-
-          /wVldi0=
-        >
-        E 0 90 43 64
-        E 210 80 43 40
-        <X 60 0 0 0 5 er
-          /wVlcg==
-        >
-        E 0 90 43 64
-        E 570 80 43 40
-        <X 180 0 0 0 5 win?
-          /wV3aW4/
-        >
-        E 0 90 40 64
-        E 60 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 60 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 810 80 3c 40
-        E 360 80 69 40
-        <X 103 0 0 0 1 [idle]
-          /wFbaWRsZV0=
-        >
-        <X 6311 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 1266 90 69 64
-        <X 270 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3750 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 270 80 40 40
-        E 390 80 69 40
-        E 2400 90 69 64
-        <X 240 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3750 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 210 80 40 40
-        E 480 80 69 40
-        E 2400 90 69 64
-        E 0 90 74 64
-        <X 240 0 0 0 5 Rhi-
-          /wVSaGkt
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 an-
-          /wVhbi0=
-        >
-        E 0 90 43 64
-        E 3750 80 43 40
-        <X 60 0 0 0 5 non
-          /wVub24=
-        >
-        E 0 90 40 64
-        E 90 80 40 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 90 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 40 64
-        E 180 80 40 40
-        E 510 80 69 40
-        E 0 80 74 40
-        E 2400 90 69 64
-        <X 270 0 0 0 5 Tak-
-          /wVUYWst
-        >
-        E 0 90 43 64
-        E 360 80 43 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 390 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 420 80 3c 40
-        E 175 90 01 64
-        E 15 80 01 40
-        <X 140 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 41 64
-        E 120 80 41 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 43 64
-        E 120 80 43 40
-        <X 150 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 240 0 0 0 5 sky
-          /wVza3k=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 300 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 750 80 3c 40
-        E 600 80 69 40
-        E 2880 90 69 64
-        <X 30 0 0 0 5 Tak-
-          /wVUYWst
-        >
-        E 0 90 43 64
-        E 150 80 43 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 120 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 390 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        E 201 90 01 64
-        E 15 80 01 40
-        <X 324 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 43 64
-        E 150 80 43 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 90 80 3c 40
-        <X 120 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 210 0 0 0 5 sky
-          /wVza3k=
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 690 80 3c 40
-        E 240 80 69 40
-        E 2880 90 69 64
-        E 0 90 74 64
-        <X 270 0 0 0 5 Tak-
-          /wVUYWst
-        >
-        E 0 90 43 64
-        E 360 80 43 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 120 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 300 80 3c 40
-        <X 180 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 360 80 3c 40
-        E 159 90 01 64
-        E 15 80 01 40
-        <X 186 0 0 0 5 tak-
-          /wV0YWst
-        >
-        E 0 90 43 64
-        E 270 80 43 40
-        <X 210 0 0 0 5 en
-          /wVlbg==
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 by
-          /wVieQ==
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 30 0 0 0 5 the
-          /wV0aGU=
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 210 0 0 0 5 sky
-          /wVza3k=
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 330 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 2610 80 3c 40
-        E 210 80 69 40
-        E 0 80 74 40
-        <X 365 0 0 0 1 [idle]
-          /wFbaWRsZV0=
-        >
-        <X 19795 0 0 0 1 [play]
-          /wFbcGxheV0=
-        >
-        E 240 90 69 64
-        <X 240 0 0 0 5 Dreams
-          /wVEcmVhbXM=
-        >
-        E 0 90 3b 64
-        E 390 80 3b 40
-        <X 90 0 0 0 5 un-
-          /wV1bi0=
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 600 80 3c 40
-        E 61 90 01 64
-        E 15 80 01 40
-        <X 44 0 0 0 5 love's
-          /wVsb3ZlJ3M=
-        >
-        E 0 90 3b 64
-        E 420 80 3b 40
-        <X 60 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 180 0 0 0 5 state
-          /wVzdGF0ZQ==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 of
-          /wVvZg==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 mind
-          /wVtaW5k
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 1110 80 3c 40
-        E 540 80 69 40
-        E 2400 90 69 64
-        <X 30 0 0 0 5 Her
-          /wVIZXI=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 5 dreams
-          /wVkcmVhbXM=
-        >
-        E 0 90 43 64
-        E 120 80 43 40
-        <X 120 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 210 80 3c 40
-        <X 90 0 0 0 5 un-
-          /wV1bi0=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 120 80 3b 40
-        <X 90 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 660 80 3c 40
-        E 30 90 01 64
-        E 15 80 01 40
-        <X 45 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 love's
-          /wVsb3ZlJ3M=
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 240 0 0 0 5 state
-          /wVzdGF0ZQ==
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 of
-          /wVvZg==
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 mind
-          /wVtaW5k
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 1200 80 3c 40
-        E 480 80 69 40
-        E 2160 90 69 64
-        <X 480 0 0 0 5 Dreams
-          /wVEcmVhbXM=
-        >
-        E 0 90 3b 64
-        E 420 80 3b 40
-        <X 90 0 0 0 5 un-
-          /wV1bi0=
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 630 80 3c 40
-        E 48 90 01 64
-        E 15 80 01 40
-        <X 57 0 0 0 5 love's
-          /wVsb3ZlJ3M=
-        >
-        E 0 90 3b 64
-        E 330 80 3b 40
-        <X 90 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 210 0 0 0 5 state
-          /wVzdGF0ZQ==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 of
-          /wVvZg==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 mind
-          /wVtaW5k
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 210 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 960 80 3c 40
-        E 480 80 69 40
-        E 2400 90 69 64
-        <X 270 0 0 0 5 Her
-          /wVIZXI=
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 90 0 0 0 5 dreams
-          /wVkcmVhbXM=
-        >
-        E 0 90 43 64
-        E 150 80 43 40
-        <X 150 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 90 0 0 0 5 un-
-          /wV1bi0=
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 60 0 0 0 5 wind
-          /wV3aW5k
-        >
-        E 0 90 3c 64
-        E 630 80 3c 40
-        E 32 90 01 64
-        E 15 80 01 40
-        <X 43 0 0 0 5 her
-          /wVoZXI=
-        >
-        E 0 90 3b 64
-        E 180 80 3b 40
-        <X 60 0 0 0 5 love's
-          /wVsb3ZlJ3M=
-        >
-        E 0 90 3b 64
-        E 150 80 3b 40
-        <X 120 0 0 0 5 a
-          /wVh
-        >
-        E 0 90 3c 64
-        E 60 80 3c 40
-        <X 180 0 0 0 5 state
-          /wVzdGF0ZQ==
-        >
-        E 0 90 3c 64
-        E 150 80 3c 40
-        <X 60 0 0 0 5 of
-          /wVvZg==
-        >
-        E 0 90 3c 64
-        E 180 80 3c 40
-        <X 60 0 0 0 5 mind
-          /wVtaW5k
-        >
-        E 0 90 3c 64
-        E 120 80 3c 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3e 64
-        E 240 80 3e 40
-        <X 60 0 0 0 5 +
-          /wUr
-        >
-        E 0 90 3c 64
-        E 1200 80 3c 40
-        E 240 80 69 40
-        <X 249 0 0 0 1 [idle]
-          /wFbaWRsZV0=
-        >
-        <X 9887 0 0 0 1 [idle_realtime]
-          /wFbaWRsZV9yZWFsdGltZV0=
-        >
-        E 0 b0 7b 00
+        E 4080 90 36 60
+        E 157 80 36 00
+        E 83 90 35 60
+        E 179 80 35 00
+        E 61 90 36 60
+        E 142 80 36 00
+        E 136 90 35 60
+        E 153 80 35 00
+        E 49 90 36 60
+        E 129 80 36 00
+        E 111 90 34 60
+        E 177 80 34 00
+        E 63 90 36 60
+        E 136 80 36 00
+        E 114 90 34 60
+        E 189 80 34 00
+        E 73 90 34 60
+        E 167 80 34 00
+        E 81 90 34 60
+        E 155 80 34 00
+        E 65 90 36 60
+        E 151 80 36 00
+        E 69 90 35 60
+        E 79 80 35 00
+        <X 62 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 34 60
+        E 59 80 34 00
+        E 52 90 32 60
+        E 148 80 32 00
+        E 96 90 2f 60
+        E 159 80 2f 00
+        E 89 90 2d 60
+        E 128 80 2d 00
+        E 334 90 36 60
+        E 120 80 36 00
+        E 123 90 35 60
+        E 120 80 35 00
+        E 120 90 36 60
+        E 120 80 36 00
+        E 120 90 35 60
+        E 120 80 35 00
+        E 120 90 36 60
+        E 120 80 36 00
+        E 120 90 35 60
+        E 120 80 35 00
+        E 120 90 36 60
+        E 120 80 36 00
+        E 133 90 34 60
+        E 120 80 34 00
+        E 120 90 34 60
+        E 120 80 34 00
+        E 120 90 34 60
+        E 120 80 34 00
+        E 98 90 36 60
+        E 120 80 36 00
+        E 120 90 35 60
+        E 60 80 35 00
+        E 60 90 34 60
+        E 60 80 34 00
+        E 86 90 32 60
+        E 162 80 32 00
+        E 71 90 2f 60
+        E 120 80 2f 00
+        E 114 90 32 60
+        E 120 80 32 00
+        E 347 90 36 60
+        E 154 80 36 00
+        E 86 90 35 60
+        E 177 80 35 00
+        E 63 90 36 60
+        E 135 80 36 00
+        E 105 90 34 60
+        E 169 80 34 00
+        E 71 90 33 60
+        E 120 80 33 00
+        E 120 90 34 60
+        E 169 80 34 00
+        E 71 90 36 60
+        E 109 80 36 00
+        E 131 90 39 60
+        E 105 80 39 00
+        E 90 90 3b 60
+        E 189 80 3b 00
+        E 96 90 36 60
+        E 356 80 36 00
+        E 124 90 34 60
+        E 364 80 34 00
+        E 116 90 32 60
+        E 211 80 32 00
+        E 86 90 31 60
+        E 120 80 31 00
+        E 63 90 31 60
+        E 521 80 31 00
+        E 439 90 2d 60
+        E 158 80 2d 00
+        E 82 90 2f 60
+        E 124 80 2f 00
+        E 116 90 31 60
+        E 158 80 31 00
+        E 82 90 32 60
+        E 139 80 32 00
+        E 101 90 33 60
+        E 124 80 33 00
+        E 71 90 34 60
+        E 234 80 34 00
+        E 51 90 33 60
+        E 147 80 33 00
+        E 112 90 32 60
+        E 135 80 32 00
+        E 86 90 31 60
+        E 330 80 31 00
+        E 870 90 36 60
+        E 169 80 36 00
+        E 71 90 35 60
+        E 147 80 35 00
+        E 93 90 36 60
+        E 120 80 36 00
+        E 120 90 35 60
+        E 177 80 35 00
+        E 63 90 36 60
+        E 166 80 36 00
+        E 74 90 35 60
+        E 150 80 35 00
+        E 90 90 36 60
+        E 166 80 36 00
+        E 74 90 34 60
+        E 139 80 34 00
+        E 101 90 34 60
+        E 169 80 34 00
+        E 71 90 34 60
+        E 166 80 34 00
+        E 74 90 34 60
+        E 78 80 34 00
+        E 57 90 36 60
+        E 67 80 36 00
+        E 46 90 35 60
+        E 63 80 35 00
+        E 60 90 34 60
+        E 112 80 34 00
+        E 57 90 32 60
+        E 112 80 32 00
+        E 68 90 2f 60
+        E 150 80 2f 00
+        E 90 90 2d 60
+        E 143 80 2d 00
+        E 337 90 36 60
+        E 143 80 36 00
+        E 97 90 35 60
+        E 158 80 35 00
+        E 82 90 36 60
+        E 90 80 36 00
+        E 150 90 35 60
+        E 162 80 35 00
+        E 78 90 36 60
+        E 162 80 36 00
+        E 78 90 35 60
+        E 158 80 35 00
+        E 82 90 36 60
+        E 147 80 36 00
+        E 93 90 34 60
+        E 167 80 34 00
+        E 73 90 34 60
+        E 177 80 34 00
+        E 63 90 34 60
+        E 166 80 34 00
+        E 74 90 36 60
+        E 105 80 36 00
+        E 135 90 34 60
+        E 162 80 34 00
+        E 78 90 32 60
+        E 131 80 32 00
+        E 109 90 2f 60
+        E 162 80 2f 00
+        E 78 90 32 60
+        E 150 80 32 00
+        E 390 90 36 60
+        E 143 80 36 00
+        E 64 90 36 60
+        E 142 80 36 00
+        E 71 90 36 60
+        E 139 80 36 00
+        E 101 90 36 60
+        E 75 80 36 00
+        E 79 90 34 60
+        E 63 80 34 00
+        E 64 90 33 60
+        E 112 80 33 00
+        E 87 90 34 60
+        E 120 80 34 00
+        E 120 90 36 60
+        E 120 80 36 00
+        E 120 90 39 60
+        E 139 80 39 00
+        E 71 90 3b 60
+        E 170 80 3b 00
+        E 100 90 36 60
+        E 360 80 36 00
+        E 120 90 34 60
+        E 360 80 34 00
+        E 120 90 32 60
+        E 189 80 32 00
+        E 123 90 31 60
+        E 155 80 31 00
+        E 73 90 31 60
+        E 420 80 31 00
+        E 480 90 2d 60
+        E 150 80 2d 00
+        E 90 90 2f 60
+        E 173 80 2f 00
+        E 67 90 31 60
+        E 52 80 31 00
+        E 27 90 31 60
+        E 67 80 31 00
+        E 94 90 32 60
+        E 63 80 32 00
+        E 24 90 32 60
+        E 74 80 32 00
+        E 94 90 33 60
+        E 105 80 33 00
+        E 136 90 34 60
+        E 223 80 34 00
+        E 62 90 33 60
+        E 137 80 33 00
+        E 87 90 32 60
+        E 154 80 32 00
+        E 101 90 31 60
+        E 353 80 31 00
+        E 547 90 2f 60
+        E 253 80 2f 00
+        E 227 90 31 60
+        E 143 80 31 00
+        E 97 90 34 60
+        E 143 80 34 00
+        E 112 90 36 60
+        E 124 80 36 00
+        E 101 90 36 60
+        E 150 80 36 00
+        E 90 90 31 60
+        E 139 80 31 00
+        E 101 90 2f 60
+        E 139 80 2f 00
+        E 101 90 31 60
+        E 307 80 31 00
+        E 173 90 34 60
+        E 120 80 34 00
+        E 120 90 36 60
+        E 124 80 36 00
+        E 116 90 37 60
+        E 166 80 37 00
+        E 111 90 37 60
+        E 151 80 37 00
+        E 79 90 34 60
+        E 104 80 34 00
+        E 109 90 31 60
+        E 120 80 31 00
+        E 120 90 32 60
+        E 326 80 32 00
+        E 154 90 36 60
+        E 166 80 36 00
+        E 74 90 3b 60
+        E 109 80 3b 00
+        E 104 90 3d 60
+        E 193 80 3d 00
+        E 74 90 3d 60
+        E 120 80 3d 00
+        E 120 90 3b 60
+        E 120 80 3b 00
+        E 120 90 3d 60
+        E 120 80 3d 00
+        E 120 90 3e 60
+        E 120 80 3e 00
+        E 97 90 3d 60
+        E 63 80 3d 00
+        E 88 90 3b 60
+        E 104 80 3b 00
+        E 68 90 3b 60
+        E 131 80 3b 00
+        E 49 90 3d 60
+        E 166 80 3d 00
+        E 74 90 3b 60
+        E 63 80 3b 00
+        E 79 90 39 60
+        E 56 80 39 00
+        E 42 90 39 60
+        E 154 80 39 00
+        E 326 90 37 60
+        E 120 80 37 00
+        E 77 90 39 60
+        E 222 80 39 00
+        E 121 90 3b 60
+        E 120 80 3b 00
+        E 60 90 3b 60
+        E 72 80 3b 00
+        E 77 90 39 60
+        E 79 80 39 00
+        E 72 90 36 60
+        E 120 80 36 00
+        E 60 90 34 60
+        E 328 80 34 00
+        E 152 90 32 60
+        E 157 80 32 00
+        E 83 90 34 60
+        E 137 80 34 00
+        E 103 90 2d 60
+        E 137 80 2d 00
+        E 103 90 36 60
+        E 140 80 36 00
+        E 103 90 36 60
+        E 373 80 36 00
+        E 104 90 36 60
+        E 178 80 36 00
+        E 302 90 34 60
+        E 144 80 34 00
+        E 96 90 32 60
+        E 113 80 32 00
+        E 127 90 34 60
+        E 181 80 34 00
+        E 59 90 34 60
+        E 157 80 34 00
+        E 83 90 34 60
+        E 120 80 34 00
+        E 60 90 34 60
+        E 76 80 34 00
+        E 68 90 36 60
+        E 93 80 36 00
+        E 63 90 34 60
+        E 151 80 34 00
+        E 82 90 32 60
+        E 144 80 32 00
+        E 103 90 2f 60
+        E 140 80 2f 00
+        E 119 90 32 60
+        E 175 80 32 00
+        E 87 90 34 60
+        E 648 80 34 00
+        E 279 90 36 60
+        E 580 80 36 00
+        E 372 90 2f 60
+        E 157 80 2f 00
+        E 323 90 32 60
+        E 171 80 32 00
+        E 76 90 34 60
+        E 82 80 34 00
+        E 90 90 36 60
+        E 154 80 36 00
+        E 190 90 36 60
+        E 103 80 36 00
+        E 94 90 32 60
+        E 120 80 32 00
+        E 120 90 2f 60
+        E 130 80 2f 00
+        E 110 90 31 60
+        E 314 80 31 00
+        E 166 90 34 60
+        E 212 80 34 00
+        E 88 90 35 60
+        E 83 80 35 00
+        E 80 90 37 60
+        E 171 80 37 00
+        E 86 90 37 60
+        E 120 80 37 00
+        E 120 90 34 60
+        E 154 80 34 00
+        E 86 90 31 60
+        E 130 80 31 00
+        E 110 90 32 60
+        E 355 80 32 00
+        E 125 90 36 60
+        E 157 80 36 00
+        E 100 90 3b 60
+        E 96 80 3b 00
+        E 100 90 3d 60
+        E 188 80 3d 00
+        E 79 90 3d 60
+        E 134 80 3d 00
+        E 106 90 3b 60
+        E 137 80 3b 00
+        E 103 90 3d 60
+        E 123 80 3d 00
+        E 117 90 3e 60
+        E 161 80 3e 00
+        E 79 90 40 60
+        E 137 80 40 00
+        E 103 90 42 60
+        E 168 80 42 00
+        E 72 90 43 60
+        E 157 80 43 00
+        E 83 90 42 60
+        E 161 80 42 00
+        E 79 90 40 60
+        E 120 80 40 00
+        E 360 90 3e 60
+        E 83 80 3e 00
+        E 107 90 40 60
+        E 212 80 40 00
+        E 78 90 42 60
+        E 147 80 42 00
+        E 93 90 42 60
+        E 106 80 42 00
+        E 58 90 40 60
+        E 73 80 40 00
+        E 62 90 3e 60
+        E 116 80 3e 00
+        E 75 90 3e 60
+        E 100 80 3e 00
+        E 130 90 3e 60
+        E 168 80 3e 00
+        E 75 90 3e 60
+        E 59 80 3e 00
+        E 43 90 3b 60
+        E 55 80 3b 00
+        E 49 90 39 60
+        E 161 80 39 00
+        E 110 90 39 60
+        E 157 80 39 00
+        E 83 90 3e 60
+        E 120 80 3e 00
+        E 120 90 3e 60
+        E 300 80 3e 00
+        E 60 90 3e 60
+        E 59 80 3e 00
+        E 61 90 3e 60
+        E 120 80 3e 00
+        E 360 90 3b 60
+        E 96 80 3b 00
+        E 128 90 3e 60
+        E 182 80 3e 00
+        E 74 90 40 60
+        E 168 80 40 00
+        E 72 90 40 60
+        E 164 80 40 00
+        E 76 90 40 60
+        E 161 80 40 00
+        E 79 90 42 60
+        E 137 80 42 00
+        E 103 90 40 60
+        E 72 80 40 00
+        E 57 90 3e 60
+        E 110 80 3e 00
+        E 61 90 3e 60
+        E 120 80 3e 00
+        E 120 90 3b 60
+        E 195 80 3b 00
+        E 105 90 3e 60
+        E 1080 80 3e 00
+        E 8880 90 36 52
+        E 151 80 36 00
+        E 89 90 35 52
+        E 124 80 35 00
+        E 116 90 36 52
+        E 128 80 36 00
+        E 112 90 35 52
+        E 163 80 35 00
+        E 77 90 36 52
+        E 128 80 36 00
+        E 112 90 35 52
+        E 171 80 35 00
+        E 69 90 36 52
+        E 143 80 36 00
+        E 97 90 34 52
+        E 159 80 34 00
+        E 81 90 34 52
+        E 159 80 34 00
+        E 81 90 34 52
+        E 151 80 34 00
+        E 89 90 36 52
+        E 97 80 36 00
+        E 143 90 34 52
+        E 159 80 34 00
+        E 81 90 32 52
+        E 120 80 32 00
+        E 120 90 2f 52
+        E 163 80 2f 00
+        E 77 90 2d 52
+        E 147 80 2d 00
+        E 333 90 36 52
+        E 120 80 36 00
+        E 120 90 35 52
+        E 97 80 35 00
+        E 143 90 36 52
+        E 147 80 36 00
+        E 93 90 35 52
+        E 139 80 35 00
+        E 101 90 36 52
+        E 120 80 36 00
+        E 120 90 35 52
+        E 155 80 35 00
+        E 85 90 36 52
+        E 120 80 36 00
+        E 120 90 34 52
+        E 163 80 34 00
+        E 77 90 34 52
+        E 128 80 34 00
+        E 112 90 34 52
+        E 151 80 34 00
+        E 89 90 36 52
+        E 155 80 36 00
+        E 85 90 34 52
+        E 143 80 34 00
+        E 97 90 32 52
+        E 104 80 32 00
+        E 136 90 2f 52
+        E 174 80 2f 00
+        E 66 90 32 52
+        E 159 80 32 00
+        E 321 90 36 52
+        E 171 80 36 00
+        E 69 90 36 52
+        E 174 80 36 00
+        E 66 90 36 52
+        E 120 80 36 00
+        E 120 90 34 52
+        E 151 80 34 00
+        E 89 90 32 52
+        E 132 80 32 00
+        E 108 90 34 52
+        E 147 80 34 00
+        E 93 90 36 52
+        E 143 80 36 00
+        E 97 90 39 52
+        E 73 80 39 00
+        E 99 90 3b 52
+        E 261 80 3b 00
+        E 84 90 36 52
+        E 318 80 36 00
+        E 125 90 34 52
+        E 338 80 34 00
+        E 142 90 32 52
+        E 174 80 32 00
+        E 85 90 31 52
+        E 132 80 31 00
+        E 105 90 31 52
+        E 435 80 31 00
+        E 509 90 2d 52
+        E 116 80 2d 00
+        E 124 90 2f 52
+        E 136 80 2f 00
+        E 104 90 31 52
+        E 120 80 31 00
+        E 120 90 32 52
+        E 147 80 32 00
+        E 93 90 33 52
+        E 120 80 33 00
+        E 91 90 34 52
+        E 246 80 34 00
+        E 77 90 33 52
+        E 145 80 33 00
+        E 93 90 32 52
+        E 140 80 32 00
+        E 87 90 31 52
+        E 381 80 31 00
+        E 780 90 36 52
+        E 159 80 36 00
+        E 81 90 35 52
+        E 155 80 35 00
+        E 85 90 36 52
+        E 155 80 36 00
+        E 85 90 35 52
+        E 159 80 35 00
+        E 81 90 36 52
+        E 120 80 36 00
+        E 120 90 35 52
+        E 167 80 35 00
+        E 73 90 36 52
+        E 163 80 36 00
+        E 77 90 36 52
+        E 58 80 36 00
+        E 56 90 34 52
+        E 128 80 34 00
+        E 81 90 34 52
+        E 136 80 34 00
+        E 64 90 34 52
+        E 151 80 34 00
+        E 65 90 36 52
+        E 113 80 36 00
+        E 108 90 34 52
+        E 171 80 34 00
+        E 69 90 32 52
+        E 155 80 32 00
+        E 85 90 2f 52
+        E 155 80 2f 00
+        E 108 90 2d 52
+        E 171 80 2d 00
+        E 319 90 36 52
+        E 140 80 36 00
+        E 84 90 35 52
+        E 126 80 35 00
+        E 97 90 36 52
+        E 120 80 36 00
+        E 120 90 35 52
+        E 120 80 35 00
+        E 120 90 36 52
+        E 120 80 36 00
+        E 120 90 35 52
+        E 120 80 35 00
+        E 120 90 36 52
+        E 120 80 36 00
+        E 120 90 34 52
+        E 120 80 34 00
+        E 120 90 34 52
+        E 120 80 34 00
+        E 120 90 34 52
+        E 120 80 34 00
+        E 120 90 36 52
+        E 120 80 36 00
+        E 120 90 36 52
+        E 58 80 36 00
+        E 62 90 34 52
+        E 97 80 34 00
+        E 83 90 32 52
+        E 89 80 32 00
+        E 114 90 2f 52
+        E 148 80 2f 00
+        E 69 90 32 52
+        E 178 80 32 00
+        E 124862 b0 7b 00
         CCINTERP 32
-        CHASE_CC_TAKEOFFS 1
-        GUID {E2069F10-3345-4B69-8860-25AFBEB1B8AC}
+        GUID {C9A1A4CA-4224-4672-91C0-075BEB2A8650}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 323
-        VELLANE 31 38 60 0 1
-        CFGEDITVIEW 220273.242524 0.149223 0 13 0 -1 0 0 0 0.5
+        SRCCOLOR 338
+        TEXTSTRINGFILE "Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 128 128 0 1
+        CFGEDITVIEW 93922.297405 307.754227 3 12 0 0 0 0 0 0.5
         KEYSNAP 0
-        TRACKSEL 0
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        TRACKSEL 286
+        CFGEDIT 1 1 0 0 1 1 1 1 1 1 1 0.125 392 295 2109 1298 0 2 1 2 0.25 0 0 0 0 0.5 1 0 1 64
+      >
+    >
+  >
+  <TRACK {DAE51A7D-F28A-4AA1-9E77-050B34AB270C}
+    NAME "VOCALS IN HELL"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DAE51A7D-F28A-4AA1-9E77-050B34AB270C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.2093023255814
+      SNAPOFFS 0
+      LENGTH 210.54544217687075
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AFB4B8BF-5D6B-424F-A462-5C42B01C15A9}
+      IID 436
+      NAME n-a._bs6stem_mt_0_vocals.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1B6A1767-672D-4FFD-824B-091F4E0C4574}
+      <SOURCE MP3
+        FILE "n-a._bs6stem_mt_0_vocals.mp3" 1
       >
     >
   >
@@ -16598,7 +15251,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -16607,7 +15261,7 @@
     FX 1
     TRACKID {E60BCF67-80FD-4554-840A-5B0B5C2E06A0}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "Range Shift" 0 0
       0 1 "Lyric Shift" 0 1
@@ -18759,12 +17413,12 @@
         GUID {334BC0E6-F9B8-43B5-B979-99481933E323}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 324
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 220273.242524 0.149223 0 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -18779,7 +17433,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -18788,7 +17443,7 @@
     FX 1
     TRACKID {4A30D2A4-111B-40E3-8633-0926E85E641C}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
@@ -18816,7 +17471,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -18825,7 +17481,7 @@
     FX 1
     TRACKID {983C7D04-DAF6-462A-B5E6-64213F29FBA0}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "Range Shift" 0 0
       0 1 "Lyric Shift" 0 1
@@ -18938,12 +17594,12 @@
         GUID {13899A7D-5361-4BE9-AD83-246F02FB516F}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 325
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 169910.233973 0.010679 63 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -18958,7 +17614,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -18967,7 +17624,7 @@
     FX 1
     TRACKID {58A7B9C6-1373-47A1-A41A-295306551BF7}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
@@ -18995,7 +17652,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -19004,7 +17662,7 @@
     FX 1
     TRACKID {4299BF31-E988-4C64-900A-97AC9ECE5EBC}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "Range Shift" 0 0
       0 1 "Lyric Shift" 0 1
@@ -19495,12 +18153,12 @@
         GUID {EF507C87-C492-4274-A008-D13323EE0406}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 326
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 169910.233973 0.010679 63 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -19516,8 +18174,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -19527,7 +18186,7 @@
     FX 1
     TRACKID {4723CA44-FCE8-4593-BA2A-C81FDDEC0E29}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 3.2093023255814
@@ -19563,7 +18222,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -19572,7 +18232,7 @@
     FX 1
     TRACKID {AB3E8FDC-23A9-4945-BA6C-055C630028D0}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
@@ -19600,7 +18260,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -19609,7 +18270,7 @@
     FX 1
     TRACKID {4BCC1CF3-63A3-43C4-A155-D3593AD88A10}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <FXCHAIN
       SHOW 0
@@ -22561,12 +21222,12 @@
         GUID {CBCF7B16-B28A-4B94-9067-68AAE8A43556}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 327
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 31 38 60 0 1
         CFGEDITVIEW 0 0.002467 63 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 253
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1664 980 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.125 304 236 1971 1108 0 0 0 1 0.5 0 1 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -22581,7 +21242,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -22590,7 +21252,7 @@
     FX 1
     TRACKID {1529008F-97D2-43EB-8634-7C5A7418AD90}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 37 "Spotlight on Bass" 0 37
       0 38 "Spotlight on Drums" 0 38
@@ -22619,7 +21281,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -22628,7 +21291,7 @@
     FX 1
     TRACKID {7BC63EFC-0ABC-4D0D-8204-E9893AE9FFFA}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 12 Downbeat 0 12
       0 13 "Up Beats" 0 13
@@ -22652,8 +21315,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -22663,7 +21327,7 @@
     FX 1
     TRACKID {D3641B68-E024-478B-844D-146BEA0C0D9D}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
   >
   <TRACK {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
@@ -22677,7 +21341,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 2 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 59 0 0 0 0 0 0
@@ -22687,7 +21352,7 @@
     FX 1
     TRACKID {14F64FB7-FE44-4E53-9F58-44F4178BCEF9}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 60 "EASY Green" 0 60
       0 61 "EASY Red" 0 61
@@ -22771,13 +21436,13 @@
         GUID {F537F270-CEBA-461E-8612-DC28913708FC}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 41
-        VELLANE 132 38 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 38 60 0 1
         CFGEDITVIEW 22424.136154 24.568088 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 -8 -8 1370 736 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -22792,8 +21457,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 1 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -22802,7 +21468,7 @@
     FX 1
     TRACKID {D39F8BD7-8730-4182-94EC-51AF9F9ACC90}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -22857,7 +21523,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAAAA=
         776t3g3wrd6mm8Q7F7fROpzEoD5zaNE+AAAAAMybgD7pZ4g9AAAAAAAAAD8AAIA/6SaxPgAAAD8AAIA/AAAAAAAAgD8=
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {A0CE5851-0C70-49E2-AD61-BC7B1C50A030}
@@ -22872,7 +21538,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {83506807-A7FD-49FE-9A0A-3E241AAB6404}
       IID 9
       NAME "PART REAL_KEYS_X"
@@ -23247,13 +21913,13 @@
         GUID {0E0CBFB7-4AC8-4E67-A764-85891754BB41}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 42
-        VELLANE 132 38 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 38 60 0 1
         CFGEDITVIEW 55971.459915 3.48338 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 253 235 1631 979 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23268,7 +21934,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23278,7 +21945,7 @@
     FX 1
     TRACKID {117931B6-9EA5-432A-AEED-ACF4C8876354}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -23352,13 +22019,13 @@
         GUID {53F487B1-1F2F-4D54-9DAE-BC2E7B032E3B}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 43
-        VELLANE 132 51 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 51 60 0 1
         CFGEDITVIEW -1601.226581 69.546685 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 -8 -8 1374 736 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23373,7 +22040,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23383,7 +22051,7 @@
     FX 1
     TRACKID {3B6F726E-1CAB-4A00-9B01-2E1CC375B13E}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -23457,13 +22125,13 @@
         GUID {806139BE-556B-4882-A297-06705078FD7A}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 44
-        VELLANE 132 42 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 42 60 0 1
         CFGEDITVIEW -1601.226581 69.546685 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 -8 -8 1374 736 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23478,7 +22146,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23488,7 +22157,7 @@
     FX 1
     TRACKID {49B8D0E0-0069-415C-8FC3-AC29B0E2C3CF}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -23562,13 +22231,13 @@
         GUID {F9363449-15E8-4EF0-8BC0-ABEB4CDC1D98}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 45
-        VELLANE 132 37 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 37 60 0 1
         CFGEDITVIEW -1601.226581 69.546685 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 -8 -8 1374 736 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23583,7 +22252,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23593,7 +22263,7 @@
     FX 1
     TRACKID {80604035-2BD9-43BB-A255-4E5F9E756779}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -23667,13 +22337,13 @@
         GUID {268DE88D-9169-44F5-97A1-ABDA1E2CF031}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 46
-        VELLANE 132 43 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 43 60 0 1
         CFGEDITVIEW -1601.226581 69.546685 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 -8 -8 1374 736 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23688,7 +22358,8 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23698,7 +22369,7 @@
     FX 1
     TRACKID {F014911F-41F0-491C-9A25-C3D2A462D8D7}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     <MIDINOTENAMES
       0 0 "C2-E3 Range" 0 0
       0 5 "F2-A3 Range" 0 5
@@ -23772,13 +22443,13 @@
         GUID {9527D45A-14D5-4C89-A39E-3528B0F29941}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 47
-        VELLANE 132 42 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
+        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        VELLANE 132 42 60 0 1
         CFGEDITVIEW -1601.226581 69.546685 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
-        EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 -8 -8 1374 736 1 2 1 2 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.25 304 236 1971 1108 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -23793,7 +22464,8 @@
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -23802,7 +22474,7 @@
     FX 1
     TRACKID {ACEC07EE-BB6B-40D4-8B7D-DBA38A7AC6D0}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
   >
   <TRACK {40AEFF91-2272-420E-AB05-EC5A5966CA6C}
@@ -23817,8 +22489,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -23828,7 +22501,7 @@
     FX 1
     TRACKID {40AEFF91-2272-420E-AB05-EC5A5966CA6C}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 3.2093023255814
@@ -23852,5 +22525,7 @@
         FILE "n-a._bs6stem_mt_0_other.mp3" 1
       >
     >
+  >
+  <EXTENSIONS
   >
 >
