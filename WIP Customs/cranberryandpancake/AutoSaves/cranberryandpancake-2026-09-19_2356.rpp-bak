@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1789890035
+<REAPER_PROJECT 0.1 "7.29/win64" 1789887402
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,9 +12,9 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 171.71511627906978
-  ZOOM 11.17298050577648 1156 0
-  VZOOMEX 2.86666679 986
+  CURSOR 171.16279069767441
+  ZOOM 209.27858057969866 35791 0
+  VZOOMEX 2.86666679 783
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -18063,7 +18063,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1.0587290132869 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -18110,7 +18110,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1.35786409332045 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -21041,15 +21041,81 @@
         E 35 80 69 00
         E 21 90 69 60
         E 0 90 74 60
-        E 60 90 42 60
-        E 1560 80 42 00
-        E 120 90 40 60
-        E 960 80 40 00
-        E 240 90 3d 60
-        E 890 80 69 00
+        <X 60 0 0 0 5 Hip-
+          /wVIaXAt
+        >
+        E 0 90 2f 60
+        E 0 90 42 60
+        E 30 80 42 00
+        E 223 80 2f 00
+        <X 227 0 0 0 5 pi-
+          /wVwaS0=
+        >
+        E 0 90 31 60
+        E 143 80 31 00
+        <X 97 0 0 0 5 hip-
+          /wVoaXAt
+        >
+        E 0 90 34 60
+        E 123 80 34 00
+        <X 113 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 36 60
+        E 124 80 36 00
+        <X 120 0 0 0 5 pi
+          /wVwaQ==
+        >
+        E 0 90 36 60
+        E 150 80 36 00
+        <X 90 0 0 0 5 shei-
+          /wVzaGVpLQ==
+        >
+        E 0 90 31 60
+        E 139 80 31 00
+        <X 101 0 0 0 5 ku
+          /wVrdQ==
+        >
+        E 0 90 2f 60
+        E 139 80 2f 00
+        <X 101 0 0 0 5 dan-
+          /wVkYW4t
+        >
+        E 0 90 31 60
+        E 307 80 31 00
+        <X 173 0 0 0 5 di-
+          /wVkaS0=
+        >
+        E 0 90 34 60
+        E 120 80 34 00
+        <X 120 0 0 0 5 dan-
+          /wVkYW4t
+        >
+        E 0 90 36 60
+        E 124 80 36 00
+        <X 116 0 0 0 5 +
+          /wUr
+        >
+        E 0 90 37 60
+        E 166 80 37 00
+        <X 111 0 0 0 5 di
+          /wVkaQ==
+        >
+        E 0 90 37 60
+        E 151 80 37 00
+        <X 79 0 0 0 5 don-
+          /wVkb24t
+        >
+        E 0 90 34 60
+        E 104 80 34 00
+        <X 109 0 0 0 5 de
+          /wVkZQ==
+        >
+        E 0 90 31 60
+        E 120 80 31 00
+        E 50 80 69 00
         E 0 80 74 00
-        E 10 80 3d 00
-        E 0 90 69 60
+        E 10 90 69 60
         <X 60 0 0 0 5 Ku-
           /wVLdS0=
         >
@@ -21676,7 +21742,7 @@
         SRCCOLOR 386
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 106774.732076 4.85462 16 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 176493.513563 90.930786 16 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -24525,7 +24591,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 3.98107170553497 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
