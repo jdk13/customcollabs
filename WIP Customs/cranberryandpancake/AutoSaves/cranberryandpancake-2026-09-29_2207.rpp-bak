@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1790748359
+<REAPER_PROJECT 0.1 "7.29/win64" 1790744852
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,9 +12,9 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 181.83139534883722
-  ZOOM 65.50909479369918 11085 0
-  VZOOMEX 2.86666679 609
+  CURSOR 152.93604651162789
+  ZOOM 101.66815898486708 14790 0
+  VZOOMEX 2.86666679 754
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
@@ -20789,13 +20789,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.8781896667659 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -20897,7 +20897,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {9B6BF822-BEBB-4E28-9416-9069EB9C4A3E}
       IID 504
       NAME HARM2
@@ -21256,11 +21256,11 @@
         >
         E 0 90 43 60
         E 813 80 43 00
-        <X 102 0 0 0 5 +
+        <x 102 0 0 0 5 +
           /wUr
         >
-        E 0 90 40 60
-        E 766 80 40 00
+        e 0 90 40 60
+        e 766 80 40 00
         <X 163 0 0 0 5 +
           /wUr
         >
@@ -22084,13 +22084,13 @@
         <X 2299 0 0 0 5 Te
           /wVUZQ==
         >
-        E 0 90 3b 60
-        E 175 80 3b 00
+        E 0 90 37 60
+        E 175 80 37 00
         <X 87 0 0 0 5 +
           /wUr
         >
-        E 0 90 3d 60
-        E 1519 80 3d 00
+        E 0 90 39 60
+        E 1519 80 39 00
         E 145 80 69 00
         E 95 90 74 60
         E 0 90 69 60
@@ -22328,7 +22328,7 @@
         SRCCOLOR 387
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 174627.966331 64.042795 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 56829.373808 1036.091787 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -22385,7 +22385,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -22487,7 +22487,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {37E8EDDF-C421-4CD2-899F-4259259851EE}
       IID 505
       NAME HARM3
@@ -23453,7 +23453,7 @@
         SRCCOLOR 388
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 181514.12113 206.772403 1 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 150128.419285 99.392506 1 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1

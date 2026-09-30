@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.29/win64" 1790748359
+<REAPER_PROJECT 0.1 "7.29/win64" 1790745753
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 129
@@ -12,8 +12,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1
-  CURSOR 181.83139534883722
-  ZOOM 65.50909479369918 11085 0
+  CURSOR 179.15697674418604
+  ZOOM 87.81266798467398 14969 0
   VZOOMEX 2.86666679 609
   USE_REC_CFG 0
   RECMODE 1
@@ -22084,13 +22084,13 @@
         <X 2299 0 0 0 5 Te
           /wVUZQ==
         >
-        E 0 90 3b 60
-        E 175 80 3b 00
+        E 0 90 37 60
+        E 175 80 37 00
         <X 87 0 0 0 5 +
           /wUr
         >
-        E 0 90 3d 60
-        E 1519 80 3d 00
+        E 0 90 39 60
+        E 1519 80 39 00
         E 145 80 69 00
         E 95 90 74 60
         E 0 90 69 60
@@ -22328,7 +22328,7 @@
         SRCCOLOR 387
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 174627.966331 64.042795 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 175920.039267 85.847144 0 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -23453,7 +23453,7 @@
         SRCCOLOR 388
         VELLANE 132 128 60 0 1
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
-        CFGEDITVIEW 181514.12113 206.772403 1 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 143816.125228 55.314946 1 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 286
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
