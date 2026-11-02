@@ -1,0 +1,206 @@
+(
+   'project'
+   (
+      'tool_version'
+      "110411_A"
+   )
+   ('project_version' 24)
+   (
+      'metadata'
+      (
+         'song_name'
+         "Using"
+      )
+      (
+         'artist_name'
+         "Sorority Noise"
+      )
+      ('genre' 'metal')
+      ('sub_genre' 'subgenre_core')
+      ('year_released' 2015)
+      (
+         'album_name'
+         "Joy, Departed"
+      )
+      (
+         'author'
+         "brandunce"
+      )
+      (
+         'release_label'
+         ""
+      )
+      ('country' 'ugc_country_us')
+      ('price' 80)
+      ('track_number' 8)
+      ('has_album' 1)
+   )
+   (
+      'gamedata'
+      ('preview_start_ms' 30000)
+      ('rank_guitar' 3)
+      ('rank_bass' 2)
+      ('rank_drum' 3)
+      ('rank_vocals' 4)
+      ('rank_keys' 1)
+      ('rank_pro_keys' 1)
+      ('rank_band' 2)
+      ('vocal_scroll_speed' 2300)
+      ('anim_tempo' 32)
+      ('vocal_gender' 'male')
+      ('vocal_percussion' 'tambourine')
+      ('vocal_parts' 3)
+      ('guide_pitch_volume' -3.00)
+   )
+   (
+      'languages'
+      ('english' 1)
+      ('french' 0)
+      ('italian' 0)
+      ('spanish' 0)
+      ('german' 0)
+      ('japanese' 0)
+   )
+   (
+      'destination_file'
+      "I:\\using commission\\using_rb3con.rba"
+   )
+   (
+      'midi'
+      (
+         'file'
+         "I:\\using commission\\using.mid"
+      )
+      (
+         'autogen_theme'
+         "ArenaRock.rbtheme"
+      )
+   )
+   (
+      'dry_vox'
+      (
+         'part0'
+         (
+            'file'
+            "I:\\using commission\\dryvox using.wav"
+         )
+         ('enabled' 1)
+      )
+      (
+         'part1'
+         (
+            'file'
+            "I:\\using commission\\dryvox using2.wav"
+         )
+         ('enabled' 1)
+      )
+      (
+         'part2'
+         (
+            'file'
+            "I:\\using commission\\dryvox using2.wav"
+         )
+         ('enabled' 1)
+      )
+      ('tuning_offset_cents' 0.00)
+   )
+   (
+      'album_art'
+      (
+         'file'
+         "I:\\using commission\\ab67616d0000b273378afceba7580a9758a264c4_x256.bmp"
+      )
+   )
+   (
+      'tracks'
+      ('drum_layout' 'drum_layout_kit')
+      (
+         'drum_kit'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "I:\\using commission\\redone using stems\\DRUMSTEM.wav"
+         )
+      )
+      (
+         'drum_kick'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'drum_snare'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan' 0.00)
+         ('vol' 0.00)
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'bass'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "I:\\using commission\\redone using stems\\BASSSTEM.wav"
+         )
+      )
+      (
+         'guitar'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "I:\\using commission\\redone using stems\\GUITARSTEM.wav"
+         )
+      )
+      (
+         'vocals'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "I:\\using commission\\redone using stems\\VOCALSSTEM.wav"
+         )
+      )
+      (
+         'keys'
+         ('enabled' 0)
+         ('channels' 0)
+         ('pan')
+         ('vol')
+         (
+            'file'
+            ""
+         )
+      )
+      (
+         'backing'
+         ('enabled' 1)
+         ('channels' 2)
+         ('pan' -1.00 1.00)
+         ('vol' 0.00 0.00)
+         (
+            'file'
+            "I:\\using commission\\redone using stems\\BACKINGSTEM.wav"
+         )
+      )
+   )
+)
