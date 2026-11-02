@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.78/win64" 1793605221 0
+<REAPER_PROJECT 0.1 "7.78/win64" 1793662532 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 1 0 0
   AUTOXFADE 129
@@ -13,8 +13,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0 0
   TIMEMODE 1 0 -1 24 2 0 -1 0
-  CURSOR 129.77085416666745
-  ZOOM 143.11404750720493 16458 0
+  CURSOR 112.8242600414773
+  ZOOM 143.11404750720479 19422 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -422,7 +422,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -523,7 +523,7 @@
       <VST "VSTi: RBN Preview (RBN)" rbprev_vst64.dll 0 "" 1919053942<5653547262707672626E707265766965> ""
         dnBicu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAQAAAAAAAAA=
         AwGqAA==
-        AAAAAAAA
+        AFByb2dyYW0gMQAAAAAA
       >
       FLOATPOS 32 32 659 497
       FXID {D7126437-AB1E-4109-A0FA-F2D5D0AC68DC}
@@ -7548,7 +7548,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -10280,7 +10280,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -15526,7 +15526,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 7 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -17226,7 +17226,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -19599,159 +19599,159 @@
         E 187 80 3c 00
         E 145 80 69 00
         E 658 90 69 60
-        <x 1200 0 0 0 5 lov-
-          /wVsb3Yt
+        <X 1200 0 0 0 5 Lov-
+          /wVMb3Yt
         >
-        e 0 90 39 60
-        e 829 80 39 00
-        <x 131 0 0 0 5 ing
+        E 0 90 39 60
+        E 829 80 39 00
+        <X 131 0 0 0 5 ing
           /wVpbmc=
         >
-        e 0 90 39 60
-        e 170 80 39 00
-        <x 70 0 0 0 5 a-
+        E 0 90 39 60
+        E 170 80 39 00
+        <X 70 0 0 0 5 a-
           /wVhLQ==
         >
-        e 0 90 3b 60
-        e 316 80 3b 00
-        <x 164 0 0 0 5 gain
+        E 0 90 3b 60
+        E 316 80 3b 00
+        <X 164 0 0 0 5 gain
           /wVnYWlu
         >
-        e 0 90 3c 60
-        e 519 80 3c 00
-        <x 111 0 0 0 5 +
+        E 0 90 3c 60
+        E 519 80 3c 00
+        <X 111 0 0 0 5 +
           /wUr
         >
-        e 0 90 3b 60
-        e 201 80 3b 00
+        E 0 90 3b 60
+        E 201 80 3b 00
         E 129 80 69 00
         E 0 90 69 60
-        <x 540 0 0 0 5 I
+        <X 540 0 0 0 5 I
           /wVJ
         >
-        e 0 90 37 60
-        e 75 80 37 00
-        <x 105 0 0 0 5 start-
+        E 0 90 37 60
+        E 75 80 37 00
+        <X 105 0 0 0 5 start-
           /wVzdGFydC0=
         >
-        e 0 90 3b 60
-        e 166 80 3b 00
-        <x 74 0 0 0 5 ed
+        E 0 90 3b 60
+        E 166 80 3b 00
+        <X 74 0 0 0 5 ed
           /wVlZA==
         >
-        e 0 90 37 60
-        e 121 80 37 00
-        <x 119 0 0 0 5 lov-
+        E 0 90 37 60
+        E 121 80 37 00
+        <X 119 0 0 0 5 lov-
           /wVsb3Yt
         >
-        e 0 90 39 60
-        e 872 80 39 00
-        <x 88 0 0 0 5 ing
+        E 0 90 39 60
+        E 872 80 39 00
+        <X 88 0 0 0 5 ing
           /wVpbmc=
         >
-        e 0 90 39 60
-        e 163 80 39 00
-        <x 107 0 0 0 5 a-
+        E 0 90 39 60
+        E 163 80 39 00
+        <X 107 0 0 0 5 a-
           /wVhLQ==
         >
-        e 0 90 3b 60
-        e 288 80 3b 00
-        <x 132 0 0 0 5 gain
+        E 0 90 3b 60
+        E 288 80 3b 00
+        <X 132 0 0 0 5 gain
           /wVnYWlu
         >
-        e 0 90 3c 60
-        e 489 80 3c 00
-        <x 109 0 0 0 5 +
+        E 0 90 3c 60
+        E 489 80 3c 00
+        <X 109 0 0 0 5 +
           /wUr
         >
-        e 0 90 3b 60
-        e 189 80 3b 00
+        E 0 90 3b 60
+        E 189 80 3b 00
         E 135 80 69 00
         E 68 90 69 60
         E 0 90 74 60
-        <x 506 0 0 0 5 I
+        <X 506 0 0 0 5 I
           /wVJ
         >
-        e 0 90 37 60
-        e 83 80 37 00
-        <x 131 0 0 0 5 start-
+        E 0 90 37 60
+        E 83 80 37 00
+        <X 131 0 0 0 5 start-
           /wVzdGFydC0=
         >
-        e 0 90 3b 60
-        e 132 80 3b 00
-        <x 78 0 0 0 5 ed
+        E 0 90 3b 60
+        E 132 80 3b 00
+        <X 78 0 0 0 5 ed
           /wVlZA==
         >
-        e 0 90 37 60
-        e 122 80 37 00
-        <x 148 0 0 0 5 lov-
+        E 0 90 37 60
+        E 122 80 37 00
+        <X 148 0 0 0 5 lov-
           /wVsb3Yt
         >
-        e 0 90 39 60
-        e 848 80 39 00
-        <x 112 0 0 0 5 ing
+        E 0 90 39 60
+        E 848 80 39 00
+        <X 112 0 0 0 5 ing
           /wVpbmc=
         >
-        e 0 90 39 60
-        e 157 80 39 00
-        <x 53 0 0 0 5 a-
+        E 0 90 39 60
+        E 157 80 39 00
+        <X 53 0 0 0 5 a-
           /wVhLQ==
         >
-        e 0 90 3b 60
-        e 361 80 3b 00
-        <x 149 0 0 0 5 gain
+        E 0 90 3b 60
+        E 361 80 3b 00
+        <X 149 0 0 0 5 gain
           /wVnYWlu
         >
-        e 0 90 3c 60
-        e 509 80 3c 00
-        <x 112 0 0 0 5 +
+        E 0 90 3c 60
+        E 509 80 3c 00
+        <X 112 0 0 0 5 +
           /wUr
         >
-        e 0 90 3b 60
-        e 136 80 3b 00
+        E 0 90 3b 60
+        E 136 80 3b 00
         E 157 80 69 00
         E 0 80 74 00
         E 46 90 69 60
-        <x 510 0 0 0 5 I
+        <X 510 0 0 0 5 I
           /wVJ
         >
-        e 0 90 37 60
-        e 69 80 37 00
-        <x 141 0 0 0 5 start-
+        E 0 90 37 60
+        E 69 80 37 00
+        <X 141 0 0 0 5 start-
           /wVzdGFydC0=
         >
-        e 0 90 3b 60
-        e 153 80 3b 00
-        <x 87 0 0 0 5 ed
+        E 0 90 3b 60
+        E 153 80 3b 00
+        <X 87 0 0 0 5 ed
           /wVlZA==
         >
-        e 0 90 37 60
-        e 136 80 37 00
-        <x 104 0 0 0 5 lov-
+        E 0 90 37 60
+        E 136 80 37 00
+        <X 104 0 0 0 5 lov-
           /wVsb3Yt
         >
-        e 0 90 39 60
-        e 855 80 39 00
-        <x 105 0 0 0 5 ing
+        E 0 90 39 60
+        E 855 80 39 00
+        <X 105 0 0 0 5 ing
           /wVpbmc=
         >
-        e 0 90 39 60
-        e 178 80 39 00
-        <x 92 0 0 0 5 a-
+        E 0 90 39 60
+        E 178 80 39 00
+        <X 92 0 0 0 5 a-
           /wVhLQ==
         >
-        e 0 90 3b 60
-        e 337 80 3b 00
-        <x 108 0 0 0 5 gain
+        E 0 90 3b 60
+        E 337 80 3b 00
+        <X 108 0 0 0 5 gain
           /wVnYWlu
         >
-        e 0 90 3c 60
-        e 474 80 3c 00
-        <x 97 0 0 0 5 +
+        E 0 90 3c 60
+        E 474 80 3c 00
+        <X 97 0 0 0 5 +
           /wUr
         >
-        e 0 90 3e 60
-        e 1398 80 3e 00
+        E 0 90 3e 60
+        E 1398 80 3e 00
         E 167 80 69 00
         E 29 90 69 60
         <X 215 0 0 0 5 I#
@@ -20038,7 +20038,7 @@
         TEXTSTRINGFILE "C:\Program Files\REAPER\Data\Text_Strings\Text Events List.txt"
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE 132 128 60 0 1
-        CFGEDITVIEW 110351.4237 85.311616 0 12 0 0 0 0 0 0.5
+        CFGEDITVIEW 130238.698168 85.311616 0 12 0 0 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 269
         CFGEDIT 1 1 0 1 1 1 1 1 1 1 1 0.0625 622 161 2344 1316 0 2 1 2 0 0 0 0 0 0.5 1 0 1 64
@@ -20096,7 +20096,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -20804,7 +20804,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -20916,7 +20916,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -21936,7 +21936,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
